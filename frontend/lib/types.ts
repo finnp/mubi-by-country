@@ -73,7 +73,6 @@ export interface Film {
   title_locale?: string
   original_title?: string
   original_title_locale?: string
-  duration?: number
   stills?: Stills
   still_focal_point?: {
     x: number
