@@ -85,7 +85,11 @@ export default function FilmCard({ film }: FilmCardProps) {
             {film.available_countries && film.available_countries.length > 0 && (
               <div className="flex items-center gap-1">
                 <Globe className="h-4 w-4" />
-                <span>{film.available_countries.length} country</span>
+                <span>
+                  {film.available_countries.length <= 3
+                    ? film.available_countries.join(", ")
+                    : `${film.available_countries[0]} and ${film.available_countries.length - 1} others`}
+                </span>
               </div>
             )}
 
