@@ -20,28 +20,38 @@ const PAGE_SIZE = 20
 export async function getFilms(
   lastDoc?: QueryDocumentSnapshot<DocumentData>,
   genre?: string,
+  year?: string,
 ): Promise<{ films: Film[]; lastDoc: QueryDocumentSnapshot<DocumentData> | null }> {
   try {
     console.log("lastDoc", lastDoc)
     let filmsQuery = query(collection(db, FILMS_COLLECTION), orderBy("popularity", "desc"), limit(PAGE_SIZE))
 
-    // Apply genre filter if provided
+    // Apply filters if provided
+    const filters = []
     if (genre && genre !== "All genres") {
-      filmsQuery = query(
-        collection(db, FILMS_COLLECTION),
-        where("genres", "array-contains", genre),
-        orderBy("popularity", "desc"),
-        limit(PAGE_SIZE),
-      )
+      filters.push(where("genres", "array-contains", genre))
+    }
+    if (year) {
+      filters.push(where("year", ">=", parseInt(year)))
+      if (parseInt(year) !== 2020) {
+        filters.push(where("year", "<", parseInt(year) + 10))
+      }
     }
 
-    // Apply pagination if lastDoc is provided
+    // Apply filters and pagination
     if (lastDoc) {
       filmsQuery = query(
         collection(db, FILMS_COLLECTION),
-        ...(genre && genre !== "All genres" ? [where("genres", "array-contains", genre)] : []),
+        ...filters,
         orderBy("popularity", "desc"),
         startAfter(lastDoc),
+        limit(PAGE_SIZE),
+      )
+    } else {
+      filmsQuery = query(
+        collection(db, FILMS_COLLECTION),
+        ...filters,
+        orderBy("popularity", "desc"),
         limit(PAGE_SIZE),
       )
     }
@@ -62,16 +72,24 @@ export async function getFilms(
   }
 }
 
-export async function getTotalFilmsCount(genre?: string): Promise<number> {
+export async function getTotalFilmsCount(genre?: string, year?: string): Promise<number> {
   try {
     let filmsQuery = query(collection(db, FILMS_COLLECTION))
 
-    // Apply genre filter if provided
+    // Apply filters if provided
+    const filters = []
     if (genre && genre !== "All genres") {
-      filmsQuery = query(
-        collection(db, FILMS_COLLECTION),
-        where("genres", "array-contains", genre)
-      )
+      filters.push(where("genres", "array-contains", genre))
+    }
+    if (year) {
+      filters.push(where("year", ">=", parseInt(year)))
+      if (parseInt(year) !== 2020) {
+        filters.push(where("year", "<", parseInt(year) + 10))
+      }
+    }
+
+    if (filters.length > 0) {
+      filmsQuery = query(collection(db, FILMS_COLLECTION), ...filters)
     }
 
     const querySnapshot = await getDocs(filmsQuery)
