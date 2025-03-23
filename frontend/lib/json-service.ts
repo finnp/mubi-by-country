@@ -26,6 +26,7 @@ export async function getFilms(
   lastId?: string | number,
   genre?: string,
   year?: string,
+  country?: string,
   pageSize: number = 20
 ): Promise<{ films: Film[]; lastId: string | number | null }> {
   try {
@@ -44,6 +45,10 @@ export async function getFilms(
         if (yearNum === 2020) return film.year >= 2020
         return film.year >= yearNum && film.year < yearNum + 10
       })
+    }
+
+    if (country && country !== "All countries") {
+      films = films.filter(film => film.filmCountries?.includes(country))
     }
 
     // Sort by popularity (descending)
@@ -71,7 +76,11 @@ export async function getFilms(
   }
 }
 
-export async function getTotalFilmsCount(genre?: string, year?: string): Promise<number> {
+export async function getTotalFilmsCount(
+  genre?: string, 
+  year?: string,
+  country?: string
+): Promise<number> {
   try {
     const data = await loadData()
     let films = data.films
@@ -87,6 +96,10 @@ export async function getTotalFilmsCount(genre?: string, year?: string): Promise
         if (yearNum === 2020) return film.year >= 2020
         return film.year >= yearNum && film.year < yearNum + 10
       })
+    }
+
+    if (country && country !== "All countries") {
+      films = films.filter(film => film.filmCountries?.includes(country))
     }
 
     return films.length
@@ -115,7 +128,13 @@ export async function getGenres(): Promise<string[]> {
 export async function getCountries(): Promise<string[]> {
   try {
     const data = await loadData()
-    return data.metadata.countries
+    const countrySet = new Set<string>()
+    
+    data.films.forEach(film => {
+      film.filmCountries?.forEach(country => countrySet.add(country))
+    })
+
+    return Array.from(countrySet).sort()
   } catch (error) {
     console.error("Error fetching countries:", error)
     return []

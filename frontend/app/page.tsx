@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import FilmGrid from "@/components/film-grid"
 import LoadingFilms from "@/components/loading-films"
-import { getFilms, getTotalFilmsCount } from "@/lib/json-service"
+import { getFilms, getTotalFilmsCount, getCountries } from "@/lib/json-service"
 import type { Film } from "@/lib/types"
 import {
   Select,
@@ -79,16 +79,28 @@ export default function Home() {
   const [error, setError] = useState<string | null>(null)
   const [selectedGenre, setSelectedGenre] = useState<string>("All genres")
   const [selectedYear, setSelectedYear] = useState<string>("all")
+  const [selectedCountry, setSelectedCountry] = useState<string>("All countries")
+  const [countries, setCountries] = useState<string[]>([])
   const [lastId, setLastId] = useState<string | number | null>(null)
   const [hasMore, setHasMore] = useState(true)
   const [loadingMore, setLoadingMore] = useState(false)
+
+  useEffect(() => {
+    // Load available countries
+    const loadCountries = async () => {
+      const countryList = await getCountries()
+      setCountries(["All countries", ...countryList])
+    }
+    loadCountries()
+  }, [])
 
   const fetchFilms = async (lastId?: string | number) => {
     try {
       const { films: newFilms, lastId: newLastId } = await getFilms(
         lastId, 
         selectedGenre, 
-        selectedYear
+        selectedYear,
+        selectedCountry
       )
 
       if (newFilms.length === 0) {
@@ -120,7 +132,8 @@ export default function Home() {
           fetchFilms(),
           getTotalFilmsCount(
             selectedGenre, 
-            selectedYear
+            selectedYear,
+            selectedCountry
           )
         ])
 
@@ -134,7 +147,7 @@ export default function Home() {
     }
 
     fetchData()
-  }, [selectedGenre, selectedYear])
+  }, [selectedGenre, selectedYear, selectedCountry])
 
   const loadMoreFilms = async () => {
     if (!hasMore || loadingMore) return
@@ -185,6 +198,19 @@ export default function Home() {
               {YEARS.map((year) => (
                 <SelectItem key={year.value} value={year.value}>
                   {year.label}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+
+          <Select value={selectedCountry} onValueChange={setSelectedCountry}>
+            <SelectTrigger className="w-[200px]">
+              <SelectValue placeholder="Select country" />
+            </SelectTrigger>
+            <SelectContent>
+              {countries.map((country) => (
+                <SelectItem key={country} value={country}>
+                  {country}
                 </SelectItem>
               ))}
             </SelectContent>
