@@ -8,9 +8,8 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./update-script
+    permissions:
+      contents: write
     
     steps:
       - uses: actions/checkout@v4
@@ -21,12 +20,33 @@ jobs:
           node-version: '20'
           
       - name: Install dependencies
+        working-directory: ./update-script
         run: npm install
         
-      - name: Create Firebase service account file
-        run: echo '${{ secrets.FIREBASE_SERVICE_ACCOUNT }}' > firebase-service-account.json
-        
       - name: Run update script
-        run: npm run start
-        env:
-          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        id: update
+        working-directory: ./update-script
+        continue-on-error: true
+        run: |
+          npm run start
+          echo "UPDATE_EXIT_CODE=$?" >> $GITHUB_ENV
+
+      - name: Get changes summary
+        if: env.UPDATE_EXIT_CODE == '0'
+        id: changes
+        run: |
+          CHANGES=$(jq -r '.metadata.last_sync.changes | "\(.removed) movies removed, \(.added) added, \(.modified) modified"' frontend/public/mubi-films.json)
+          echo "CHANGES_MSG=$CHANGES" >> $GITHUB_ENV
+
+      - name: Commit and push if there are changes
+        if: env.UPDATE_EXIT_CODE == '0'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add frontend/public/mubi-films.json
+          git commit -m "${{ env.CHANGES_MSG }}"
+          git push
+
+      - name: Check for errors
+        if: env.UPDATE_EXIT_CODE == '2'
+        run: exit 1

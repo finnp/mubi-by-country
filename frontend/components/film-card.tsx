@@ -24,17 +24,16 @@ export default function FilmCard({ film }: FilmCardProps) {
   const formattedRating = film.average_rating_out_of_ten ? film.average_rating_out_of_ten.toFixed(1) : "N/A"
 
   // Get the first director's name
-  const directorName = film.directors && film.directors.length > 0 ? film.directors[0].name : ""
+  const directorName = film.directors && film.directors.length > 0 ? film.directors[0] : ""
 
   // Get the first country
-  const country = film.historic_countries && film.historic_countries.length > 0 ? film.historic_countries[0] : ""
+  const country = film.filmCountries && film.filmCountries.length > 0 ? film.filmCountries[0] : ""
 
   // Fallback image
   const fallbackImage = "/placeholder.svg?height=400&width=600"
 
   // Get image source with fallback
-  const imageSource =
-    imageError || !film.stills || !film.stills.large_overlaid ? fallbackImage : film.stills.large_overlaid
+  const imageSource = imageError || !film.thumbnail ? fallbackImage : film.thumbnail
 
   // Sort countries to prioritize US and GB
   const getSortedCountries = (countries: string[]) => {
@@ -87,11 +86,11 @@ export default function FilmCard({ film }: FilmCardProps) {
   }
 
   return (
-    <Link href={film.web_url || "#"} target="_blank" className="block">
+    <Link href={film.webUrl || "#"} target="_blank" className="block">
       <div className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-200">
         <div className="relative aspect-video">
           <Image
-            src={imageSource || "/placeholder.svg"}
+            src={imageSource}
             alt={film.title || "Film thumbnail"}
             fill
             className="object-cover"
@@ -109,8 +108,8 @@ export default function FilmCard({ film }: FilmCardProps) {
 
         <div className="p-4">
           <h3 className="text-lg font-bold">{film.title || "Untitled Film"}</h3>
-          {film.original_title && film.original_title !== film.title && (
-            <span className="text-gray-500 text-sm">{film.original_title}</span>
+          {film.originalTitle && film.originalTitle !== film.title && (
+            <span className="text-gray-500 text-sm">{film.originalTitle}</span>
           )}
 
           <div className="text-gray-500 text-sm mt-1">
@@ -138,17 +137,17 @@ export default function FilmCard({ film }: FilmCardProps) {
           </div>
 
           <div className="flex flex-wrap gap-4 mt-2">
-            {film.available_countries && film.available_countries.length > 0 && (
+            {film.availableCountries && film.availableCountries.length > 0 && (
               <TooltipProvider>
                 <Tooltip delayDuration={0}>
                   <TooltipTrigger asChild>
                     <div className="flex items-center gap-1 cursor-help">
                       <Globe className="h-4 w-4" />
-                      <span>{getFormattedCountries(film.available_countries)}</span>
+                      <span>{getFormattedCountries(film.availableCountries)}</span>
                     </div>
                   </TooltipTrigger>
                   <TooltipContent className="whitespace-pre-line">
-                    {getCountryEmojis(film.available_countries)}
+                    {getCountryEmojis(film.availableCountries)}
                   </TooltipContent>
                 </Tooltip>
               </TooltipProvider>

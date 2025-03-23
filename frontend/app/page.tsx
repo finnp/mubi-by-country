@@ -3,9 +3,8 @@
 import { useState, useEffect } from "react"
 import FilmGrid from "@/components/film-grid"
 import LoadingFilms from "@/components/loading-films"
-import { getFilms, getTotalFilmsCount } from "@/lib/firestore-service"
+import { getFilms, getTotalFilmsCount } from "@/lib/json-service"
 import type { Film } from "@/lib/types"
-import type { DocumentData, QueryDocumentSnapshot } from "firebase/firestore"
 import {
   Select,
   SelectContent,
@@ -80,29 +79,27 @@ export default function Home() {
   const [error, setError] = useState<string | null>(null)
   const [selectedGenre, setSelectedGenre] = useState<string>("All genres")
   const [selectedYear, setSelectedYear] = useState<string>("all")
-  const [lastDoc, setLastDoc] = useState<QueryDocumentSnapshot<DocumentData> | undefined>(undefined)
+  const [lastId, setLastId] = useState<string | number | null>(null)
   const [hasMore, setHasMore] = useState(true)
   const [loadingMore, setLoadingMore] = useState(false)
 
-  const fetchFilms = async (lastDoc?: QueryDocumentSnapshot<DocumentData>) => {
+  const fetchFilms = async (lastId?: string | number) => {
     try {
-      const { films: newFilms, lastDoc: newLastDoc } = await getFilms(
-        lastDoc, 
+      const { films: newFilms, lastId: newLastId } = await getFilms(
+        lastId, 
         selectedGenre, 
-        selectedYear === "all" ? undefined : selectedYear
+        selectedYear
       )
 
       if (newFilms.length === 0) {
         setHasMore(false)
       } else {
-        if (lastDoc) {
+        if (lastId) {
           setFilms(prev => [...prev, ...newFilms])
         } else {
           setFilms(newFilms)
         }
-        if (newLastDoc) {
-          setLastDoc(newLastDoc)
-        }
+        setLastId(newLastId)
       }
     } catch (error) {
       console.error("Error fetching films:", error)
@@ -114,7 +111,7 @@ export default function Home() {
     const fetchData = async () => {
       try {
         setLoading(true)
-        setLastDoc(undefined)
+        setLastId(null)
         setHasMore(true)
         setFilms([])
 
@@ -123,7 +120,7 @@ export default function Home() {
           fetchFilms(),
           getTotalFilmsCount(
             selectedGenre, 
-            selectedYear === "all" ? undefined : selectedYear
+            selectedYear
           )
         ])
 
@@ -144,35 +141,25 @@ export default function Home() {
 
     setLoadingMore(true)
     try {
-      await fetchFilms(lastDoc)
+      await fetchFilms(lastId)
     } finally {
       setLoadingMore(false)
     }
   }
 
   return (
-    <main className="max-w-7xl mx-auto px-4 py-8">
-      <div className="mb-6">
-        <h1 
-          className="text-2xl font-bold mb-2"
-          title="This website is not affiliated with, authorized, maintained, sponsored, or endorsed by MUBI or any of its affiliates or subsidiaries. This is an independent project created for educational purposes only."
+    <main className="container mx-auto px-4 py-8">
+      <div className="mb-8 flex justify-between items-center">
+        <h1 className="text-3xl font-bold">MUBI by Country</h1>
+        <a
+          href="https://github.com/yourusername/mubi-by-country"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 text-gray-600 hover:text-gray-900"
         >
-          Mubi by Country
-        </h1>
-        <div className="flex items-center gap-2 text-sm text-gray-500">
-          <a 
-            href="https://github.com/finnp/mubi-by-country" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="hover:text-gray-700 transition-colors flex items-center gap-1"
-            title="View on GitHub"
-          >
-            <Github className="w-4 h-4" />
-            Contribute to this project on GitHub
-          </a>
-          <span>•</span>
-          <span>Not affiliated with MUBI</span>
-        </div>
+          <Github className="h-5 w-5" />
+          <span>GitHub</span>
+        </a>
       </div>
 
       <div className="mb-6 flex justify-between items-center">

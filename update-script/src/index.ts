@@ -1,29 +1,40 @@
 import axios from "axios";
-import * as admin from "firebase-admin";
+import fs from "fs";
 import path from "path";
 
-// Initialize Firebase Admin
-const serviceAccount = require("../firebase-service-account.json");
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
-});
-
-const db = admin.firestore();
+interface Director {
+  name: string;
+  name_upcase?: string;
+  slug?: string;
+}
 
 interface MubiFilm {
   id: number;
   title: string;
-  available_countries: string[];
-  // Add other properties as needed based on the API response
+  originalTitle: string;
+  availableCountries: string[];
+  filmCountries: string[];
+  duration: number;
+  genres: string[];
+  webUrl: string;
+  thumbnail: string | null;
+  year?: number;
+  directors?: string[];
 }
 
 interface MubiResponse {
-  films: MubiFilm[];
+  films: any[];
   meta: {
     current_page: number;
     total_pages: number;
     total_count: number;
   };
+}
+
+interface FilmChanges {
+  added: number;
+  removed: number;
+  modified: number;
 }
 
 async function fetchMubiPage(
@@ -49,129 +60,114 @@ async function fetchMubiPage(
   return response.data;
 }
 
-async function ensureCollectionExists(collectionName: string) {
-  // Check if collection exists by trying to get any document
-  const snapshot = await db.collection(collectionName).limit(1).get();
-  if (snapshot.empty) {
-    // Collection doesn't exist or is empty, create a dummy document and delete it
-    const dummyDoc = await db.collection(collectionName).add({ dummy: true });
-    await dummyDoc.delete();
+function transformFilm(film: any): MubiFilm {
+  return {
+    id: film.id,
+    title: film.title,
+    originalTitle: film.original_title,
+    availableCountries: film.available_countries || [],
+    filmCountries: film.historic_countries || [],
+    duration: film.duration,
+    genres: film.genres || [],
+    webUrl: film.web_url,
+    thumbnail: film.stills?.large_overlaid || null,
+    year: film.year,
+    directors: film.directors?.map((d: Director) => d.name) || [],
+  };
+}
+
+async function getExistingFilms(): Promise<Map<number, MubiFilm>> {
+  const filePath = path.join(__dirname, "..", "..", "frontend", "public", "mubi-films.json");
+  if (!fs.existsSync(filePath)) {
+    return new Map();
+  }
+
+  try {
+    const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+    return new Map(data.films.map((film: MubiFilm) => [film.id, film]));
+  } catch (error) {
+    console.error("Error reading existing films:", error);
+    return new Map();
   }
 }
 
-interface ExistingFilm extends MubiFilm {
-  last_updated: FirebaseFirestore.Timestamp;
-  first_seen?: FirebaseFirestore.Timestamp;
-}
-
-async function getCurrentFilmsInFirestore(): Promise<
-  Map<number, ExistingFilm>
-> {
-  const snapshot = await db.collection("mubi_films").get();
-  const existingFilms = new Map<number, ExistingFilm>();
-
-  snapshot.forEach((doc) => {
-    const film = doc.data() as ExistingFilm;
-    existingFilms.set(film.id, film);
+function compareFilms(oldFilm: MubiFilm, newFilm: MubiFilm): boolean {
+  // Compare relevant fields to determine if the film was modified
+  return JSON.stringify({
+    title: oldFilm.title,
+    originalTitle: oldFilm.originalTitle,
+    availableCountries: oldFilm.availableCountries.sort(),
+    filmCountries: oldFilm.filmCountries.sort(),
+    duration: oldFilm.duration,
+    genres: oldFilm.genres.sort(),
+    webUrl: oldFilm.webUrl,
+    thumbnail: oldFilm.thumbnail,
+    year: oldFilm.year,
+    directors: oldFilm.directors?.sort(),
+  }) === JSON.stringify({
+    title: newFilm.title,
+    originalTitle: newFilm.originalTitle,
+    availableCountries: newFilm.availableCountries.sort(),
+    filmCountries: newFilm.filmCountries.sort(),
+    duration: newFilm.duration,
+    genres: newFilm.genres.sort(),
+    webUrl: newFilm.webUrl,
+    thumbnail: newFilm.thumbnail,
+    year: newFilm.year,
+    directors: newFilm.directors?.sort(),
   });
-
-  return existingFilms;
 }
 
-async function syncWithFirestore(newFilms: MubiFilm[], metadata: any) {
-  const collectionRef = db.collection("mubi_films");
-
-  // Ensure collections exist
-  await ensureCollectionExists("mubi_films");
-  await ensureCollectionExists("mubi_metadata");
-
-  // Get existing films from Firestore
-  console.log("Fetching current films from Firestore...");
-  const existingFilms = await getCurrentFilmsInFirestore();
-
-  // Create sets of film IDs for comparison
-  const newFilmIds = new Set(newFilms.map((f) => f.id));
+async function saveToJson(films: MubiFilm[], metadata: any): Promise<FilmChanges> {
+  const existingFilms = await getExistingFilms();
+  const newFilmIds = new Set(films.map(f => f.id));
   const existingFilmIds = new Set(existingFilms.keys());
 
-  // Find films to delete (exist in Firestore but not in new data)
-  const filmsToDelete = Array.from(existingFilmIds).filter(
-    (id) => !newFilmIds.has(id)
-  );
+  const changes: FilmChanges = {
+    added: 0,
+    removed: 0,
+    modified: 0,
+  };
 
-  // Find films to update (exist in both sets)
-  const filmsToUpdate = newFilms.filter((film) => existingFilmIds.has(film.id));
-
-  // Find films to add (exist in new data but not in Firestore)
-  const filmsToAdd = newFilms.filter((film) => !existingFilmIds.has(film.id));
-
-  console.log(`\nSync analysis:`);
-  console.log(`- Films to delete: ${filmsToDelete.length}`);
-  console.log(`- Films to update: ${filmsToUpdate.length}`);
-  console.log(`- Films to add: ${filmsToAdd.length}`);
-
-  // Process deletions in batches
-  const batchSize = 500;
-  for (let i = 0; i < filmsToDelete.length; i += batchSize) {
-    const batch = db.batch();
-    const currentBatch = filmsToDelete.slice(i, i + batchSize);
-
-    for (const id of currentBatch) {
-      const docRef = collectionRef.doc(id.toString());
-      batch.delete(docRef);
+  // Count added films
+  for (const film of films) {
+    if (!existingFilmIds.has(film.id)) {
+      changes.added++;
+    } else if (!compareFilms(existingFilms.get(film.id)!, film)) {
+      changes.modified++;
     }
-
-    await batch.commit();
-    console.log(
-      `Deleted batch ${Math.floor(i / batchSize) + 1} of ${Math.ceil(
-        filmsToDelete.length / batchSize
-      )}`
-    );
   }
 
-  // Process updates and additions in batches
-  const filmsToWrite = [...filmsToUpdate, ...filmsToAdd];
-  for (let i = 0; i < filmsToWrite.length; i += batchSize) {
-    const batch = db.batch();
-    const currentBatch = filmsToWrite.slice(i, i + batchSize);
-
-    for (const film of currentBatch) {
-      const docRef = collectionRef.doc(film.id.toString());
-      const existingFilm = existingFilms.get(film.id);
-
-      // If film exists, preserve any fields we don't want to override
-      const dataToWrite = {
-        ...film,
-        last_updated: admin.firestore.FieldValue.serverTimestamp(),
-        first_seen:
-          existingFilm?.first_seen ||
-          admin.firestore.FieldValue.serverTimestamp(),
-      };
-
-      batch.set(docRef, dataToWrite);
+  // Count removed films
+  for (const id of existingFilmIds) {
+    if (!newFilmIds.has(id)) {
+      changes.removed++;
     }
-
-    await batch.commit();
-    console.log(
-      `Processed batch ${Math.floor(i / batchSize) + 1} of ${Math.ceil(
-        filmsToWrite.length / batchSize
-      )}`
-    );
   }
 
-  // Update metadata
-  const metadataRef = db.collection("mubi_metadata").doc("latest");
-  await metadataRef.set({
-    ...metadata,
-    last_sync: {
-      timestamp: admin.firestore.FieldValue.serverTimestamp(),
-      added: filmsToAdd.length,
-      updated: filmsToUpdate.length,
-      deleted: filmsToDelete.length,
-      total_after_sync: newFilms.length,
+  const data = {
+    films,
+    metadata: {
+      ...metadata,
+      last_sync: {
+        timestamp: new Date().toISOString(),
+        total_films: films.length,
+        changes,
+      },
     },
-  });
+  };
 
-  console.log("\nSync completed successfully");
+  // Save to frontend/public directory
+  const outputPath = path.join(__dirname, "..", "..", "frontend", "public");
+  if (!fs.existsSync(outputPath)) {
+    fs.mkdirSync(outputPath, { recursive: true });
+  }
+
+  const filePath = path.join(outputPath, "mubi-films.json");
+  fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+  console.log(`\nData saved to ${filePath}`);
+  
+  return changes;
 }
 
 async function fetchAllMubiFilms() {
@@ -207,8 +203,8 @@ async function fetchAllMubiFilms() {
 
       // Array to store all films for this country
       let countryFilms: MubiFilm[] = firstPage.films.map((film) => ({
-        ...film,
-        available_countries: [country],
+        ...transformFilm(film),
+        availableCountries: [country],
       }));
 
       // Fetch remaining pages
@@ -217,8 +213,8 @@ async function fetchAllMubiFilms() {
         try {
           const pageData = await fetchMubiPage(page, country);
           const filmsWithCountry = pageData.films.map((film) => ({
-            ...film,
-            available_countries: [country],
+            ...transformFilm(film),
+            availableCountries: [country],
           }));
           countryFilms = [...countryFilms, ...filmsWithCountry];
 
@@ -242,7 +238,7 @@ async function fetchAllMubiFilms() {
         if (filmMap.has(film.id)) {
           // Film already exists, add this country to its availability
           const existingFilm = filmMap.get(film.id)!;
-          existingFilm.available_countries.push(country);
+          existingFilm.availableCountries.push(country);
         } else {
           // New film, add it to the map
           filmMap.set(film.id, film);
@@ -250,44 +246,27 @@ async function fetchAllMubiFilms() {
       }
     }
 
-    // Convert map to array
-    const combinedFilms = Array.from(filmMap.values());
-
-    // Prepare metadata
+    // Convert map to array and save to JSON
+    const allFilms = Array.from(filmMap.values());
     const metadata = {
+      total_films: allFilms.length,
       countries,
-      films_by_country: Object.fromEntries(
-        Object.entries(filmsByCountry).map(([country, films]) => [
-          country,
-          films.length,
-        ])
-      ),
-      total_count: combinedFilms.length,
     };
 
-    // Sync with Firestore
-    await syncWithFirestore(combinedFilms, metadata);
-
-    console.log(`\nSync summary:`);
-    console.log(`- Total unique films: ${combinedFilms.length}`);
-    for (const country of countries) {
-      console.log(`- Films in ${country}: ${filmsByCountry[country].length}`);
-    }
+    const changes = await saveToJson(allFilms, metadata);
+    console.log("\nChanges summary:");
+    console.log(`- Added: ${changes.added} films`);
+    console.log(`- Removed: ${changes.removed} films`);
+    console.log(`- Modified: ${changes.modified} films`);
+    
+    // Exit with status 0 if there are changes, 1 if no changes
+    const hasChanges = changes.added > 0 || changes.removed > 0 || changes.modified > 0;
+    process.exit(hasChanges ? 0 : 1);
   } catch (error) {
-    if (axios.isAxiosError(error)) {
-      console.error("Error fetching data:", error.message);
-      if (error.response) {
-        console.error("Response status:", error.response.status);
-        console.error("Response data:", error.response.data);
-      }
-    } else {
-      console.error("Unexpected error:", error);
-    }
-  } finally {
-    // Terminate the Firebase Admin app
-    await admin.app().delete();
+    console.error("Error in fetchAllMubiFilms:", error);
+    process.exit(2);
   }
 }
 
-// Execute the function
+// Run the script
 fetchAllMubiFilms();

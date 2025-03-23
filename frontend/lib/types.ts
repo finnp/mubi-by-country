@@ -59,11 +59,20 @@ export interface HighlightedIndustryEventEntry {
 
 export interface Film {
   id: string | number
+  title: string
+  originalTitle: string
+  availableCountries: string[]
+  filmCountries: string[]
+  duration: number
+  genres: string[]
+  webUrl: string
+  thumbnail: string | null
+  year?: number
+  directors?: string[]
   slug?: string
-  title?: string
   title_locale?: string
   original_title?: string
-  year?: number
+  original_title_locale?: string
   duration?: number
   stills?: Stills
   still_focal_point?: {
@@ -76,7 +85,6 @@ export interface Film {
   trailer_id?: number
   popularity?: number
   web_url?: string
-  genres?: string[]
   average_rating?: number
   average_rating_out_of_ten?: number
   number_of_ratings?: number
@@ -99,7 +107,6 @@ export interface Film {
   comments_count?: number
   mubi_go_highlighted?: boolean
   optimised_trailers?: OptimisedTrailer[]
-  directors?: Director[]
   consumable?: any
   press_quote?: any
   star_rating?: any
@@ -108,6 +115,5 @@ export interface Film {
   content_warnings?: ContentWarning[]
   artworks?: Artwork[]
   highlighted_industry_event_entry?: HighlightedIndustryEventEntry | null
-  available_countries: string[]
 }
 
