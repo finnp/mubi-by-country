@@ -176,7 +176,22 @@ async function syncWithFirestore(newFilms: MubiFilm[], metadata: any) {
 
 async function fetchAllMubiFilms() {
   try {
-    const countries = ["PT", "DE", "GB", "US"];
+    const countries = [
+      "PT",
+      "DE",
+      "GB",
+      "US",
+      "FR",
+      "JP",
+      "AR",
+      "ES",
+      "IT",
+      "CA",
+      "BR",
+      "AU",
+      "NL",
+      "SE",
+    ];
     const filmsByCountry: Record<string, MubiFilm[]> = {};
 
     // Fetch films for each country
