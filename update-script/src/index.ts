@@ -187,6 +187,16 @@ async function fetchAllMubiFilms() {
       "AU",
       "NL",
       "SE",
+      "IN", 
+      "ZA", 
+      "MX", 
+      "AF", 
+      "EG", 
+      "KR", 
+      "NO", 
+      "CL", 
+      "NZ", 
+      "TR", 
     ];
     const filmsByCountry: Record<string, MubiFilm[]> = {};
 
