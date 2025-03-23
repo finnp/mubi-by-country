@@ -1,0 +1,3881 @@
+{
+  "films": [
+    {
+      "id": 238,
+      "slug": "night-and-fog",
+      "title": "Night and Fog",
+      "title_locale": "en-US",
+      "original_title": "Nuit et brouillard",
+      "year": 1956,
+      "duration": 33,
+      "stills": {
+        "small": "https://assets.mubicdn.net/images/film/238/image-w256.jpg?1712139676",
+        "medium": "https://assets.mubicdn.net/images/film/238/image-w448.jpg?1712139676",
+        "standard": "https://assets.mubicdn.net/images/film/238/image-w856.jpg?1712139676",
+        "retina": "https://assets.mubicdn.net/images/film/238/image-w1280.jpg?1712139676",
+        "small_overlaid": "https://assets.mubicdn.net/images/film/238/image-w512_overlaid.jpg?1712139676",
+        "large_overlaid": "https://assets.mubicdn.net/images/film/238/image-w1504_overlaid.jpg?1712139676"
+      },
+      "still_focal_point": {
+        "x": 0.857939,
+        "y": 0.717822
+      },
+      "hd": true,
+      "average_colour_hex": "5C5C3E",
+      "trailer_url": "https://trailers.mubicdn.net/238/t-night-and-fog_en_us_1280_720_1538565613.mp4",
+      "trailer_id": 7163,
+      "popularity": 9529,
+      "web_url": "https://mubi.com/films/night-and-fog",
+      "genres": [
+        "Documentary",
+        "Short",
+        "History"
+      ],
+      "average_rating": 4.7,
+      "average_rating_out_of_ten": 9.4,
+      "number_of_ratings": 15651,
+      "mubi_release": false,
+      "should_use_safe_still": false,
+      "still_url": "https://images.mubicdn.net/images/film/238/cache-8037-1712139676/image-w1280.jpg",
+      "title_upcase": "NIGHT AND FOG",
+      "critic_review_rating": 5,
+      "content_rating": {
+        "label": "mature",
+        "rating_code": "MATURE",
+        "description": "Contains material and themes suitable only for mature audiences.",
+        "icon_url": null,
+        "label_hex_color": "dd2323"
+      },
+      "short_synopsis": "The horrors of the Holocaust are shown in black and white, through documents, films and photographs found in German, Polish, and French archives. The footage of the now-empty camps, filmed only ten years after the liberation and shot in color, shows what remains of Auschwitz.",
+      "short_synopsis_html": "<p>The horrors of the Holocaust are shown in black and white, through documents, films and photographs found in German, Polish, and French archives. The footage of the now-empty camps, filmed only ten years after the liberation and shot in color, shows what remains of Auschwitz.</p>",
+      "episode": null,
+      "historic_countries": [
+        "France"
+      ],
+      "portrait_image": null,
+      "title_treatment_url": null,
+      "default_editorial": "Just a decade after the liberation of France and the end of World War II, Alain Resnais (Hiroshima mon amour) made Night and Fog, the most acclaimed of his documentary shorts. An immensely powerful, stark and startling film that dauntlessly depicts the many atrocities and horrors of the Holocaust.",
+      "default_editorial_html": "<p>Just a decade after the liberation of France and the end of World War II, Alain Resnais (<em>Hiroshima mon amour</em>) made <em>Night and Fog</em>, the most acclaimed of his documentary shorts. An immensely powerful, stark and startling film that dauntlessly depicts the many atrocities and horrors of the Holocaust.</p>",
+      "cast_members_count": 13,
+      "industry_events_count": 14,
+      "comments_count": 465,
+      "mubi_go_highlighted": false,
+      "optimised_trailers": [
+        {
+          "url": "https://trailers.mubicdn.net/238/optimised/240p-t-night-and-fog_en_us_1280_720_1538565613.mp4",
+          "profile": "240p"
+        },
+        {
+          "url": "https://trailers.mubicdn.net/238/optimised/720p-t-night-and-fog_en_us_1280_720_1538565613.mp4",
+          "profile": "720p"
+        }
+      ],
+      "directors": [
+        {
+          "name": "Alain Resnais",
+          "name_upcase": "ALAIN RESNAIS",
+          "slug": "alain-resnais"
+        }
+      ],
+      "consumable": {
+        "film_id": 238,
+        "available_at": "2024-04-17T23:00:00Z",
+        "availability": "live",
+        "availability_ends_at": "2026-03-31T23:00:00Z",
+        "expires_at": "2026-04-01T11:00:00Z",
+        "film_date_message": null,
+        "offered": [
+          {
+            "type": "catalogue",
+            "download_availability": null
+          }
+        ],
+        "exclusive": false,
+        "permit_download": true
+      },
+      "press_quote": null,
+      "star_rating": null,
+      "award": null,
+      "experiment_stills": null,
+      "content_warnings": [
+        {
+          "id": 17,
+          "name": "injury detail",
+          "key": "injury_detail"
+        }
+      ],
+      "artworks": [
+        {
+          "format": "tile_artwork",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/676129/images-original.png?1712139658"
+        },
+        {
+          "format": "cover_artwork_box_episode",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/676130/images-original.png?1712139662"
+        },
+        {
+          "format": "centered_background",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/676131/images-original.png?1712139667"
+        },
+        {
+          "format": "centered_background_small",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/676132/images-original.png?1712139671"
+        },
+        {
+          "format": "cover_artwork_horizontal",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/676133/images-original.png?1712139676"
+        },
+        {
+          "format": "cover_artwork_vertical",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/676141/images-original.png?1712139721"
+        },
+        {
+          "format": "cover_artwork_box",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/676149/images-original.png?1712139754"
+        },
+        {
+          "format": "tvos_cover_artwork",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/676157/images-original.png?1712139787"
+        }
+      ],
+      "highlighted_industry_event_entry": null
+    },
+    {
+      "id": 21477,
+      "slug": "paris-is-burning",
+      "title": "Paris Is Burning",
+      "title_locale": "en-US",
+      "original_title": "Paris Is Burning",
+      "year": 1990,
+      "duration": 77,
+      "stills": {
+        "small": "https://assets.mubicdn.net/images/film/21477/image-w256.jpg?1716373174",
+        "medium": "https://assets.mubicdn.net/images/film/21477/image-w448.jpg?1716373174",
+        "standard": "https://assets.mubicdn.net/images/film/21477/image-w856.jpg?1716373174",
+        "retina": "https://assets.mubicdn.net/images/film/21477/image-w1280.jpg?1716373174",
+        "small_overlaid": "https://assets.mubicdn.net/images/film/21477/image-w512_overlaid.jpg?1716373174",
+        "large_overlaid": "https://assets.mubicdn.net/images/film/21477/image-w1504_overlaid.jpg?1716373174"
+      },
+      "still_focal_point": {
+        "x": 0.541783,
+        "y": 0.29703
+      },
+      "hd": true,
+      "average_colour_hex": "563D4B",
+      "trailer_url": "https://trailers.mubicdn.net/21477/t-paris-is-burning_en_us_3128.754_1920_1080_1716473873.mp4",
+      "trailer_id": 107264,
+      "popularity": 6709,
+      "web_url": "https://mubi.com/films/paris-is-burning",
+      "genres": [
+        "Documentary",
+        "LGBTQ+",
+        "History"
+      ],
+      "average_rating": 4.7,
+      "average_rating_out_of_ten": 9.4,
+      "number_of_ratings": 12371,
+      "mubi_release": false,
+      "should_use_safe_still": false,
+      "still_url": "https://images.mubicdn.net/images/film/21477/cache-14113-1716373174/image-w1280.jpg",
+      "title_upcase": "PARIS IS BURNING",
+      "critic_review_rating": 3.7777777777777777,
+      "content_rating": {
+        "label": "caution",
+        "rating_code": "CAUTION",
+        "description": "Contains material that may not be suitable for children or young adults.",
+        "icon_url": null,
+        "label_hex_color": "e05d04"
+      },
+      "short_synopsis": "New York City, 1980. In Harlem’s African American and Latinx drag-ball scene, rival houses compete in fierce contests for trophies. Meanwhile, legendary voguers, drag queens, and trans women—including Willi Ninja, Pepper LaBeija, and Venus Xtravaganza—reveal the rules and traditions of the scene.",
+      "short_synopsis_html": "<p>New York City, 1980. In Harlem&#8217;s African American and Latinx drag-ball scene, rival houses compete in fierce contests for trophies. Meanwhile, legendary voguers, drag queens, and trans women&#8212;including Willi Ninja, Pepper LaBeija, and Venus Xtravaganza&#8212;reveal the rules and traditions of the scene.</p>",
+      "episode": null,
+      "historic_countries": [
+        "United States"
+      ],
+      "portrait_image": null,
+      "title_treatment_url": "https://images.mubicdn.net/images/artworks/689171/cache-689171-1716467965/images-original.png",
+      "default_editorial": "Full of iconic quotes that have shaped the queer lexicon, Jennie Livingston’s seminal documentary captures the ballroom scene of 1980s New York in all its vivacious joy and heartbreaking precarity. Carved out of sequins and solidarity, its safe havens are where fantasies become gloriously real.",
+      "default_editorial_html": "<p>Full of iconic quotes that have shaped the queer lexicon, Jennie Livingston&#8217;s seminal documentary captures the ballroom scene of 1980s New York in all its vivacious joy and heartbreaking precarity. Carved out of sequins and solidarity, its safe havens are where fantasies become gloriously real.</p>",
+      "cast_members_count": 29,
+      "industry_events_count": 12,
+      "comments_count": 266,
+      "mubi_go_highlighted": false,
+      "optimised_trailers": [
+        {
+          "url": "https://trailers.mubicdn.net/21477/optimised/240p-t-paris-is-burning_en_us_3128.754_1920_1080_1716473873.mp4",
+          "profile": "240p"
+        },
+        {
+          "url": "https://trailers.mubicdn.net/21477/optimised/720p-t-paris-is-burning_en_us_3128.754_1920_1080_1716473873.mp4",
+          "profile": "720p"
+        },
+        {
+          "url": "https://trailers.mubicdn.net/21477/optimised/1080p-t-paris-is-burning_en_us_3128.754_1920_1080_1716473873.mp4",
+          "profile": "1080p"
+        }
+      ],
+      "directors": [
+        {
+          "name": "Jennie Livingston",
+          "name_upcase": "JENNIE LIVINGSTON",
+          "slug": "jennie-livingston"
+        }
+      ],
+      "consumable": {
+        "film_id": 21477,
+        "available_at": "2024-05-31T23:00:00Z",
+        "availability": "live",
+        "availability_ends_at": "2026-05-31T23:00:00Z",
+        "expires_at": "2026-06-01T11:00:00Z",
+        "film_date_message": null,
+        "offered": [
+          {
+            "type": "catalogue",
+            "download_availability": null
+          }
+        ],
+        "exclusive": false,
+        "permit_download": true
+      },
+      "press_quote": null,
+      "star_rating": null,
+      "award": null,
+      "experiment_stills": null,
+      "content_warnings": [
+        {
+          "id": 5,
+          "name": "strobe lighting",
+          "key": "strobe_lighting"
+        },
+        {
+          "id": 32,
+          "name": "discriminatory language",
+          "key": "discriminatory_language"
+        }
+      ],
+      "artworks": [
+        {
+          "format": "tile_artwork",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/688797/images-original.png?1716374121"
+        },
+        {
+          "format": "cover_artwork_box_episode",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/688798/images-original.png?1716374125"
+        },
+        {
+          "format": "centered_background",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/688799/images-original.png?1716374131"
+        },
+        {
+          "format": "centered_background_small",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/688802/images-original.png?1716374135"
+        },
+        {
+          "format": "cover_artwork_horizontal",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/688808/images-original.png?1716374149"
+        },
+        {
+          "format": "cover_artwork_vertical",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/688818/images-original.png?1716374168"
+        },
+        {
+          "format": "cover_artwork_box",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/688828/images-original.png?1716374186"
+        },
+        {
+          "format": "tvos_cover_artwork",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/688831/images-original.png?1716374195"
+        },
+        {
+          "format": "content_logo_polychromatic",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/689171/images-original.png?1716467965"
+        }
+      ],
+      "highlighted_industry_event_entry": {
+        "id": 14543,
+        "year": 1991,
+        "status": "won",
+        "display_text": "U.S. Grand Jury Prize: Documentary",
+        "full_display_text": "1991 | Winner: U.S. Grand Jury Prize: Documentary",
+        "industry_event": {
+          "id": 5,
+          "name": "Sundance Film Festival",
+          "slug": "sundance",
+          "type": "festival",
+          "logo_url": "https://images.mubicdn.net/images/industry_event/5/cache-222793-1494527058/logo-small_black.png",
+          "white_logo_url": "https://images.mubicdn.net/images/industry_event/5/cache-222793-1494527058/logo-large_white.png",
+          "cover_url": "https://images.mubicdn.net/images/industry_event/5/cache-276449-1509983117/cover-original.jpg"
+        }
+      }
+    },
+    {
+      "id": 226228,
+      "slug": "so-long-my-son",
+      "title": "So Long, My Son",
+      "title_locale": "en-US",
+      "original_title": "地久天长 | Di jiu tian chang",
+      "year": 2019,
+      "duration": 185,
+      "stills": {
+        "small": "https://assets.mubicdn.net/images/film/226228/image-w256.jpg?1576032290",
+        "medium": "https://assets.mubicdn.net/images/film/226228/image-w448.jpg?1576032290",
+        "standard": "https://assets.mubicdn.net/images/film/226228/image-w856.jpg?1576032290",
+        "retina": "https://assets.mubicdn.net/images/film/226228/image-w1280.jpg?1576032290",
+        "small_overlaid": "https://assets.mubicdn.net/images/film/226228/image-w512_overlaid.jpg?1576032290",
+        "large_overlaid": "https://assets.mubicdn.net/images/film/226228/image-w1504_overlaid.jpg?1576032290"
+      },
+      "still_focal_point": {
+        "x": 0.537604,
+        "y": 0.576733
+      },
+      "hd": true,
+      "average_colour_hex": "7F5D40",
+      "trailer_url": "https://trailers.mubicdn.net/226228/t-so-long-my-son_en_us_1625573372.mp4",
+      "trailer_id": 72662,
+      "popularity": 6419,
+      "web_url": "https://mubi.com/films/so-long-my-son",
+      "genres": [
+        "Drama"
+      ],
+      "average_rating": 4.7,
+      "average_rating_out_of_ten": 9.3,
+      "number_of_ratings": 12043,
+      "mubi_release": false,
+      "should_use_safe_still": false,
+      "still_url": "https://images.mubicdn.net/images/film/226228/cache-403500-1576032290/image-w1280.jpg",
+      "title_upcase": "SO LONG, MY SON",
+      "critic_review_rating": 4.636363636363637,
+      "content_rating": {
+        "label": "caution",
+        "rating_code": "CAUTION",
+        "description": "Contains material that may not be suitable for children or young adults.",
+        "icon_url": null,
+        "label_hex_color": "e05d04"
+      },
+      "short_synopsis": "Two families in China face upheaval over three decades of social, political and human upheaval in China. After a tragic loss, their paths diverge, and fortunes change. A quest for truth and reconciliation remains despite life’s twists, and goodbyes take a lifetime.",
+      "short_synopsis_html": "<p>Two families in China face upheaval over three decades of social, political and human upheaval in China. After a tragic loss, their paths diverge, and fortunes change. A quest for truth and reconciliation remains despite life&#8217;s twists, and goodbyes take a lifetime.</p>",
+      "episode": null,
+      "historic_countries": [
+        "China"
+      ],
+      "portrait_image": null,
+      "title_treatment_url": null,
+      "default_editorial": "China’s one-child policy is the historical backdrop for this sweeping chronicle of family and loss, a journey at once intimate and epic between a tragic past and a resilient present. Above all, its humanist beauty lies in the heart-wrenching performances, which won Best Actress and Actor in Berlin.",
+      "default_editorial_html": "<p>China&#8217;s one-child policy is the historical backdrop for this sweeping chronicle of family and loss, a journey at once intimate and epic between a tragic past and a resilient present. Above all, its humanist beauty lies in the heart-wrenching performances, which won Best Actress and Actor in Berlin.</p>",
+      "cast_members_count": 19,
+      "industry_events_count": 34,
+      "comments_count": 345,
+      "mubi_go_highlighted": false,
+      "optimised_trailers": [
+        {
+          "url": "https://trailers.mubicdn.net/226228/optimised/240p-t-so-long-my-son_en_us_1625573372.mp4",
+          "profile": "240p"
+        },
+        {
+          "url": "https://trailers.mubicdn.net/226228/optimised/720p-t-so-long-my-son_en_us_1625573372.mp4",
+          "profile": "720p"
+        },
+        {
+          "url": "https://trailers.mubicdn.net/226228/optimised/1080p-t-so-long-my-son_en_us_1625573372.mp4",
+          "profile": "1080p"
+        }
+      ],
+      "directors": [
+        {
+          "name": "Wang Xiaoshuai",
+          "name_upcase": "WANG XIAOSHUAI",
+          "slug": "wang-xiaoshuai"
+        }
+      ],
+      "consumable": {
+        "film_id": 226228,
+        "available_at": "2023-06-10T23:00:00Z",
+        "availability": "live",
+        "availability_ends_at": "2025-03-31T23:00:00Z",
+        "expires_at": "2025-04-01T11:00:00Z",
+        "film_date_message": {
+          "detail": [
+            {
+              "type": "expiring",
+              "text": "Leaving in 8 days"
+            }
+          ],
+          "tile": {
+            "type": "expiring",
+            "text": "Leaving in 8 days"
+          }
+        },
+        "offered": [
+          {
+            "type": "catalogue",
+            "download_availability": null
+          }
+        ],
+        "exclusive": false,
+        "permit_download": true
+      },
+      "press_quote": null,
+      "star_rating": null,
+      "award": null,
+      "experiment_stills": null,
+      "content_warnings": [
+        {
+          "id": 2,
+          "name": "domestic violence",
+          "key": "domestic_violence"
+        },
+        {
+          "id": 3,
+          "name": "self harm",
+          "key": "self_harm"
+        },
+        {
+          "id": 5,
+          "name": "strobe lighting",
+          "key": "strobe_lighting"
+        }
+      ],
+      "artworks": [
+        {
+          "format": "tile_artwork",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/256325/images-original.png?1621571046"
+        },
+        {
+          "format": "cover_artwork_horizontal",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/256474/images-original.png?1621571082"
+        },
+        {
+          "format": "cover_artwork_vertical",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/257223/images-original.png?1621571280"
+        },
+        {
+          "format": "cover_artwork_box",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/257825/images-original.png?1621571423"
+        },
+        {
+          "format": "cover_artwork_box_episode",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/540256/images-original.png?1683158460"
+        },
+        {
+          "format": "tvos_cover_artwork",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/601824/images-original.png?1686655501"
+        },
+        {
+          "format": "centered_background",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/678706/images-original.png?1712859032"
+        },
+        {
+          "format": "centered_background_small",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/678707/images-original.png?1712859036"
+        }
+      ],
+      "highlighted_industry_event_entry": null
+    },
+    {
+      "id": 329,
+      "slug": "la-jetee",
+      "title": "La jetée",
+      "title_locale": "en-US",
+      "original_title": "La jetée",
+      "year": 1962,
+      "duration": 28,
+      "stills": {
+        "small": "https://assets.mubicdn.net/images/film/329/image-w256.jpg?1581455984",
+        "medium": "https://assets.mubicdn.net/images/film/329/image-w448.jpg?1581455984",
+        "standard": "https://assets.mubicdn.net/images/film/329/image-w856.jpg?1581455984",
+        "retina": "https://assets.mubicdn.net/images/film/329/image-w1280.jpg?1581455984",
+        "small_overlaid": "https://assets.mubicdn.net/images/film/329/image-w512_overlaid.jpg?1581455984",
+        "large_overlaid": "https://assets.mubicdn.net/images/film/329/image-w1504_overlaid.jpg?1581455984"
+      },
+      "still_focal_point": {
+        "x": 0.386161,
+        "y": 0.547619
+      },
+      "hd": true,
+      "average_colour_hex": "090909",
+      "trailer_url": null,
+      "trailer_id": null,
+      "popularity": 14951,
+      "web_url": "https://mubi.com/films/la-jetee",
+      "genres": [
+        "Sci-Fi",
+        "Drama",
+        "Romance",
+        "Short"
+      ],
+      "average_rating": 4.5,
+      "average_rating_out_of_ten": 9,
+      "number_of_ratings": 28638,
+      "mubi_release": false,
+      "should_use_safe_still": false,
+      "still_url": "https://images.mubicdn.net/images/film/329/cache-8088-1581455984/image-w1280.jpg",
+      "title_upcase": "LA JETÉE",
+      "critic_review_rating": 5,
+      "content_rating": {
+        "label": "caution",
+        "rating_code": "CAUTION",
+        "description": "Contains material that may not be suitable for children or young adults.",
+        "icon_url": null,
+        "label_hex_color": "e05d04"
+      },
+      "short_synopsis": "After World War III, Paris lies in ruins. A scientist researching time travel hopes to send subjects to various time periods. He finds a suitable subject in a prisoner with a vivid pre-war childhood memory. The prisoner travels in time and comes to understand an incident he witnessed as a child.",
+      "short_synopsis_html": "<p>After World War III, Paris lies in ruins. A scientist researching time travel hopes to send subjects to various time periods. He finds a suitable subject in a prisoner with a vivid pre-war childhood memory. The prisoner travels in time and comes to understand an incident he witnessed as a child.</p>",
+      "episode": null,
+      "historic_countries": [
+        "France"
+      ],
+      "portrait_image": null,
+      "title_treatment_url": null,
+      "default_editorial": "Chris Marker’s game-changing photo-roman is an inventive distillation of cinema, combining montage and voiceover to create a recursive stream of melancholic memories and striking fragments. Forget about special effects: this ingenious vision of science-fiction embraces the power of the imagination.",
+      "default_editorial_html": "<p>Chris Marker&#8217;s game-changing photo-roman is an inventive distillation of cinema, combining montage and voiceover to create a recursive stream of melancholic memories and striking fragments. Forget about special effects: this ingenious vision of science-fiction embraces the power of the imagination.</p>",
+      "cast_members_count": 18,
+      "industry_events_count": 13,
+      "comments_count": 731,
+      "mubi_go_highlighted": false,
+      "optimised_trailers": null,
+      "directors": [
+        {
+          "name": "Chris Marker",
+          "name_upcase": "CHRIS MARKER",
+          "slug": "chris-marker"
+        }
+      ],
+      "consumable": {
+        "film_id": 329,
+        "available_at": "2024-06-05T23:00:00Z",
+        "availability": "live",
+        "availability_ends_at": "2026-03-31T23:00:00Z",
+        "expires_at": "2026-04-01T11:00:00Z",
+        "film_date_message": null,
+        "offered": [
+          {
+            "type": "catalogue",
+            "download_availability": null
+          }
+        ],
+        "exclusive": false,
+        "permit_download": true
+      },
+      "press_quote": null,
+      "star_rating": null,
+      "award": null,
+      "experiment_stills": null,
+      "content_warnings": [],
+      "artworks": [
+        {
+          "format": "tile_artwork",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/132775/images-original.png?1621553984"
+        },
+        {
+          "format": "cover_artwork_horizontal",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/132864/images-original.png?1621553994"
+        },
+        {
+          "format": "cover_artwork_vertical",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/133330/images-original.png?1621554082"
+        },
+        {
+          "format": "cover_artwork_box",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/174331/images-original.png?1621560382"
+        },
+        {
+          "format": "cover_artwork_box_episode",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/501784/images-original.png?1670858380"
+        },
+        {
+          "format": "tvos_cover_artwork",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/549961/images-original.png?1686641815"
+        },
+        {
+          "format": "centered_background",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/679785/images-original.png?1712937679"
+        },
+        {
+          "format": "centered_background_small",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/679786/images-original.png?1712937685"
+        }
+      ],
+      "highlighted_industry_event_entry": null
+    },
+    {
+      "id": 199,
+      "slug": "the-celebration",
+      "title": "Festen",
+      "title_locale": "en-US",
+      "original_title": "Festen",
+      "year": 1998,
+      "duration": 101,
+      "stills": {
+        "small": "https://assets.mubicdn.net/images/film/199/image-w256.jpg?1695312479",
+        "medium": "https://assets.mubicdn.net/images/film/199/image-w448.jpg?1695312479",
+        "standard": "https://assets.mubicdn.net/images/film/199/image-w856.jpg?1695312479",
+        "retina": "https://assets.mubicdn.net/images/film/199/image-w1280.jpg?1695312479",
+        "small_overlaid": "https://assets.mubicdn.net/images/film/199/image-w512_overlaid.jpg?1695312479",
+        "large_overlaid": "https://assets.mubicdn.net/images/film/199/image-w1504_overlaid.jpg?1695312479"
+      },
+      "still_focal_point": {
+        "x": 0.727019,
+        "y": 0.259901
+      },
+      "hd": true,
+      "average_colour_hex": "776855",
+      "trailer_url": "https://trailers.mubicdn.net/199/t-the-celebration_dk_en_640_447_199.mp4",
+      "trailer_id": 9390,
+      "popularity": 13096,
+      "web_url": "https://mubi.com/films/the-celebration",
+      "genres": [
+        "Drama"
+      ],
+      "average_rating": 4.5,
+      "average_rating_out_of_ten": 9,
+      "number_of_ratings": 27960,
+      "mubi_release": false,
+      "should_use_safe_still": false,
+      "still_url": "https://images.mubicdn.net/images/film/199/cache-8023-1695312479/image-w1280.jpg",
+      "title_upcase": "FESTEN",
+      "critic_review_rating": 4.285714285714286,
+      "content_rating": {
+        "label": "mature",
+        "rating_code": "MATURE",
+        "description": "Contains material and themes suitable only for mature audiences.",
+        "icon_url": null,
+        "label_hex_color": "dd2323"
+      },
+      "short_synopsis": "At a countryside manor, a lavish 60th birthday celebration is being held for revered family patriarch, Helge. Everyone has been invited—most importantly, his wife and three grown-up children, Christian, Michael and Helene. That night, Christian makes a speech nobody will ever forget.",
+      "short_synopsis_html": "<p>At a countryside manor, a lavish 60th birthday celebration is being held for revered family patriarch, Helge. Everyone has been invited&#8212;most importantly, his wife and three grown-up children, Christian, Michael and Helene. That night, Christian makes a speech nobody will ever forget.</p>",
+      "episode": null,
+      "historic_countries": [
+        "Denmark"
+      ],
+      "portrait_image": null,
+      "title_treatment_url": null,
+      "default_editorial": "Arguably portraying one of cinema’s most messed-up families ever, Festen is considered the first film made under the rules of the radical Dogme 95 movement. Thomas Vinterberg’s madcap time-bomb of latent secrets and repressed grudges makes any family dinner seem like a piece of cake.",
+      "default_editorial_html": "<p>Arguably portraying one of cinema&#8217;s most messed-up families ever, <em>Festen</em> is considered the first film made under the rules of the radical Dogme 95 movement. Thomas Vinterberg&#8217;s madcap time-bomb of latent secrets and repressed grudges makes any family dinner seem like a piece of cake.</p>",
+      "cast_members_count": 33,
+      "industry_events_count": 51,
+      "comments_count": 558,
+      "mubi_go_highlighted": false,
+      "optimised_trailers": [
+        {
+          "url": "https://trailers.mubicdn.net/199/optimised/240p-t-the-celebration_dk_en_640_447_199.mp4",
+          "profile": "240p"
+        },
+        {
+          "url": "https://trailers.mubicdn.net/199/optimised/720p-t-the-celebration_dk_en_640_447_199.mp4",
+          "profile": "720p"
+        }
+      ],
+      "directors": [
+        {
+          "name": "Thomas Vinterberg",
+          "name_upcase": "THOMAS VINTERBERG",
+          "slug": "thomas-vinterberg"
+        }
+      ],
+      "consumable": {
+        "film_id": 199,
+        "available_at": "2024-04-16T23:00:00Z",
+        "availability": "live",
+        "availability_ends_at": "2025-03-31T23:00:00Z",
+        "expires_at": "2025-04-01T11:00:00Z",
+        "film_date_message": {
+          "detail": [
+            {
+              "type": "expiring",
+              "text": "Leaving in 8 days"
+            }
+          ],
+          "tile": {
+            "type": "expiring",
+            "text": "Leaving in 8 days"
+          }
+        },
+        "offered": [
+          {
+            "type": "catalogue",
+            "download_availability": null
+          }
+        ],
+        "exclusive": false,
+        "permit_download": true
+      },
+      "press_quote": null,
+      "star_rating": null,
+      "award": null,
+      "experiment_stills": null,
+      "content_warnings": [
+        {
+          "id": 1,
+          "name": "sexual assault",
+          "key": "sexual_assault"
+        },
+        {
+          "id": 2,
+          "name": "domestic violence",
+          "key": "domestic_violence"
+        },
+        {
+          "id": 3,
+          "name": "self harm",
+          "key": "self_harm"
+        },
+        {
+          "id": 6,
+          "name": "graphic sexual content",
+          "key": "graphic_sexual_content"
+        },
+        {
+          "id": 32,
+          "name": "discriminatory language",
+          "key": "discriminatory_language"
+        }
+      ],
+      "artworks": [
+        {
+          "format": "tile_artwork",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/634482/images-original.png?1695312459"
+        },
+        {
+          "format": "cover_artwork_box_episode",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/634483/images-original.png?1695312462"
+        },
+        {
+          "format": "cover_artwork_horizontal",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/634484/images-original.png?1695312468"
+        },
+        {
+          "format": "cover_artwork_vertical",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/634492/images-original.png?1695312513"
+        },
+        {
+          "format": "cover_artwork_box",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/634500/images-original.png?1695312544"
+        },
+        {
+          "format": "tvos_cover_artwork",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/634508/images-original.png?1695312576"
+        },
+        {
+          "format": "centered_background",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/679556/images-original.png?1712862380"
+        },
+        {
+          "format": "centered_background_small",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/679557/images-original.png?1712862383"
+        }
+      ],
+      "highlighted_industry_event_entry": {
+        "id": 2272,
+        "year": 1998,
+        "status": "won",
+        "display_text": "Jury Prize",
+        "full_display_text": "1998 | Winner: Jury Prize",
+        "industry_event": {
+          "id": 1,
+          "name": "Cannes Film Festival",
+          "slug": "cannes",
+          "type": "festival",
+          "logo_url": "https://images.mubicdn.net/images/industry_event/1/cache-222790-1494527057/logo-small_black.png",
+          "white_logo_url": "https://images.mubicdn.net/images/industry_event/1/cache-222790-1494527057/logo-large_white.png",
+          "cover_url": "https://images.mubicdn.net/images/industry_event/1/cache-222788-1494406355/cover-original.jpg"
+        }
+      }
+    },
+    {
+      "id": 276485,
+      "slug": "meeting-the-man-james-baldwin-in-paris",
+      "title": "Meeting the Man: James Baldwin in Paris",
+      "title_locale": "en-US",
+      "original_title": "Meeting the Man: James Baldwin in Paris",
+      "year": 1970,
+      "duration": 28,
+      "stills": {
+        "small": "https://assets.mubicdn.net/images/film/276485/image-w256.jpg?1691683001",
+        "medium": "https://assets.mubicdn.net/images/film/276485/image-w448.jpg?1691683001",
+        "standard": "https://assets.mubicdn.net/images/film/276485/image-w856.jpg?1691683001",
+        "retina": "https://assets.mubicdn.net/images/film/276485/image-w1280.jpg?1691683001",
+        "small_overlaid": "https://assets.mubicdn.net/images/film/276485/image-w512_overlaid.jpg?1691683001",
+        "large_overlaid": "https://assets.mubicdn.net/images/film/276485/image-w1504_overlaid.jpg?1691683001"
+      },
+      "still_focal_point": {
+        "x": 0.408078,
+        "y": 0.420792
+      },
+      "hd": true,
+      "average_colour_hex": "292626",
+      "trailer_url": "https://trailers.mubicdn.net/276485/t-meeting-the-man-james-baldwin-in-paris_en_us_3643.0_1920_1080_1611772994.mp4",
+      "trailer_id": 76666,
+      "popularity": 10898,
+      "web_url": "https://mubi.com/films/meeting-the-man-james-baldwin-in-paris",
+      "genres": [
+        "Short",
+        "Documentary",
+        "Biography"
+      ],
+      "average_rating": 4.5,
+      "average_rating_out_of_ten": 8.9,
+      "number_of_ratings": 27401,
+      "mubi_release": false,
+      "should_use_safe_still": false,
+      "still_url": "https://images.mubicdn.net/images/film/276485/cache-578452-1691683001/image-w1280.jpg",
+      "title_upcase": "MEETING THE MAN: JAMES BALDWIN IN PARIS",
+      "critic_review_rating": 4,
+      "content_rating": {
+        "label": "caution",
+        "rating_code": "CAUTION",
+        "description": "Contains material that may not be suitable for children or young adults.",
+        "icon_url": null,
+        "label_hex_color": "e05d04"
+      },
+      "short_synopsis": "In 1970, a British film crew set out to make a literary portrait of James Baldwin set in Paris, insisting on setting aside his activism. The author visits Parisian landmarks and reflects on revolution, colonialism, and what it means to be Black in Europe—while bristling at the filmmakers’ questions.",
+      "short_synopsis_html": "<p>In 1970, a British film crew set out to make a literary portrait of James Baldwin set in Paris, insisting on setting aside his activism. The author visits Parisian landmarks and reflects on revolution, colonialism, and what it means to be Black in Europe&#8212;while bristling at the filmmakers&#8217; questions.</p>",
+      "episode": null,
+      "historic_countries": [
+        "United Kingdom",
+        "France"
+      ],
+      "portrait_image": null,
+      "title_treatment_url": null,
+      "default_editorial": "Tense, combative, discursive: a meeting with James Baldwin doesn’t quite go according to plan for a group of presumptuous white filmmakers in this rarely seen, Paris-set short film. An illuminating snapshot of Baldwin’s intellectual worldview that bristles with friction and ideas.",
+      "default_editorial_html": "<p>Tense, combative, discursive: a meeting with James Baldwin doesn&#8217;t quite go according to plan for a group of presumptuous white filmmakers in this rarely seen, Paris-set short film. An illuminating snapshot of Baldwin&#8217;s intellectual worldview that bristles with friction and ideas.</p>",
+      "cast_members_count": 5,
+      "industry_events_count": 2,
+      "comments_count": 603,
+      "mubi_go_highlighted": false,
+      "optimised_trailers": [
+        {
+          "url": "https://trailers.mubicdn.net/276485/optimised/240p-t-meeting-the-man-james-baldwin-in-paris_en_us_3643.0_1920_1080_1611772994.mp4",
+          "profile": "240p"
+        },
+        {
+          "url": "https://trailers.mubicdn.net/276485/optimised/720p-t-meeting-the-man-james-baldwin-in-paris_en_us_3643.0_1920_1080_1611772994.mp4",
+          "profile": "720p"
+        },
+        {
+          "url": "https://trailers.mubicdn.net/276485/optimised/1080p-t-meeting-the-man-james-baldwin-in-paris_en_us_3643.0_1920_1080_1611772994.mp4",
+          "profile": "1080p"
+        }
+      ],
+      "directors": [
+        {
+          "name": "Terence Dixon",
+          "name_upcase": "TERENCE DIXON",
+          "slug": "terence-dixon"
+        }
+      ],
+      "consumable": {
+        "film_id": 276485,
+        "available_at": "2024-02-01T00:00:00Z",
+        "availability": "live",
+        "availability_ends_at": "2027-02-01T00:00:00Z",
+        "expires_at": "2027-02-01T12:00:00Z",
+        "film_date_message": null,
+        "offered": [
+          {
+            "type": "catalogue",
+            "download_availability": null
+          }
+        ],
+        "exclusive": false,
+        "permit_download": true
+      },
+      "press_quote": null,
+      "star_rating": null,
+      "award": null,
+      "experiment_stills": null,
+      "content_warnings": [
+        {
+          "id": 32,
+          "name": "discriminatory language",
+          "key": "discriminatory_language"
+        }
+      ],
+      "artworks": [
+        {
+          "format": "tile_artwork",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/625012/images-original.png?1691683121"
+        },
+        {
+          "format": "cover_artwork_box_episode",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/625014/images-original.png?1691683126"
+        },
+        {
+          "format": "cover_artwork_horizontal",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/625016/images-original.png?1691683132"
+        },
+        {
+          "format": "cover_artwork_vertical",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/625021/images-original.png?1691683144"
+        },
+        {
+          "format": "cover_artwork_box",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/625026/images-original.png?1691683156"
+        },
+        {
+          "format": "tvos_cover_artwork",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/625029/images-original.png?1691683163"
+        },
+        {
+          "format": "centered_background",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/678994/images-original.png?1712860171"
+        },
+        {
+          "format": "centered_background_small",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/678995/images-original.png?1712860174"
+        }
+      ],
+      "highlighted_industry_event_entry": null
+    },
+    {
+      "id": 411752,
+      "slug": "witches",
+      "title": "Witches",
+      "title_locale": "en-US",
+      "original_title": "Witches",
+      "year": 2024,
+      "duration": 90,
+      "stills": {
+        "small": "https://assets.mubicdn.net/images/film/411752/image-w256.jpg?1732132188",
+        "medium": "https://assets.mubicdn.net/images/film/411752/image-w448.jpg?1732132188",
+        "standard": "https://assets.mubicdn.net/images/film/411752/image-w856.jpg?1732132188",
+        "retina": "https://assets.mubicdn.net/images/film/411752/image-w1280.jpg?1732132188",
+        "small_overlaid": "https://assets.mubicdn.net/images/film/411752/image-w512_overlaid.jpg?1732132188",
+        "large_overlaid": "https://assets.mubicdn.net/images/film/411752/image-w1504_overlaid.jpg?1732132188"
+      },
+      "still_focal_point": {
+        "x": 0.509749,
+        "y": 0.69802
+      },
+      "hd": true,
+      "average_colour_hex": "2D2823",
+      "trailer_url": "https://trailers.mubicdn.net/411752/t-witches_en_us_1732204340.mp4",
+      "trailer_id": 117789,
+      "popularity": 6915,
+      "web_url": "https://mubi.com/films/witches",
+      "genres": [
+        "Documentary"
+      ],
+      "average_rating": 4.5,
+      "average_rating_out_of_ten": 9.1,
+      "number_of_ratings": 16632,
+      "mubi_release": false,
+      "should_use_safe_still": false,
+      "still_url": "https://images.mubicdn.net/images/film/411752/cache-965879-1732132188/image-w1280.jpg",
+      "title_upcase": "WITCHES",
+      "critic_review_rating": 3.2857142857142856,
+      "content_rating": {
+        "label": "caution",
+        "rating_code": "CAUTION",
+        "description": "Contains material that may not be suitable for children or young adults.",
+        "icon_url": null,
+        "label_hex_color": "e05d04"
+      },
+      "short_synopsis": "Director Elizabeth Sankey explores the connections between postpartum mental health and the portrayal of witches in Western society and popular culture. Sankey intertwines her personal experiences with historical and cinematic footage—while creating a new coven of women to reclaim their stories.",
+      "short_synopsis_html": "<p>Director Elizabeth Sankey explores the connections between postpartum mental health and the portrayal of witches in Western society and popular culture. Sankey intertwines her personal experiences with historical and cinematic footage&#8212;while creating a new coven of women to reclaim their stories.</p>",
+      "episode": null,
+      "historic_countries": [
+        "United Kingdom"
+      ],
+      "portrait_image": null,
+      "title_treatment_url": "https://images.mubicdn.net/images/artworks/729845/cache-729845-1730267325/images-original.png",
+      "default_editorial": "Witches are figures of solace in this intimate documentary, which unravels the social stigmas that women have endured across centuries. Between affecting interviews and vividly illustrative film clips, Elizabeth Sankey concocts a potion that brims with courage, compassion, and healing insight.",
+      "default_editorial_html": "<p>Witches are figures of solace in this intimate documentary, which unravels the social stigmas that women have endured across centuries. Between affecting interviews and vividly illustrative film clips, Elizabeth Sankey concocts a potion that brims with courage, compassion, and healing insight.</p>",
+      "cast_members_count": 18,
+      "industry_events_count": 14,
+      "comments_count": 156,
+      "mubi_go_highlighted": false,
+      "optimised_trailers": [
+        {
+          "url": "https://trailers.mubicdn.net/411752/optimised/240p-t-witches_en_us_1732204340.mp4",
+          "profile": "240p"
+        },
+        {
+          "url": "https://trailers.mubicdn.net/411752/optimised/720p-t-witches_en_us_1732204340.mp4",
+          "profile": "720p"
+        },
+        {
+          "url": "https://trailers.mubicdn.net/411752/optimised/1080p-t-witches_en_us_1732204340.mp4",
+          "profile": "1080p"
+        }
+      ],
+      "directors": [
+        {
+          "name": "Elizabeth Sankey",
+          "name_upcase": "ELIZABETH SANKEY",
+          "slug": "elizabeth-sankey"
+        }
+      ],
+      "consumable": {
+        "film_id": 411752,
+        "available_at": "2024-11-22T00:00:00Z",
+        "availability": "live",
+        "availability_ends_at": null,
+        "expires_at": null,
+        "film_date_message": null,
+        "offered": [
+          {
+            "type": "catalogue",
+            "download_availability": null
+          }
+        ],
+        "exclusive": true,
+        "permit_download": true
+      },
+      "press_quote": null,
+      "star_rating": null,
+      "award": null,
+      "experiment_stills": null,
+      "content_warnings": [
+        {
+          "id": 3,
+          "name": "self harm",
+          "key": "self_harm"
+        },
+        {
+          "id": 32,
+          "name": "discriminatory language",
+          "key": "discriminatory_language"
+        }
+      ],
+      "artworks": [
+        {
+          "format": "cover_artwork_horizontal",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/697216/images-original.png?1732028793"
+        },
+        {
+          "format": "cover_artwork_vertical",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/697218/images-original.png?1732028810"
+        },
+        {
+          "format": "cover_artwork_box",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/697221/images-original.png?1732028828"
+        },
+        {
+          "format": "centered_background",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/729843/images-original.png?1730267290"
+        },
+        {
+          "format": "centered_background_small",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/729844/images-original.png?1730267303"
+        },
+        {
+          "format": "content_logo_monochromatic",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/729845/images-original.png?1730267325"
+        },
+        {
+          "format": "tile_artwork",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/743944/images-original.png?1732132215"
+        },
+        {
+          "format": "cover_artwork_box_episode",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/743945/images-original.png?1732132221"
+        },
+        {
+          "format": "tvos_cover_artwork",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/743946/images-original.png?1732132223"
+        }
+      ],
+      "highlighted_industry_event_entry": null
+    },
+    {
+      "id": 1357,
+      "slug": "crossing-the-bridge-the-sound-of-istanbul",
+      "title": "Crossing the Bridge – The Sound of Istanbul",
+      "title_locale": "en-US",
+      "original_title": "Crossing the Bridge – The Sound of Istanbul",
+      "year": 2005,
+      "duration": 91,
+      "stills": {
+        "small": "https://assets.mubicdn.net/images/film/1357/image-w256.jpg?1719314494",
+        "medium": "https://assets.mubicdn.net/images/film/1357/image-w448.jpg?1719314494",
+        "standard": "https://assets.mubicdn.net/images/film/1357/image-w856.jpg?1719314494",
+        "retina": "https://assets.mubicdn.net/images/film/1357/image-w1280.jpg?1719314494",
+        "small_overlaid": "https://assets.mubicdn.net/images/film/1357/image-w512_overlaid.jpg?1719314494",
+        "large_overlaid": "https://assets.mubicdn.net/images/film/1357/image-w1504_overlaid.jpg?1719314494"
+      },
+      "still_focal_point": {
+        "x": 0.452646,
+        "y": 0.331683
+      },
+      "hd": true,
+      "average_colour_hex": "967C5C",
+      "trailer_url": "https://trailers.mubicdn.net/1357/t-crossing-the-bridge-the-sound-of-istanbul_en_us_1720113522.mp4",
+      "trailer_id": 109402,
+      "popularity": 4640,
+      "web_url": "https://mubi.com/films/crossing-the-bridge-the-sound-of-istanbul",
+      "genres": [
+        "Documentary",
+        "Music"
+      ],
+      "average_rating": 4.6,
+      "average_rating_out_of_ten": 9.2,
+      "number_of_ratings": 10285,
+      "mubi_release": false,
+      "should_use_safe_still": false,
+      "still_url": "https://images.mubicdn.net/images/film/1357/cache-978729-1719314494/image-w1280.jpg",
+      "title_upcase": "CROSSING THE BRIDGE – THE SOUND OF ISTANBUL",
+      "critic_review_rating": 3.1666666666666665,
+      "content_rating": {
+        "label": "caution",
+        "rating_code": "CAUTION",
+        "description": "Contains material that may not be suitable for children or young adults.",
+        "icon_url": null,
+        "label_hex_color": "e05d04"
+      },
+      "short_synopsis": "German musician Alexander Hacke sets out with his mobile recording studio to capture the musical diversity of Istanbul and construct a portrait of Turkish music. His journey leads to the discovery of a broad spectrum ranging from rock and classical arabesque to modern electronic and hip-hop.",
+      "short_synopsis_html": "<p>German musician Alexander Hacke sets out with his mobile recording studio to capture the musical diversity of Istanbul and construct a portrait of Turkish music. His journey leads to the discovery of a broad spectrum ranging from rock and classical arabesque to modern electronic and hip-hop.</p>",
+      "episode": null,
+      "historic_countries": [
+        "Germany",
+        "Turkey"
+      ],
+      "portrait_image": null,
+      "title_treatment_url": "https://images.mubicdn.net/images/artworks/694310/cache-694310-1719353869/images-original.png",
+      "default_editorial": "Transcending cultural borders and genres, Istanbul’s vibrant music scene takes the spotlight in Fatih Akin’s sonically immersive time capsule, now remastered in 4K. Thumping with an infectious energy, this movable feast celebrates the bonding power of art over political and generational divides.",
+      "default_editorial_html": "<p>Transcending cultural borders and genres, Istanbul&#8217;s vibrant music scene takes the spotlight in Fatih Akin&#8217;s sonically immersive time capsule, now remastered in 4K. Thumping with an infectious energy, this movable feast celebrates the bonding power of art over political and generational divides.</p>",
+      "cast_members_count": 27,
+      "industry_events_count": 13,
+      "comments_count": 168,
+      "mubi_go_highlighted": false,
+      "optimised_trailers": [
+        {
+          "url": "https://trailers.mubicdn.net/1357/optimised/240p-t-crossing-the-bridge-the-sound-of-istanbul_en_us_1720113522.mp4",
+          "profile": "240p"
+        },
+        {
+          "url": "https://trailers.mubicdn.net/1357/optimised/720p-t-crossing-the-bridge-the-sound-of-istanbul_en_us_1720113522.mp4",
+          "profile": "720p"
+        },
+        {
+          "url": "https://trailers.mubicdn.net/1357/optimised/1080p-t-crossing-the-bridge-the-sound-of-istanbul_en_us_1720113522.mp4",
+          "profile": "1080p"
+        }
+      ],
+      "directors": [
+        {
+          "name": "Fatih Akın",
+          "name_upcase": "FATIH AKIN",
+          "slug": "fatih-akin"
+        }
+      ],
+      "consumable": {
+        "film_id": 1357,
+        "available_at": "2024-07-04T23:00:00Z",
+        "availability": "live",
+        "availability_ends_at": "2039-06-06T23:00:00Z",
+        "expires_at": "2039-06-07T11:00:00Z",
+        "film_date_message": null,
+        "offered": [
+          {
+            "type": "catalogue",
+            "download_availability": null
+          }
+        ],
+        "exclusive": true,
+        "permit_download": true
+      },
+      "press_quote": null,
+      "star_rating": null,
+      "award": null,
+      "experiment_stills": null,
+      "content_warnings": [
+        {
+          "id": 5,
+          "name": "strobe lighting",
+          "key": "strobe_lighting"
+        }
+      ],
+      "artworks": [
+        {
+          "format": "tile_artwork",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/694128/images-original.png?1719314522"
+        },
+        {
+          "format": "cover_artwork_box_episode",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/694129/images-original.png?1719314527"
+        },
+        {
+          "format": "centered_background",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/694130/images-original.png?1719314533"
+        },
+        {
+          "format": "centered_background_small",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/694131/images-original.png?1719314537"
+        },
+        {
+          "format": "cover_artwork_horizontal",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/694132/images-original.png?1719314542"
+        },
+        {
+          "format": "cover_artwork_vertical",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/694137/images-original.png?1719314572"
+        },
+        {
+          "format": "cover_artwork_box",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/694142/images-original.png?1719314597"
+        },
+        {
+          "format": "tvos_cover_artwork",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/694147/images-original.png?1719314621"
+        },
+        {
+          "format": "content_logo_polychromatic",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/694310/images-original.png?1719353869"
+        }
+      ],
+      "highlighted_industry_event_entry": null
+    },
+    {
+      "id": 281799,
+      "slug": "tripping-with-nils-frahm",
+      "title": "Tripping With Nils Frahm",
+      "title_locale": "en-US",
+      "original_title": "Tripping With Nils Frahm",
+      "year": 2020,
+      "duration": 87,
+      "stills": {
+        "small": "https://assets.mubicdn.net/images/film/281799/image-w256.jpg?1605780339",
+        "medium": "https://assets.mubicdn.net/images/film/281799/image-w448.jpg?1605780339",
+        "standard": "https://assets.mubicdn.net/images/film/281799/image-w856.jpg?1605780339",
+        "retina": "https://assets.mubicdn.net/images/film/281799/image-w1280.jpg?1605780339",
+        "small_overlaid": "https://assets.mubicdn.net/images/film/281799/image-w512_overlaid.jpg?1605780339",
+        "large_overlaid": "https://assets.mubicdn.net/images/film/281799/image-w1504_overlaid.jpg?1605780339"
+      },
+      "still_focal_point": {
+        "x": 0.455432,
+        "y": 0.616337
+      },
+      "hd": true,
+      "average_colour_hex": "0C0D0F",
+      "trailer_url": "https://trailers.mubicdn.net/281799/t-tripping-with-nils-frahm_en_us_1606990145.mp4",
+      "trailer_id": 52816,
+      "popularity": 3919,
+      "web_url": "https://mubi.com/films/tripping-with-nils-frahm",
+      "genres": [
+        "Music",
+        "Documentary"
+      ],
+      "average_rating": 4.6,
+      "average_rating_out_of_ten": 9.2,
+      "number_of_ratings": 8866,
+      "mubi_release": false,
+      "should_use_safe_still": false,
+      "still_url": "https://images.mubicdn.net/images/film/281799/cache-611256-1605780339/image-w1280.jpg",
+      "title_upcase": "TRIPPING WITH NILS FRAHM",
+      "critic_review_rating": 4,
+      "content_rating": {
+        "label": "general",
+        "rating_code": "GENERAL",
+        "description": "Generally suitable for all ages, but viewer discretion is advised.",
+        "icon_url": null,
+        "label_hex_color": "304be9"
+      },
+      "short_synopsis": "An iconic artist at an iconic location. This concert film captures several mesmerizing live performances from the renowned German composer and producer Nils Frahm at the legendary Funkhaus Berlin. Expect soaring ambient and neo-classical piano from one of the greatest contemporary musicians around.",
+      "short_synopsis_html": "<p>An iconic artist at an iconic location. This concert film captures several mesmerizing live performances from the renowned German composer and producer Nils Frahm at the legendary Funkhaus Berlin. Expect soaring ambient and neo-classical piano from one of the greatest contemporary musicians around.</p>",
+      "episode": null,
+      "historic_countries": [
+        "Germany",
+        "United States"
+      ],
+      "portrait_image": null,
+      "title_treatment_url": null,
+      "default_editorial": "Renowned composer Nils Frahm is no stranger to cinema, having scored Sebastian Schipper’s one-shot film Victoria and the Cate Blanchett vehicle Manifesto. For this immersive concert film, his intimate and enthralling shows are captured on handheld cameras, centering us amid a unique experience.",
+      "default_editorial_html": "<p>Renowned composer Nils Frahm is no stranger to cinema, having scored Sebastian Schipper&#8217;s one-shot film <em>Victoria</em> and the Cate Blanchett vehicle <em>Manifesto</em>. For this immersive concert film, his intimate and enthralling shows are captured on handheld cameras, centering us amid a unique experience.</p>",
+      "cast_members_count": 8,
+      "industry_events_count": 0,
+      "comments_count": 409,
+      "mubi_go_highlighted": false,
+      "optimised_trailers": [
+        {
+          "url": "https://trailers.mubicdn.net/281799/optimised/240p-t-tripping-with-nils-frahm_en_us_1606990145.mp4",
+          "profile": "240p"
+        },
+        {
+          "url": "https://trailers.mubicdn.net/281799/optimised/720p-t-tripping-with-nils-frahm_en_us_1606990145.mp4",
+          "profile": "720p"
+        },
+        {
+          "url": "https://trailers.mubicdn.net/281799/optimised/1080p-t-tripping-with-nils-frahm_en_us_1606990145.mp4",
+          "profile": "1080p"
+        }
+      ],
+      "directors": [
+        {
+          "name": "Benoit Toulemonde",
+          "name_upcase": "BENOIT TOULEMONDE",
+          "slug": "benoit-toulemonde"
+        }
+      ],
+      "consumable": {
+        "film_id": 281799,
+        "available_at": "2024-01-15T00:00:00Z",
+        "availability": "live",
+        "availability_ends_at": "2026-01-15T00:00:00Z",
+        "expires_at": "2026-01-15T12:00:00Z",
+        "film_date_message": null,
+        "offered": [
+          {
+            "type": "catalogue",
+            "download_availability": null
+          }
+        ],
+        "exclusive": false,
+        "permit_download": true
+      },
+      "press_quote": null,
+      "star_rating": null,
+      "award": null,
+      "experiment_stills": null,
+      "content_warnings": [],
+      "artworks": [
+        {
+          "format": "tile_artwork",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/225171/images-original.png?1621566990"
+        },
+        {
+          "format": "cover_artwork_horizontal",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/225172/images-original.png?1621566990"
+        },
+        {
+          "format": "cover_artwork_vertical",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/225173/images-original.png?1621566990"
+        },
+        {
+          "format": "cover_artwork_box",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/225174/images-original.png?1621566990"
+        },
+        {
+          "format": "cover_artwork_box_episode",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/501912/images-original.png?1670858454"
+        },
+        {
+          "format": "tvos_cover_artwork",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/607095/images-original.png?1686657239"
+        },
+        {
+          "format": "centered_background",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/678998/images-original.png?1712860186"
+        },
+        {
+          "format": "centered_background_small",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/678999/images-original.png?1712860190"
+        }
+      ],
+      "highlighted_industry_event_entry": null
+    },
+    {
+      "id": 17980,
+      "slug": "fantastic-planet",
+      "title": "Fantastic Planet",
+      "title_locale": "en-US",
+      "original_title": "La planète sauvage",
+      "year": 1973,
+      "duration": 72,
+      "stills": {
+        "small": "https://assets.mubicdn.net/images/film/17980/image-w256.jpg?1581456012",
+        "medium": "https://assets.mubicdn.net/images/film/17980/image-w448.jpg?1581456012",
+        "standard": "https://assets.mubicdn.net/images/film/17980/image-w856.jpg?1581456012",
+        "retina": "https://assets.mubicdn.net/images/film/17980/image-w1280.jpg?1581456012",
+        "small_overlaid": "https://assets.mubicdn.net/images/film/17980/image-w512_overlaid.jpg?1581456012",
+        "large_overlaid": "https://assets.mubicdn.net/images/film/17980/image-w1504_overlaid.jpg?1581456012"
+      },
+      "still_focal_point": {
+        "x": 0.497214,
+        "y": 0.569307
+      },
+      "hd": true,
+      "average_colour_hex": "E4C276",
+      "trailer_url": "https://trailers.mubicdn.net/17980/t-fantastic-planet_en_us_1482463917.mp4",
+      "trailer_id": 3584,
+      "popularity": 10549,
+      "web_url": "https://mubi.com/films/fantastic-planet",
+      "genres": [
+        "Animation",
+        "Sci-Fi"
+      ],
+      "average_rating": 4.4,
+      "average_rating_out_of_ten": 8.8,
+      "number_of_ratings": 28833,
+      "mubi_release": false,
+      "should_use_safe_still": false,
+      "still_url": "https://images.mubicdn.net/images/film/17980/cache-42219-1581456012/image-w1280.jpg",
+      "title_upcase": "FANTASTIC PLANET",
+      "critic_review_rating": 4.571428571428571,
+      "content_rating": {
+        "label": "mature",
+        "rating_code": "MATURE",
+        "description": "Contains material and themes suitable only for mature audiences.",
+        "icon_url": null,
+        "label_hex_color": "dd2323"
+      },
+      "short_synopsis": "On the distant planet Ygam, enslaved humans called Oms are the playthings of giant blue native inhabitants, the Draags. Terr, kept as a pet since infancy, escapes from his gigantic child captor and is swept up by a band of radical fellow Oms, who are resisting the Draags’ oppression and violence.",
+      "short_synopsis_html": "<p>On the distant planet Ygam, enslaved humans called Oms are the playthings of giant blue native inhabitants, the Draags. Terr, kept as a pet since infancy, escapes from his gigantic child captor and is swept up by a band of radical fellow Oms, who are resisting the Draags&#8217; oppression and violence.</p>",
+      "episode": null,
+      "historic_countries": [
+        "France",
+        "Czechoslovakia"
+      ],
+      "portrait_image": null,
+      "title_treatment_url": null,
+      "default_editorial": "René Laloux’s beloved fantasia is a shimmering treasure in the canon of science-fiction cinema. Cosmic landscapes populated by strange, otherworldly creatures—thanks to the distinct cut-out animations of Roland Topor—and set to an ice-cool psychedelic jazz score: The results are out of this world.",
+      "default_editorial_html": "<p>René Laloux&#8217;s beloved fantasia is a shimmering treasure in the canon of science-fiction cinema. Cosmic landscapes populated by strange, otherworldly creatures&#8212;thanks to the distinct cut-out animations of Roland Topor&#8212;and set to an ice-cool psychedelic jazz score: The results are out of this world.</p>",
+      "cast_members_count": 12,
+      "industry_events_count": 4,
+      "comments_count": 827,
+      "mubi_go_highlighted": false,
+      "optimised_trailers": [
+        {
+          "url": "https://trailers.mubicdn.net/17980/optimised/240p-t-fantastic-planet_en_us_1482463917.mp4",
+          "profile": "240p"
+        },
+        {
+          "url": "https://trailers.mubicdn.net/17980/optimised/720p-t-fantastic-planet_en_us_1482463917.mp4",
+          "profile": "720p"
+        }
+      ],
+      "directors": [
+        {
+          "name": "René Laloux",
+          "name_upcase": "RENÉ LALOUX",
+          "slug": "rene-laloux"
+        }
+      ],
+      "consumable": {
+        "film_id": 17980,
+        "available_at": "2024-05-08T23:00:00Z",
+        "availability": "live",
+        "availability_ends_at": "2026-06-30T23:00:00Z",
+        "expires_at": "2026-07-01T11:00:00Z",
+        "film_date_message": null,
+        "offered": [
+          {
+            "type": "catalogue",
+            "download_availability": null
+          }
+        ],
+        "exclusive": false,
+        "permit_download": true
+      },
+      "press_quote": null,
+      "star_rating": null,
+      "award": null,
+      "experiment_stills": null,
+      "content_warnings": [
+        {
+          "id": 5,
+          "name": "strobe lighting",
+          "key": "strobe_lighting"
+        }
+      ],
+      "artworks": [
+        {
+          "format": "tile_artwork",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/140221/images-original.png?1621554908"
+        },
+        {
+          "format": "cover_artwork_horizontal",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/140227/images-original.png?1621554910"
+        },
+        {
+          "format": "cover_artwork_vertical",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/140241/images-original.png?1621554914"
+        },
+        {
+          "format": "cover_artwork_box",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/140255/images-original.png?1621554918"
+        },
+        {
+          "format": "cover_artwork_box_episode",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/501802/images-original.png?1670858388"
+        },
+        {
+          "format": "tvos_cover_artwork",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/563515/images-original.png?1686644713"
+        },
+        {
+          "format": "centered_background",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/673335/images-original.png?1710540057"
+        },
+        {
+          "format": "centered_background",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/673342/images-original.png?1710540063"
+        },
+        {
+          "format": "centered_background_small",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/673344/images-original.png?1710540069"
+        },
+        {
+          "format": "centered_background",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/673345/images-original.png?1710540068"
+        },
+        {
+          "format": "centered_background_small",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/673346/images-original.png?1710540074"
+        }
+      ],
+      "highlighted_industry_event_entry": null
+    },
+    {
+      "id": 401,
+      "slug": "the-sacrifice",
+      "title": "The Sacrifice",
+      "title_locale": "en-US",
+      "original_title": "Offret",
+      "year": 1986,
+      "duration": 149,
+      "stills": {
+        "small": "https://assets.mubicdn.net/images/film/401/image-w256.jpg?1721948999",
+        "medium": "https://assets.mubicdn.net/images/film/401/image-w448.jpg?1721948999",
+        "standard": "https://assets.mubicdn.net/images/film/401/image-w856.jpg?1721948999",
+        "retina": "https://assets.mubicdn.net/images/film/401/image-w1280.jpg?1721948999",
+        "small_overlaid": "https://assets.mubicdn.net/images/film/401/image-w512_overlaid.jpg?1721948999",
+        "large_overlaid": "https://assets.mubicdn.net/images/film/401/image-w1504_overlaid.jpg?1721948999"
+      },
+      "still_focal_point": {
+        "x": 0.442897,
+        "y": 0.777228
+      },
+      "hd": true,
+      "average_colour_hex": "7F7359",
+      "trailer_url": "https://trailers.mubicdn.net/401/t-the-sacrifice_pt_br_1723114041.mp4",
+      "trailer_id": 111703,
+      "popularity": 10142,
+      "web_url": "https://mubi.com/films/the-sacrifice",
+      "genres": [
+        "Drama",
+        "Sci-Fi"
+      ],
+      "average_rating": 4.4,
+      "average_rating_out_of_ten": 8.9,
+      "number_of_ratings": 20820,
+      "mubi_release": false,
+      "should_use_safe_still": false,
+      "still_url": "https://images.mubicdn.net/images/film/401/cache-8128-1721948999/image-w1280.jpg",
+      "title_upcase": "THE SACRIFICE",
+      "critic_review_rating": 4.6875,
+      "content_rating": {
+        "label": "caution",
+        "rating_code": "CAUTION",
+        "description": "Contains material that may not be suitable for children or young adults.",
+        "icon_url": null,
+        "label_hex_color": "e05d04"
+      },
+      "short_synopsis": "Alexander, a retired actor, is celebrating his birthday with family and friends when a TV announcement warns of an impending World War III and imminent nuclear catastrophe. Faced with an existential crisis, Alexander vows to renounce all he holds dear to prevent the disaster.",
+      "short_synopsis_html": "<p>Alexander, a retired actor, is celebrating his birthday with family and friends when a TV announcement warns of an impending World War III and imminent nuclear catastrophe. Faced with an existential crisis, Alexander vows to renounce all he holds dear to prevent the disaster.</p>",
+      "episode": null,
+      "historic_countries": [
+        "Sweden",
+        "France"
+      ],
+      "portrait_image": null,
+      "title_treatment_url": "https://images.mubicdn.net/images/artworks/700858/cache-700858-1723027077/images-original.png",
+      "default_editorial": "Winner of the Grand Prix at the Cannes Film Festival, this shattering masterwork was the final film by Russian visionary Andrei Tarkovsky. Shot in Sweden by legendary cinematographer Sven Nykvist and newly restored in 4K, The Sacrifice is a profound metaphysical interrogation of the artistic soul.",
+      "default_editorial_html": "<p>Winner of the Grand Prix at the Cannes Film Festival, this shattering masterwork was the final film by Russian visionary Andrei Tarkovsky. Shot in Sweden by legendary cinematographer Sven Nykvist and newly restored in 4K, <em>The Sacrifice</em> is a profound metaphysical interrogation of the artistic soul.</p>",
+      "cast_members_count": 22,
+      "industry_events_count": 12,
+      "comments_count": 557,
+      "mubi_go_highlighted": false,
+      "optimised_trailers": [
+        {
+          "url": "https://trailers.mubicdn.net/401/optimised/240p-t-the-sacrifice_pt_br_1723114041.mp4",
+          "profile": "240p"
+        },
+        {
+          "url": "https://trailers.mubicdn.net/401/optimised/720p-t-the-sacrifice_pt_br_1723114041.mp4",
+          "profile": "720p"
+        },
+        {
+          "url": "https://trailers.mubicdn.net/401/optimised/1080p-t-the-sacrifice_pt_br_1723114041.mp4",
+          "profile": "1080p"
+        }
+      ],
+      "directors": [
+        {
+          "name": "Andrei Tarkovsky",
+          "name_upcase": "ANDREI TARKOVSKY",
+          "slug": "andrei-tarkovsky"
+        }
+      ],
+      "consumable": {
+        "film_id": 401,
+        "available_at": "2024-08-08T23:00:00Z",
+        "availability": "live",
+        "availability_ends_at": "2027-07-12T23:00:00Z",
+        "expires_at": "2027-07-13T11:00:00Z",
+        "film_date_message": null,
+        "offered": [
+          {
+            "type": "catalogue",
+            "download_availability": null
+          }
+        ],
+        "exclusive": false,
+        "permit_download": true
+      },
+      "press_quote": null,
+      "star_rating": null,
+      "award": null,
+      "experiment_stills": null,
+      "content_warnings": [
+        {
+          "id": 3,
+          "name": "self harm",
+          "key": "self_harm"
+        },
+        {
+          "id": 17,
+          "name": "injury detail",
+          "key": "injury_detail"
+        }
+      ],
+      "artworks": [
+        {
+          "format": "tile_artwork",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/698317/images-original.png?1721949048"
+        },
+        {
+          "format": "cover_artwork_box_episode",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/698318/images-original.png?1721949053"
+        },
+        {
+          "format": "centered_background",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/698319/images-original.png?1721949060"
+        },
+        {
+          "format": "centered_background_small",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/698320/images-original.png?1721949064"
+        },
+        {
+          "format": "cover_artwork_horizontal",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/698321/images-original.png?1721949071"
+        },
+        {
+          "format": "cover_artwork_vertical",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/698329/images-original.png?1721949132"
+        },
+        {
+          "format": "cover_artwork_box",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/698337/images-original.png?1721949187"
+        },
+        {
+          "format": "tvos_cover_artwork",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/698346/images-original.png?1721949253"
+        },
+        {
+          "format": "content_logo_polychromatic",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/700858/images-original.png?1723027077"
+        }
+      ],
+      "highlighted_industry_event_entry": {
+        "id": 1450,
+        "year": 1986,
+        "status": "won",
+        "display_text": "Jury Prize",
+        "full_display_text": "1986 | Winner: Jury Prize",
+        "industry_event": {
+          "id": 1,
+          "name": "Cannes Film Festival",
+          "slug": "cannes",
+          "type": "festival",
+          "logo_url": "https://images.mubicdn.net/images/industry_event/1/cache-222790-1494527057/logo-small_black.png",
+          "white_logo_url": "https://images.mubicdn.net/images/industry_event/1/cache-222790-1494527057/logo-large_white.png",
+          "cover_url": "https://images.mubicdn.net/images/industry_event/1/cache-222788-1494406355/cover-original.jpg"
+        }
+      }
+    },
+    {
+      "id": 304,
+      "slug": "sans-soleil",
+      "title": "Sans soleil",
+      "title_locale": "en-US",
+      "original_title": "Sans soleil",
+      "year": 1983,
+      "duration": 104,
+      "stills": {
+        "small": "https://assets.mubicdn.net/images/film/304/image-w256.jpg?1646481753",
+        "medium": "https://assets.mubicdn.net/images/film/304/image-w448.jpg?1646481753",
+        "standard": "https://assets.mubicdn.net/images/film/304/image-w856.jpg?1646481753",
+        "retina": "https://assets.mubicdn.net/images/film/304/image-w1280.jpg?1646481753",
+        "small_overlaid": "https://assets.mubicdn.net/images/film/304/image-w512_overlaid.jpg?1646481753",
+        "large_overlaid": "https://assets.mubicdn.net/images/film/304/image-w1504_overlaid.jpg?1646481753"
+      },
+      "still_focal_point": {
+        "x": 0.437326,
+        "y": 0.306173
+      },
+      "hd": true,
+      "average_colour_hex": "AB877B",
+      "trailer_url": "https://trailers.mubicdn.net/304/t-sans-soleil_en_us_1724372788.mp4",
+      "trailer_id": 112572,
+      "popularity": 7042,
+      "web_url": "https://mubi.com/films/sans-soleil",
+      "genres": [
+        "Documentary"
+      ],
+      "average_rating": 4.5,
+      "average_rating_out_of_ten": 9,
+      "number_of_ratings": 13273,
+      "mubi_release": false,
+      "should_use_safe_still": false,
+      "still_url": "https://images.mubicdn.net/images/film/304/cache-8074-1646481753/image-w1280.jpg",
+      "title_upcase": "SANS SOLEIL",
+      "critic_review_rating": 4.818181818181818,
+      "content_rating": {
+        "label": "mature",
+        "rating_code": "MATURE",
+        "description": "Contains material and themes suitable only for mature audiences.",
+        "icon_url": null,
+        "label_hex_color": "dd2323"
+      },
+      "short_synopsis": "An unnamed woman narrates the letters and philosophical reflections of an invisible world traveler accompanied by footage of Guinea-Bissau, Cape Verde, Iceland, Paris, San Francisco and, most significantly, Tokyo—a city whose people, streets, malls and temples inspire the traveler’s observations.",
+      "short_synopsis_html": "<p>An unnamed woman narrates the letters and philosophical reflections of an invisible world traveler accompanied by footage of Guinea-Bissau, Cape Verde, Iceland, Paris, San Francisco and, most significantly, Tokyo&#8212;a city whose people, streets, malls and temples inspire the traveler&#8217;s observations.</p>",
+      "episode": null,
+      "historic_countries": [
+        "France"
+      ],
+      "portrait_image": null,
+      "title_treatment_url": null,
+      "default_editorial": "How to describe such an indescribable film? Chris Marker’s Sans Soleil is cinema as stream-of-consciousness, following the journey of an unseen hero around the globe and into the mind. Today, it is considered a masterpiece, a film that breaks free of the documentary form and into a world of its own.",
+      "default_editorial_html": "<p>How to describe such an indescribable film? Chris Marker&#8217;s <em>Sans Soleil</em> is cinema as stream-of-consciousness, following the journey of an unseen hero around the globe and into the mind. Today, it is considered a masterpiece, a film that breaks free of the documentary form and into a world of its own.</p>",
+      "cast_members_count": 11,
+      "industry_events_count": 12,
+      "comments_count": 412,
+      "mubi_go_highlighted": false,
+      "optimised_trailers": [
+        {
+          "url": "https://trailers.mubicdn.net/304/optimised/240p-t-sans-soleil_en_us_1724372788.mp4",
+          "profile": "240p"
+        },
+        {
+          "url": "https://trailers.mubicdn.net/304/optimised/720p-t-sans-soleil_en_us_1724372788.mp4",
+          "profile": "720p"
+        },
+        {
+          "url": "https://trailers.mubicdn.net/304/optimised/1080p-t-sans-soleil_en_us_1724372788.mp4",
+          "profile": "1080p"
+        }
+      ],
+      "directors": [
+        {
+          "name": "Chris Marker",
+          "name_upcase": "CHRIS MARKER",
+          "slug": "chris-marker"
+        }
+      ],
+      "consumable": {
+        "film_id": 304,
+        "available_at": "2024-06-05T23:00:00Z",
+        "availability": "live",
+        "availability_ends_at": "2026-03-31T23:00:00Z",
+        "expires_at": "2026-04-01T11:00:00Z",
+        "film_date_message": null,
+        "offered": [
+          {
+            "type": "catalogue",
+            "download_availability": null
+          }
+        ],
+        "exclusive": false,
+        "permit_download": true
+      },
+      "press_quote": null,
+      "star_rating": null,
+      "award": null,
+      "experiment_stills": null,
+      "content_warnings": [
+        {
+          "id": 4,
+          "name": "animal cruelty",
+          "key": "animal_cruelty"
+        },
+        {
+          "id": 6,
+          "name": "graphic sexual content",
+          "key": "graphic_sexual_content"
+        },
+        {
+          "id": 17,
+          "name": "injury detail",
+          "key": "injury_detail"
+        }
+      ],
+      "artworks": [
+        {
+          "format": "tile_artwork",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/452615/images-original.png?1646481796"
+        },
+        {
+          "format": "cover_artwork_horizontal",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/452616/images-original.png?1646481806"
+        },
+        {
+          "format": "cover_artwork_vertical",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/452623/images-original.png?1646481882"
+        },
+        {
+          "format": "cover_artwork_box",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/452630/images-original.png?1646481941"
+        },
+        {
+          "format": "cover_artwork_box_episode",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/501845/images-original.png?1670858409"
+        },
+        {
+          "format": "tvos_cover_artwork",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/549853/images-original.png?1686641797"
+        },
+        {
+          "format": "centered_background",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/679787/images-original.png?1712952041"
+        },
+        {
+          "format": "centered_background_small",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/679790/images-original.png?1712952048"
+        },
+        {
+          "format": "centered_background",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/679793/images-original.png?1712952046"
+        },
+        {
+          "format": "centered_background_small",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/679794/images-original.png?1712952052"
+        },
+        {
+          "format": "centered_background",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/679795/images-original.png?1712952051"
+        }
+      ],
+      "highlighted_industry_event_entry": null
+    },
+    {
+      "id": 401079,
+      "slug": "seduce-me-noah-s-ark",
+      "title": "Seduce Me: Noah's Ark",
+      "title_locale": "en-US",
+      "original_title": "Seduce Me: Noah's Ark",
+      "year": 2010,
+      "duration": 3,
+      "stills": {
+        "small": "https://assets.mubicdn.net/images/film/401079/image-w256.jpg?1712591866",
+        "medium": "https://assets.mubicdn.net/images/film/401079/image-w448.jpg?1712591866",
+        "standard": "https://assets.mubicdn.net/images/film/401079/image-w856.jpg?1712591866",
+        "retina": "https://assets.mubicdn.net/images/film/401079/image-w1280.jpg?1712591866",
+        "small_overlaid": "https://assets.mubicdn.net/images/film/401079/image-w512_overlaid.jpg?1712591866",
+        "large_overlaid": "https://assets.mubicdn.net/images/film/401079/image-w1504_overlaid.jpg?1712591866"
+      },
+      "still_focal_point": {
+        "x": 0.466574,
+        "y": 0.616337
+      },
+      "hd": true,
+      "average_colour_hex": "7F561C",
+      "trailer_url": null,
+      "trailer_id": null,
+      "popularity": 2038,
+      "web_url": "https://mubi.com/films/seduce-me-noah-s-ark",
+      "genres": [
+        "Short",
+        "Comedy",
+        "Animation"
+      ],
+      "average_rating": 4.7,
+      "average_rating_out_of_ten": 9.4,
+      "number_of_ratings": 3311,
+      "mubi_release": false,
+      "should_use_safe_still": false,
+      "still_url": "https://images.mubicdn.net/images/film/401079/cache-937395-1712591866/image-w1280.jpg",
+      "title_upcase": "SEDUCE ME: NOAH'S ARK",
+      "critic_review_rating": 0,
+      "content_rating": {
+        "label": "caution",
+        "rating_code": "CAUTION",
+        "description": "Contains material that may not be suitable for children or young adults.",
+        "icon_url": null,
+        "label_hex_color": "e05d04"
+      },
+      "short_synopsis": "Isabella Rossellini goes back to biblical times and visits Noah’s Ark. How did Noah manage to organize every single animal species into couples? What about the hermaphrodite earthworm?",
+      "short_synopsis_html": "<p>Isabella Rossellini goes back to biblical times and visits Noah&#8217;s Ark. How did Noah manage to organize every single animal species into couples? What about the hermaphrodite earthworm?</p>",
+      "episode": null,
+      "historic_countries": [
+        "United States"
+      ],
+      "portrait_image": null,
+      "title_treatment_url": null,
+      "default_editorial": "Setting her inquisitive gaze on the Bible, Isabella Rossellini challenges the gender binary implicitly attached to a famous parable. Crafted in the style of a pop-up book, this inventive short looks beyond individual species to take in the full spectrum of sexual practices across the animal world.",
+      "default_editorial_html": "<p>Setting her inquisitive gaze on the Bible, Isabella Rossellini challenges the gender binary implicitly attached to a famous parable. Crafted in the style of a pop-up book, this inventive short looks beyond individual species to take in the full spectrum of sexual practices across the animal world.</p>",
+      "cast_members_count": 7,
+      "industry_events_count": 0,
+      "comments_count": 52,
+      "mubi_go_highlighted": false,
+      "optimised_trailers": null,
+      "directors": [
+        {
+          "name": "Isabella Rossellini",
+          "name_upcase": "ISABELLA ROSSELLINI",
+          "slug": "isabella-rossellini"
+        }
+      ],
+      "consumable": {
+        "film_id": 401079,
+        "available_at": "2024-04-30T23:00:00Z",
+        "availability": "live",
+        "availability_ends_at": "2026-03-31T23:00:00Z",
+        "expires_at": "2026-04-01T11:00:00Z",
+        "film_date_message": null,
+        "offered": [
+          {
+            "type": "catalogue",
+            "download_availability": null
+          }
+        ],
+        "exclusive": false,
+        "permit_download": true
+      },
+      "press_quote": null,
+      "star_rating": null,
+      "award": null,
+      "experiment_stills": null,
+      "content_warnings": [],
+      "artworks": [
+        {
+          "format": "tile_artwork",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/677320/images-original.png?1712591888"
+        },
+        {
+          "format": "cover_artwork_box_episode",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/677321/images-original.png?1712591892"
+        },
+        {
+          "format": "centered_background",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/677322/images-original.png?1712591896"
+        },
+        {
+          "format": "centered_background_small",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/677323/images-original.png?1712591900"
+        },
+        {
+          "format": "cover_artwork_horizontal",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/677324/images-original.png?1712591905"
+        },
+        {
+          "format": "cover_artwork_vertical",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/677325/images-original.png?1712591910"
+        },
+        {
+          "format": "cover_artwork_box",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/677326/images-original.png?1712591914"
+        },
+        {
+          "format": "tvos_cover_artwork",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/677327/images-original.png?1712591916"
+        }
+      ],
+      "highlighted_industry_event_entry": null
+    },
+    {
+      "id": 377966,
+      "slug": "maurice-s-bar",
+      "title": "Maurice's Bar",
+      "title_locale": "en-US",
+      "original_title": "Maurice's Bar",
+      "year": 2023,
+      "duration": 15,
+      "stills": {
+        "small": "https://assets.mubicdn.net/images/film/377966/image-w256.jpg?1716374112",
+        "medium": "https://assets.mubicdn.net/images/film/377966/image-w448.jpg?1716374112",
+        "standard": "https://assets.mubicdn.net/images/film/377966/image-w856.jpg?1716374112",
+        "retina": "https://assets.mubicdn.net/images/film/377966/image-w1280.jpg?1716374112",
+        "small_overlaid": "https://assets.mubicdn.net/images/film/377966/image-w512_overlaid.jpg?1716374112",
+        "large_overlaid": "https://assets.mubicdn.net/images/film/377966/image-w1504_overlaid.jpg?1716374112"
+      },
+      "still_focal_point": {
+        "x": 0.603064,
+        "y": 0.34901
+      },
+      "hd": true,
+      "average_colour_hex": "5E4643",
+      "trailer_url": "https://trailers.mubicdn.net/377966/t-maurice-s-bar_en_us_1716469237.mp4",
+      "trailer_id": 107263,
+      "popularity": 4143,
+      "web_url": "https://mubi.com/films/maurice-s-bar",
+      "genres": [
+        "Animation",
+        "Short",
+        "LGBTQ+"
+      ],
+      "average_rating": 4.5,
+      "average_rating_out_of_ten": 9,
+      "number_of_ratings": 9456,
+      "mubi_release": false,
+      "should_use_safe_still": false,
+      "still_url": "https://images.mubicdn.net/images/film/377966/cache-874700-1716374112/image-w1280.jpg",
+      "title_upcase": "MAURICE'S BAR",
+      "critic_review_rating": 0,
+      "content_rating": {
+        "label": "mature",
+        "rating_code": "MATURE",
+        "description": "Contains material and themes suitable only for mature audiences.",
+        "icon_url": null,
+        "label_hex_color": "dd2323"
+      },
+      "short_synopsis": "In 1942, on a train to nowhere, a former drag queen remembers a night from her past in one of Paris’ first queer bars. Lingering fragments of customer gossip conjure memories of the mythic bar and its mysterious Jewish-Algerian owner.",
+      "short_synopsis_html": "<p>In 1942, on a train to nowhere, a former drag queen remembers a night from her past in one of Paris&#8217; first queer bars. Lingering fragments of customer gossip conjure memories of the mythic bar and its mysterious Jewish-Algerian owner.</p>",
+      "episode": null,
+      "historic_countries": [
+        "France",
+        "Israel"
+      ],
+      "portrait_image": null,
+      "title_treatment_url": null,
+      "default_editorial": "Reclaiming a piece of queer history, Tzor Edery and Tom Prezman’s animated short movingly resurrects a forgotten gay bar from its tragic fate under the Nazi occupation of France. Awash with voluptuous imagery, this is a vital ode to the radical joy that dares to flourish in the face of intolerance.",
+      "default_editorial_html": "<p>Reclaiming a piece of queer history, Tzor Edery and Tom Prezman&#8217;s animated short movingly resurrects a forgotten gay bar from its tragic fate under the Nazi occupation of France. Awash with voluptuous imagery, this is a vital ode to the radical joy that dares to flourish in the face of intolerance.</p>",
+      "cast_members_count": 15,
+      "industry_events_count": 10,
+      "comments_count": 102,
+      "mubi_go_highlighted": false,
+      "optimised_trailers": [
+        {
+          "url": "https://trailers.mubicdn.net/377966/optimised/240p-t-maurice-s-bar_en_us_1716469237.mp4",
+          "profile": "240p"
+        },
+        {
+          "url": "https://trailers.mubicdn.net/377966/optimised/720p-t-maurice-s-bar_en_us_1716469237.mp4",
+          "profile": "720p"
+        },
+        {
+          "url": "https://trailers.mubicdn.net/377966/optimised/1080p-t-maurice-s-bar_en_us_1716469237.mp4",
+          "profile": "1080p"
+        }
+      ],
+      "directors": [
+        {
+          "name": "Tom Prezman",
+          "name_upcase": "TOM PREZMAN",
+          "slug": "tom-prezman"
+        },
+        {
+          "name": "Tzor Edery",
+          "name_upcase": "TZOR EDERY",
+          "slug": "tzor-edery"
+        }
+      ],
+      "consumable": {
+        "film_id": 377966,
+        "available_at": "2024-05-31T23:00:00Z",
+        "availability": "live",
+        "availability_ends_at": "2026-05-31T23:00:00Z",
+        "expires_at": "2026-06-01T11:00:00Z",
+        "film_date_message": null,
+        "offered": [
+          {
+            "type": "catalogue",
+            "download_availability": null
+          }
+        ],
+        "exclusive": false,
+        "permit_download": true
+      },
+      "press_quote": null,
+      "star_rating": null,
+      "award": null,
+      "experiment_stills": null,
+      "content_warnings": [
+        {
+          "id": 17,
+          "name": "injury detail",
+          "key": "injury_detail"
+        },
+        {
+          "id": 32,
+          "name": "discriminatory language",
+          "key": "discriminatory_language"
+        }
+      ],
+      "artworks": [
+        {
+          "format": "tile_artwork",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/688800/images-original.png?1716374133"
+        },
+        {
+          "format": "cover_artwork_box_episode",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/688801/images-original.png?1716374135"
+        },
+        {
+          "format": "centered_background",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/688803/images-original.png?1716374138"
+        },
+        {
+          "format": "centered_background_small",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/688804/images-original.png?1716374141"
+        },
+        {
+          "format": "cover_artwork_horizontal",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/688806/images-original.png?1716374144"
+        },
+        {
+          "format": "cover_artwork_vertical",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/688811/images-original.png?1716374156"
+        },
+        {
+          "format": "cover_artwork_box",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/688817/images-original.png?1716374166"
+        },
+        {
+          "format": "tvos_cover_artwork",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/688823/images-original.png?1716374175"
+        }
+      ],
+      "highlighted_industry_event_entry": null
+    },
+    {
+      "id": 27684,
+      "slug": "buena-vista-social-club",
+      "title": "Buena Vista Social Club",
+      "title_locale": "en-US",
+      "original_title": "Buena Vista Social Club",
+      "year": 1999,
+      "duration": 101,
+      "stills": {
+        "small": "https://assets.mubicdn.net/images/film/27684/image-w256.jpg?1713455139",
+        "medium": "https://assets.mubicdn.net/images/film/27684/image-w448.jpg?1713455139",
+        "standard": "https://assets.mubicdn.net/images/film/27684/image-w856.jpg?1713455139",
+        "retina": "https://assets.mubicdn.net/images/film/27684/image-w1280.jpg?1713455139",
+        "small_overlaid": "https://assets.mubicdn.net/images/film/27684/image-w512_overlaid.jpg?1713455139",
+        "large_overlaid": "https://assets.mubicdn.net/images/film/27684/image-w1504_overlaid.jpg?1713455139"
+      },
+      "still_focal_point": {
+        "x": 0.330084,
+        "y": 0.365432
+      },
+      "hd": true,
+      "average_colour_hex": "AB9C95",
+      "trailer_url": "https://trailers.mubicdn.net/27684/t-buena-vista-social-club_en_us_3050.575_1920_1080_1713366566.mp4",
+      "trailer_id": 105474,
+      "popularity": 3160,
+      "web_url": "https://mubi.com/films/buena-vista-social-club",
+      "genres": [
+        "Documentary",
+        "Music",
+        "History",
+        "Biography"
+      ],
+      "average_rating": 4.5,
+      "average_rating_out_of_ten": 9.1,
+      "number_of_ratings": 6980,
+      "mubi_release": false,
+      "should_use_safe_still": false,
+      "still_url": "https://images.mubicdn.net/images/film/27684/cache-18976-1713455139/image-w1280.jpg",
+      "title_upcase": "BUENA VISTA SOCIAL CLUB",
+      "critic_review_rating": 4.285714285714286,
+      "content_rating": {
+        "label": "caution",
+        "rating_code": "CAUTION",
+        "description": "Contains material that may not be suitable for children or young adults.",
+        "icon_url": null,
+        "label_hex_color": "e05d04"
+      },
+      "short_synopsis": "Ry Cooder, Wim Wenders’ frequent musical collaborator, travels to Havana to bring a group of aging Cuban musicians—whose talents had been virtually forgotten following Fidel Castro’s takeover—out of retirement. Within a few months, the group go from obscurity to world stardom.",
+      "short_synopsis_html": "<p>Ry Cooder, Wim Wenders&#8217; frequent musical collaborator, travels to Havana to bring a group of aging Cuban musicians&#8212;whose talents had been virtually forgotten following Fidel Castro&#8217;s takeover&#8212;out of retirement. Within a few months, the group go from obscurity to world stardom.</p>",
+      "episode": null,
+      "historic_countries": [
+        "United States",
+        "United Kingdom"
+      ],
+      "portrait_image": null,
+      "title_treatment_url": null,
+      "default_editorial": "One of Wim Wenders’s latter-day triumphs, this Oscar®-nominated documentary explores the rich and vivacious music scene in Cuba. The New German Cinema icon follows numerous musical legends as they play and navigate the vibrant streets of Havana in this loving testament to the “son de Cuba.” A tonic!",
+      "default_editorial_html": "<p>One of Wim Wenders&#8217;s latter-day triumphs, this Oscar®-nominated documentary explores the rich and vivacious music scene in Cuba. The New German Cinema icon follows numerous musical legends as they play and navigate the vibrant streets of Havana in this loving testament to the &#8220;son de Cuba.&#8221; A tonic!</p>",
+      "cast_members_count": 36,
+      "industry_events_count": 26,
+      "comments_count": 134,
+      "mubi_go_highlighted": false,
+      "optimised_trailers": [
+        {
+          "url": "https://trailers.mubicdn.net/27684/optimised/240p-t-buena-vista-social-club_en_us_3050.575_1920_1080_1713366566.mp4",
+          "profile": "240p"
+        },
+        {
+          "url": "https://trailers.mubicdn.net/27684/optimised/720p-t-buena-vista-social-club_en_us_3050.575_1920_1080_1713366566.mp4",
+          "profile": "720p"
+        },
+        {
+          "url": "https://trailers.mubicdn.net/27684/optimised/1080p-t-buena-vista-social-club_en_us_3050.575_1920_1080_1713366566.mp4",
+          "profile": "1080p"
+        }
+      ],
+      "directors": [
+        {
+          "name": "Wim Wenders",
+          "name_upcase": "WIM WENDERS",
+          "slug": "wim-wenders"
+        }
+      ],
+      "consumable": {
+        "film_id": 27684,
+        "available_at": "2024-04-18T23:00:00Z",
+        "availability": "live",
+        "availability_ends_at": "2026-04-17T23:00:00Z",
+        "expires_at": "2026-04-18T11:00:00Z",
+        "film_date_message": null,
+        "offered": [
+          {
+            "type": "catalogue",
+            "download_availability": null
+          }
+        ],
+        "exclusive": false,
+        "permit_download": true
+      },
+      "press_quote": null,
+      "star_rating": null,
+      "award": null,
+      "experiment_stills": null,
+      "content_warnings": [],
+      "artworks": [
+        {
+          "format": "tile_artwork",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/681205/images-original.png?1713455285"
+        },
+        {
+          "format": "cover_artwork_box_episode",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/681206/images-original.png?1713455288"
+        },
+        {
+          "format": "centered_background",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/681207/images-original.png?1713455292"
+        },
+        {
+          "format": "centered_background_small",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/681208/images-original.png?1713455295"
+        },
+        {
+          "format": "cover_artwork_horizontal",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/681209/images-original.png?1713455299"
+        },
+        {
+          "format": "cover_artwork_vertical",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/681212/images-original.png?1713455313"
+        },
+        {
+          "format": "cover_artwork_box",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/681215/images-original.png?1713455324"
+        },
+        {
+          "format": "tvos_cover_artwork",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/681218/images-original.png?1713455333"
+        }
+      ],
+      "highlighted_industry_event_entry": null
+    },
+    {
+      "id": 91,
+      "slug": "persepolis",
+      "title": "Persepolis",
+      "title_locale": "en-US",
+      "original_title": "Persepolis",
+      "year": 2007,
+      "duration": 96,
+      "stills": {
+        "small": "https://assets.mubicdn.net/images/film/91/image-w256.jpg?1701089871",
+        "medium": "https://assets.mubicdn.net/images/film/91/image-w448.jpg?1701089871",
+        "standard": "https://assets.mubicdn.net/images/film/91/image-w856.jpg?1701089871",
+        "retina": "https://assets.mubicdn.net/images/film/91/image-w1280.jpg?1701089871",
+        "small_overlaid": "https://assets.mubicdn.net/images/film/91/image-w512_overlaid.jpg?1701089871",
+        "large_overlaid": "https://assets.mubicdn.net/images/film/91/image-w1504_overlaid.jpg?1701089871"
+      },
+      "still_focal_point": {
+        "x": 0.31337,
+        "y": 0.136139
+      },
+      "hd": true,
+      "average_colour_hex": "393030",
+      "trailer_url": "https://trailers.mubicdn.net/91/t-persepolis_en_us_1352.72_1280_688_1689310847.mp4",
+      "trailer_id": 90427,
+      "popularity": 8281,
+      "web_url": "https://mubi.com/films/persepolis",
+      "genres": [
+        "Animation",
+        "Biography",
+        "Drama"
+      ],
+      "average_rating": 4.4,
+      "average_rating_out_of_ten": 8.7,
+      "number_of_ratings": 21158,
+      "mubi_release": false,
+      "should_use_safe_still": false,
+      "still_url": "https://images.mubicdn.net/images/film/91/cache-47554-1701089871/image-w1280.jpg",
+      "title_upcase": "PERSEPOLIS",
+      "critic_review_rating": 3.888888888888889,
+      "content_rating": {
+        "label": "caution",
+        "rating_code": "CAUTION",
+        "description": "Contains material that may not be suitable for children or young adults.",
+        "icon_url": null,
+        "label_hex_color": "e05d04"
+      },
+      "short_synopsis": "In 1970s Iran, Marjane, an 8-year-old girl, dreams of saving the world. Cherished by her beloved family, she watches the events that led to the downfall of the Shah’s brutal regime through her young eyes. Now a punk-loving teenager, Marjane witness her country transform into an oppressive society.",
+      "short_synopsis_html": "<p>In 1970s Iran, Marjane, an 8-year-old girl, dreams of saving the world. Cherished by her beloved family, she watches the events that led to the downfall of the Shah&#8217;s brutal regime through her young eyes. Now a punk-loving teenager, Marjane witness her country transform into an oppressive society.</p>",
+      "episode": null,
+      "historic_countries": [
+        "France",
+        "United States"
+      ],
+      "portrait_image": null,
+      "title_treatment_url": null,
+      "default_editorial": "This acclaimed coming-of-age feature chronicles a young girl during the 1979 Iranian Revolution. Co-directed and adapted by Marjane Satrapi from her graphic autobiography into beautiful black-and-white animation, the film is voiced by mother-daughter duo Chiara Mastroianni and Catherine Deneuve!",
+      "default_editorial_html": "<p>This acclaimed coming-of-age feature chronicles a young girl during the 1979 Iranian Revolution. Co-directed and adapted by Marjane Satrapi from her graphic autobiography into beautiful black-and-white animation, the film is voiced by mother-daughter duo Chiara Mastroianni and Catherine Deneuve!</p>",
+      "cast_members_count": 18,
+      "industry_events_count": 53,
+      "comments_count": 340,
+      "mubi_go_highlighted": false,
+      "optimised_trailers": [
+        {
+          "url": "https://trailers.mubicdn.net/91/optimised/240p-t-persepolis_en_us_1352.72_1280_688_1689310847.mp4",
+          "profile": "240p"
+        }
+      ],
+      "directors": [
+        {
+          "name": "Marjane Satrapi",
+          "name_upcase": "MARJANE SATRAPI",
+          "slug": "marjane-satrapi"
+        },
+        {
+          "name": "Vincent Paronnaud",
+          "name_upcase": "VINCENT PARONNAUD",
+          "slug": "vincent-paronnaud"
+        }
+      ],
+      "consumable": {
+        "film_id": 91,
+        "available_at": "2014-01-13T00:00:00Z",
+        "availability": "live",
+        "availability_ends_at": null,
+        "expires_at": null,
+        "film_date_message": null,
+        "offered": [
+          {
+            "type": "catalogue",
+            "download_availability": null
+          }
+        ],
+        "exclusive": false,
+        "permit_download": true
+      },
+      "press_quote": null,
+      "star_rating": null,
+      "award": null,
+      "experiment_stills": null,
+      "content_warnings": [
+        {
+          "id": 1,
+          "name": "sexual assault",
+          "key": "sexual_assault"
+        },
+        {
+          "id": 3,
+          "name": "self harm",
+          "key": "self_harm"
+        },
+        {
+          "id": 32,
+          "name": "discriminatory language",
+          "key": "discriminatory_language"
+        }
+      ],
+      "artworks": [
+        {
+          "format": "tile_artwork",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/650426/images-original.png?1701089888"
+        },
+        {
+          "format": "cover_artwork_box_episode",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/650427/images-original.png?1701089891"
+        },
+        {
+          "format": "cover_artwork_horizontal",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/650428/images-original.png?1701089894"
+        },
+        {
+          "format": "cover_artwork_vertical",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/650435/images-original.png?1701089919"
+        },
+        {
+          "format": "cover_artwork_box",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/650442/images-original.png?1701089937"
+        },
+        {
+          "format": "tvos_cover_artwork",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/650449/images-original.png?1701089957"
+        },
+        {
+          "format": "centered_background",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/762076/images-original.png?1741183239"
+        },
+        {
+          "format": "centered_background_small",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/762077/images-original.png?1741183243"
+        }
+      ],
+      "highlighted_industry_event_entry": {
+        "id": 3201,
+        "year": 2007,
+        "status": "won",
+        "display_text": "Jury Prize",
+        "full_display_text": "2007 | Winner: Jury Prize",
+        "industry_event": {
+          "id": 1,
+          "name": "Cannes Film Festival",
+          "slug": "cannes",
+          "type": "festival",
+          "logo_url": "https://images.mubicdn.net/images/industry_event/1/cache-222790-1494527057/logo-small_black.png",
+          "white_logo_url": "https://images.mubicdn.net/images/industry_event/1/cache-222790-1494527057/logo-large_white.png",
+          "cover_url": "https://images.mubicdn.net/images/industry_event/1/cache-222788-1494406355/cover-original.jpg"
+        }
+      }
+    },
+    {
+      "id": 217,
+      "slug": "hiroshima-mon-amour",
+      "title": "Hiroshima mon amour",
+      "title_locale": "en-US",
+      "original_title": "Hiroshima mon amour",
+      "year": 1959,
+      "duration": 90,
+      "stills": {
+        "small": "https://assets.mubicdn.net/images/film/217/image-w256.jpg?1714754140",
+        "medium": "https://assets.mubicdn.net/images/film/217/image-w448.jpg?1714754140",
+        "standard": "https://assets.mubicdn.net/images/film/217/image-w856.jpg?1714754140",
+        "retina": "https://assets.mubicdn.net/images/film/217/image-w1280.jpg?1714754140",
+        "small_overlaid": "https://assets.mubicdn.net/images/film/217/image-w512_overlaid.jpg?1714754140",
+        "large_overlaid": "https://assets.mubicdn.net/images/film/217/image-w1504_overlaid.jpg?1714754140"
+      },
+      "still_focal_point": {
+        "x": 0.520891,
+        "y": 0.433168
+      },
+      "hd": true,
+      "average_colour_hex": "747474",
+      "trailer_url": "https://trailers.mubicdn.net/217/t-hiroshima-mon-amour_fr_en_1280_1103_217.mp4",
+      "trailer_id": 8321,
+      "popularity": 9218,
+      "web_url": "https://mubi.com/films/hiroshima-mon-amour",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "average_rating": 4.4,
+      "average_rating_out_of_ten": 8.7,
+      "number_of_ratings": 20340,
+      "mubi_release": false,
+      "should_use_safe_still": false,
+      "still_url": "https://images.mubicdn.net/images/film/217/cache-874679-1714754140/image-w1280.jpg",
+      "title_upcase": "HIROSHIMA MON AMOUR",
+      "critic_review_rating": 4.9523809523809526,
+      "content_rating": {
+        "label": "caution",
+        "rating_code": "CAUTION",
+        "description": "Contains material that may not be suitable for children or young adults.",
+        "icon_url": null,
+        "label_hex_color": "e05d04"
+      },
+      "short_synopsis": "In postwar Hiroshima, a French actress and a Japanese architect engage in a brief, intense affair. Their consuming mutual fascination compels them to exorcise their own scarred memories of love and suffering.",
+      "short_synopsis_html": "<p>In postwar Hiroshima, a French actress and a Japanese architect engage in a brief, intense affair. Their consuming mutual fascination compels them to exorcise their own scarred memories of love and suffering.</p>",
+      "episode": null,
+      "historic_countries": [
+        "France",
+        "Japan"
+      ],
+      "portrait_image": null,
+      "title_treatment_url": null,
+      "default_editorial": "With an Academy Award®–nominated screenplay written by no less than Marguerite Duras, Alain Resnais’ French New Wave landmark is a painfully intimate mosaic of memories of love and suffering. Rendered through a startling, jagged flashback structure, this is one of the most beautiful films ever made.",
+      "default_editorial_html": "<p>With an Academy Award®–nominated screenplay written by no less than Marguerite Duras, Alain Resnais&#8217; French New Wave landmark is a painfully intimate mosaic of memories of love and suffering. Rendered through a startling, jagged flashback structure, this is one of the most beautiful films ever made.</p>",
+      "cast_members_count": 22,
+      "industry_events_count": 15,
+      "comments_count": 479,
+      "mubi_go_highlighted": false,
+      "optimised_trailers": [
+        {
+          "url": "https://trailers.mubicdn.net/217/optimised/240p-t-hiroshima-mon-amour_fr_en_1280_1103_217.mp4",
+          "profile": "240p"
+        },
+        {
+          "url": "https://trailers.mubicdn.net/217/optimised/720p-t-hiroshima-mon-amour_fr_en_1280_1103_217.mp4",
+          "profile": "720p"
+        }
+      ],
+      "directors": [
+        {
+          "name": "Alain Resnais",
+          "name_upcase": "ALAIN RESNAIS",
+          "slug": "alain-resnais"
+        }
+      ],
+      "consumable": {
+        "film_id": 217,
+        "available_at": "2024-05-08T23:00:00Z",
+        "availability": "live",
+        "availability_ends_at": "2026-03-31T23:00:00Z",
+        "expires_at": "2026-04-01T11:00:00Z",
+        "film_date_message": null,
+        "offered": [
+          {
+            "type": "catalogue",
+            "download_availability": null
+          }
+        ],
+        "exclusive": false,
+        "permit_download": true
+      },
+      "press_quote": null,
+      "star_rating": null,
+      "award": null,
+      "experiment_stills": null,
+      "content_warnings": [
+        {
+          "id": 4,
+          "name": "animal cruelty",
+          "key": "animal_cruelty"
+        },
+        {
+          "id": 17,
+          "name": "injury detail",
+          "key": "injury_detail"
+        }
+      ],
+      "artworks": [
+        {
+          "format": "tile_artwork",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/684546/images-original.png?1714754160"
+        },
+        {
+          "format": "cover_artwork_box_episode",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/684547/images-original.png?1714754163"
+        },
+        {
+          "format": "centered_background",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/684548/images-original.png?1714754167"
+        },
+        {
+          "format": "centered_background_small",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/684549/images-original.png?1714754170"
+        },
+        {
+          "format": "cover_artwork_horizontal",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/684550/images-original.png?1714754174"
+        },
+        {
+          "format": "cover_artwork_vertical",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/684556/images-original.png?1714754202"
+        },
+        {
+          "format": "cover_artwork_box",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/684562/images-original.png?1714754226"
+        },
+        {
+          "format": "tvos_cover_artwork",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/684568/images-original.png?1714754248"
+        }
+      ],
+      "highlighted_industry_event_entry": null
+    },
+    {
+      "id": 126,
+      "slug": "the-edge-of-heaven",
+      "title": "The Edge of Heaven",
+      "title_locale": "en-US",
+      "original_title": "Auf der anderen Seite",
+      "year": 2007,
+      "duration": 116,
+      "stills": {
+        "small": "https://assets.mubicdn.net/images/film/126/image-w256.jpg?1717492725",
+        "medium": "https://assets.mubicdn.net/images/film/126/image-w448.jpg?1717492725",
+        "standard": "https://assets.mubicdn.net/images/film/126/image-w856.jpg?1717492725",
+        "retina": "https://assets.mubicdn.net/images/film/126/image-w1280.jpg?1717492725",
+        "small_overlaid": "https://assets.mubicdn.net/images/film/126/image-w512_overlaid.jpg?1717492725",
+        "large_overlaid": "https://assets.mubicdn.net/images/film/126/image-w1504_overlaid.jpg?1717492725"
+      },
+      "still_focal_point": {
+        "x": 0.327298,
+        "y": 0.633663
+      },
+      "hd": true,
+      "average_colour_hex": "4C4A3D",
+      "trailer_url": "https://trailers.mubicdn.net/126/t-the-edge-of-heaven_en_us_1944.833_1920_1080_1705367004.mp4",
+      "trailer_id": 100614,
+      "popularity": 5296,
+      "web_url": "https://mubi.com/films/the-edge-of-heaven",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "average_rating": 4.4,
+      "average_rating_out_of_ten": 8.8,
+      "number_of_ratings": 13718,
+      "mubi_release": false,
+      "should_use_safe_still": false,
+      "still_url": "https://images.mubicdn.net/images/film/126/cache-973418-1717492725/image-w1280.jpg",
+      "title_upcase": "THE EDGE OF HEAVEN",
+      "critic_review_rating": 4,
+      "content_rating": {
+        "label": "mature",
+        "rating_code": "MATURE",
+        "description": "Contains material and themes suitable only for mature audiences.",
+        "icon_url": null,
+        "label_hex_color": "dd2323"
+      },
+      "short_synopsis": "The lives of six German-Turkish immigrants are drawn together by circumstance: An old man and a sex worker forging a partnership, a young scholar reconciling his past, two young women falling in love, and a mother putting the shattered pieces of her life back together.",
+      "short_synopsis_html": "<p>The lives of six German-Turkish immigrants are drawn together by circumstance: An old man and a sex worker forging a partnership, a young scholar reconciling his past, two young women falling in love, and a mother putting the shattered pieces of her life back together.</p>",
+      "episode": null,
+      "historic_countries": [
+        "Germany",
+        "Turkey"
+      ],
+      "portrait_image": null,
+      "title_treatment_url": null,
+      "default_editorial": "Starring the great Hanna Schygulla (The Bitter Tears of Petra von Kant), Fatih Akin followed up his Golden Bear-winner Head-On with this intricate drama. Though split between Germany and Turkey, Akin’s intertwining narratives bridge the gaps between these nations and their cultures.",
+      "default_editorial_html": "<p>Starring the great Hanna Schygulla (<em>The Bitter Tears of Petra von Kant</em>), Fatih Akin followed up his Golden Bear-winner <em>Head-On</em> with this intricate drama. Though split between Germany and Turkey, Akin&#8217;s intertwining narratives bridge the gaps between these nations and their cultures.</p>",
+      "cast_members_count": 23,
+      "industry_events_count": 38,
+      "comments_count": 200,
+      "mubi_go_highlighted": false,
+      "optimised_trailers": [
+        {
+          "url": "https://trailers.mubicdn.net/126/optimised/240p-t-the-edge-of-heaven_en_us_1944.833_1920_1080_1705367004.mp4",
+          "profile": "240p"
+        },
+        {
+          "url": "https://trailers.mubicdn.net/126/optimised/720p-t-the-edge-of-heaven_en_us_1944.833_1920_1080_1705367004.mp4",
+          "profile": "720p"
+        },
+        {
+          "url": "https://trailers.mubicdn.net/126/optimised/1080p-t-the-edge-of-heaven_en_us_1944.833_1920_1080_1705367004.mp4",
+          "profile": "1080p"
+        }
+      ],
+      "directors": [
+        {
+          "name": "Fatih Akın",
+          "name_upcase": "FATIH AKIN",
+          "slug": "fatih-akin"
+        }
+      ],
+      "consumable": {
+        "film_id": 126,
+        "available_at": "2023-07-06T23:00:00Z",
+        "availability": "live",
+        "availability_ends_at": "2025-03-31T23:00:00Z",
+        "expires_at": "2025-04-01T11:00:00Z",
+        "film_date_message": {
+          "detail": [
+            {
+              "type": "expiring",
+              "text": "Leaving in 8 days"
+            }
+          ],
+          "tile": {
+            "type": "expiring",
+            "text": "Leaving in 8 days"
+          }
+        },
+        "offered": [
+          {
+            "type": "catalogue",
+            "download_availability": null
+          }
+        ],
+        "exclusive": false,
+        "permit_download": true
+      },
+      "press_quote": null,
+      "star_rating": null,
+      "award": null,
+      "experiment_stills": null,
+      "content_warnings": [
+        {
+          "id": 2,
+          "name": "domestic violence",
+          "key": "domestic_violence"
+        },
+        {
+          "id": 6,
+          "name": "graphic sexual content",
+          "key": "graphic_sexual_content"
+        },
+        {
+          "id": 32,
+          "name": "discriminatory language",
+          "key": "discriminatory_language"
+        }
+      ],
+      "artworks": [
+        {
+          "format": "tile_artwork",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/690461/images-original.png?1717492748"
+        },
+        {
+          "format": "cover_artwork_box_episode",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/690462/images-original.png?1717492750"
+        },
+        {
+          "format": "centered_background",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/690463/images-original.png?1717492754"
+        },
+        {
+          "format": "centered_background_small",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/690464/images-original.png?1717492758"
+        },
+        {
+          "format": "cover_artwork_horizontal",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/690465/images-original.png?1717492762"
+        },
+        {
+          "format": "cover_artwork_vertical",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/690473/images-original.png?1717492799"
+        },
+        {
+          "format": "cover_artwork_box",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/690481/images-original.png?1717492825"
+        },
+        {
+          "format": "tvos_cover_artwork",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/690489/images-original.png?1717492851"
+        }
+      ],
+      "highlighted_industry_event_entry": {
+        "id": 3212,
+        "year": 2007,
+        "status": "won",
+        "display_text": "Best Screenplay",
+        "full_display_text": "2007 | Winner: Best Screenplay",
+        "industry_event": {
+          "id": 1,
+          "name": "Cannes Film Festival",
+          "slug": "cannes",
+          "type": "festival",
+          "logo_url": "https://images.mubicdn.net/images/industry_event/1/cache-222790-1494527057/logo-small_black.png",
+          "white_logo_url": "https://images.mubicdn.net/images/industry_event/1/cache-222790-1494527057/logo-large_white.png",
+          "cover_url": "https://images.mubicdn.net/images/industry_event/1/cache-222788-1494406355/cover-original.jpg"
+        }
+      }
+    },
+    {
+      "id": 90703,
+      "slug": "ucurtmayi-vurmasinlar",
+      "title": "Don't Let Them Shoot the Kite",
+      "title_locale": "en-US",
+      "original_title": "Uçurtmayı Vurmasınlar",
+      "year": 1989,
+      "duration": 90,
+      "stills": {
+        "small": "https://assets.mubicdn.net/images/film/90703/image-w256.jpg?1732296742",
+        "medium": "https://assets.mubicdn.net/images/film/90703/image-w448.jpg?1732296742",
+        "standard": "https://assets.mubicdn.net/images/film/90703/image-w856.jpg?1732296742",
+        "retina": "https://assets.mubicdn.net/images/film/90703/image-w1280.jpg?1732296742",
+        "small_overlaid": "https://assets.mubicdn.net/images/film/90703/image-w512_overlaid.jpg?1732296742",
+        "large_overlaid": "https://assets.mubicdn.net/images/film/90703/image-w1504_overlaid.jpg?1732296742"
+      },
+      "still_focal_point": {
+        "x": 0.543175,
+        "y": 0.433168
+      },
+      "hd": true,
+      "average_colour_hex": "64554D",
+      "trailer_url": "https://trailers.mubicdn.net/90703/t-ucurtmayi-vurmasinlar_en_us_1732364100.mp4",
+      "trailer_id": 117856,
+      "popularity": 2192,
+      "web_url": "https://mubi.com/films/ucurtmayi-vurmasinlar",
+      "genres": [
+        "Drama"
+      ],
+      "average_rating": 4.6,
+      "average_rating_out_of_ten": 9.1,
+      "number_of_ratings": 4637,
+      "mubi_release": false,
+      "should_use_safe_still": false,
+      "still_url": "https://images.mubicdn.net/images/film/90703/cache-1012936-1732296742/image-w1280.jpg",
+      "title_upcase": "DON'T LET THEM SHOOT THE KITE",
+      "critic_review_rating": 4,
+      "content_rating": {
+        "label": "caution",
+        "rating_code": "CAUTION",
+        "description": "Contains material that may not be suitable for children or young adults.",
+        "icon_url": null,
+        "label_hex_color": "e05d04"
+      },
+      "short_synopsis": "Barış, a five-year-old boy, lives in prison with his detained mother. Within the high security walls, he forms an unexpected bond with İnci, a young political prisoner. Their special relationship opens up a new world for Barış and impacts the lives of other women prisoners.",
+      "short_synopsis_html": "<p>Barış, a five-year-old boy, lives in prison with his detained mother. Within the high security walls, he forms an unexpected bond with İnci, a young political prisoner. Their special relationship opens up a new world for Barış and impacts the lives of other women prisoners.</p>",
+      "episode": null,
+      "historic_countries": [
+        "Turkey"
+      ],
+      "portrait_image": null,
+      "title_treatment_url": "https://images.mubicdn.net/images/artworks/743404/cache-743404-1732012188/images-original.png",
+      "default_editorial": "Camaraderie and fleeting joys soften harsh realities in Don’t Let Them Shoot the Kite, which reemerges as a Turkish classic in this fresh 4K restoration. Capturing the profound resilience of its characters through a child’s tender gaze, Tunç Başaran’s prizewinner is a testament to enduring spirit.",
+      "default_editorial_html": "<p>Camaraderie and fleeting joys soften harsh realities in <em>Don&#8217;t Let Them Shoot the Kite</em>, which reemerges as a Turkish classic in this fresh 4K restoration. Capturing the profound resilience of its characters through a child&#8217;s tender gaze, Tunç Başaran&#8217;s prizewinner is a testament to enduring spirit.</p>",
+      "cast_members_count": 11,
+      "industry_events_count": 9,
+      "comments_count": 30,
+      "mubi_go_highlighted": false,
+      "optimised_trailers": [
+        {
+          "url": "https://trailers.mubicdn.net/90703/optimised/240p-t-ucurtmayi-vurmasinlar_en_us_1732364100.mp4",
+          "profile": "240p"
+        },
+        {
+          "url": "https://trailers.mubicdn.net/90703/optimised/720p-t-ucurtmayi-vurmasinlar_en_us_1732364100.mp4",
+          "profile": "720p"
+        },
+        {
+          "url": "https://trailers.mubicdn.net/90703/optimised/1080p-t-ucurtmayi-vurmasinlar_en_us_1732364100.mp4",
+          "profile": "1080p"
+        }
+      ],
+      "directors": [
+        {
+          "name": "Tunç Başaran",
+          "name_upcase": "TUNÇ BAŞARAN",
+          "slug": "tunc-basaran"
+        }
+      ],
+      "consumable": {
+        "film_id": 90703,
+        "available_at": "2024-11-23T00:00:00Z",
+        "availability": "live",
+        "availability_ends_at": "2029-11-23T00:00:00Z",
+        "expires_at": "2029-11-23T12:00:00Z",
+        "film_date_message": null,
+        "offered": [
+          {
+            "type": "catalogue",
+            "download_availability": null
+          }
+        ],
+        "exclusive": true,
+        "permit_download": true
+      },
+      "press_quote": null,
+      "star_rating": null,
+      "award": null,
+      "experiment_stills": null,
+      "content_warnings": [
+        {
+          "id": 32,
+          "name": "discriminatory language",
+          "key": "discriminatory_language"
+        }
+      ],
+      "artworks": [
+        {
+          "format": "content_logo_polychromatic",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/743404/images-original.png?1732012188"
+        },
+        {
+          "format": "tile_artwork",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/744783/images-original.png?1732296764"
+        },
+        {
+          "format": "cover_artwork_box_episode",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/744784/images-original.png?1732296771"
+        },
+        {
+          "format": "centered_background",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/744785/images-original.png?1732296777"
+        },
+        {
+          "format": "centered_background_small",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/744786/images-original.png?1732296782"
+        },
+        {
+          "format": "cover_artwork_horizontal",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/744787/images-original.png?1732296789"
+        },
+        {
+          "format": "cover_artwork_vertical",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/744796/images-original.png?1732296860"
+        },
+        {
+          "format": "cover_artwork_box",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/744805/images-original.png?1732296915"
+        },
+        {
+          "format": "tvos_cover_artwork",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/744814/images-original.png?1732296972"
+        }
+      ],
+      "highlighted_industry_event_entry": null
+    },
+    {
+      "id": 2601,
+      "slug": "the-man-without-a-past",
+      "title": "The Man Without a Past",
+      "title_locale": "en-US",
+      "original_title": "Mies vailla menneisyyttä",
+      "year": 2002,
+      "duration": 97,
+      "stills": {
+        "small": "https://assets.mubicdn.net/images/film/2601/image-w256.jpg?1546693250",
+        "medium": "https://assets.mubicdn.net/images/film/2601/image-w448.jpg?1546693250",
+        "standard": "https://assets.mubicdn.net/images/film/2601/image-w856.jpg?1546693250",
+        "retina": "https://assets.mubicdn.net/images/film/2601/image-w1280.jpg?1546693250",
+        "small_overlaid": "https://assets.mubicdn.net/images/film/2601/image-w512_overlaid.jpg?1546693250",
+        "large_overlaid": "https://assets.mubicdn.net/images/film/2601/image-w1504_overlaid.jpg?1546693250"
+      },
+      "still_focal_point": {
+        "x": 0.586351,
+        "y": 0.267327
+      },
+      "hd": true,
+      "average_colour_hex": "50586F",
+      "trailer_url": null,
+      "trailer_id": null,
+      "popularity": 6625,
+      "web_url": "https://mubi.com/films/the-man-without-a-past",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "average_rating": 4.3,
+      "average_rating_out_of_ten": 8.7,
+      "number_of_ratings": 17797,
+      "mubi_release": false,
+      "should_use_safe_still": false,
+      "still_url": "https://images.mubicdn.net/images/film/2601/cache-9563-1546693250/image-w1280.jpg",
+      "title_upcase": "THE MAN WITHOUT A PAST",
+      "critic_review_rating": 4,
+      "content_rating": {
+        "label": "caution",
+        "rating_code": "CAUTION",
+        "description": "Contains material that may not be suitable for children or young adults.",
+        "icon_url": null,
+        "label_hex_color": "e05d04"
+      },
+      "short_synopsis": "Arriving in Helsinki, a nameless man is beaten within an inch of his life by thugs, miraculously recovering only to find that he has completely lost his memory. Back on the streets, he attempts to begin again from zero, befriending a moody dog and becoming besotted with a Salvation Army volunteer.",
+      "short_synopsis_html": "<p>Arriving in Helsinki, a nameless man is beaten within an inch of his life by thugs, miraculously recovering only to find that he has completely lost his memory. Back on the streets, he attempts to begin again from zero, befriending a moody dog and becoming besotted with a Salvation Army volunteer.</p>",
+      "episode": null,
+      "historic_countries": [
+        "Finland",
+        "Germany"
+      ],
+      "portrait_image": null,
+      "title_treatment_url": null,
+      "default_editorial": "Aki Kaurismäki scored one of his biggest hits with this winsome ode to community and kindness. Earning an Oscar® nod for foreign picture alongside its armful of prizes from Cannes, The Man Without a Past harmonises compassion and rarefied stylistic poise into a swoonworthy serenade to humanity.",
+      "default_editorial_html": "<p>Aki Kaurismäki scored one of his biggest hits with this winsome ode to community and kindness. Earning an Oscar® nod for foreign picture alongside its armful of prizes from Cannes, <em>The Man Without a Past</em> harmonises compassion and rarefied stylistic poise into a swoonworthy serenade to humanity.</p>",
+      "cast_members_count": 20,
+      "industry_events_count": 14,
+      "comments_count": 284,
+      "mubi_go_highlighted": false,
+      "optimised_trailers": null,
+      "directors": [
+        {
+          "name": "Aki Kaurismäki",
+          "name_upcase": "AKI KAURISMÄKI",
+          "slug": "aki-kaurismaki"
+        }
+      ],
+      "consumable": {
+        "film_id": 2601,
+        "available_at": "2023-11-17T00:00:00Z",
+        "availability": "live",
+        "availability_ends_at": "2026-07-31T23:00:00Z",
+        "expires_at": "2026-08-01T11:00:00Z",
+        "film_date_message": null,
+        "offered": [
+          {
+            "type": "catalogue",
+            "download_availability": null
+          }
+        ],
+        "exclusive": true,
+        "permit_download": true
+      },
+      "press_quote": null,
+      "star_rating": null,
+      "award": null,
+      "experiment_stills": null,
+      "content_warnings": [
+        {
+          "id": 3,
+          "name": "self harm",
+          "key": "self_harm"
+        }
+      ],
+      "artworks": [
+        {
+          "format": "tile_artwork",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/354974/images-original.png?1628254197"
+        },
+        {
+          "format": "cover_artwork_horizontal",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/354975/images-original.png?1628254205"
+        },
+        {
+          "format": "cover_artwork_vertical",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/354981/images-original.png?1628254261"
+        },
+        {
+          "format": "cover_artwork_box",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/354987/images-original.png?1628254308"
+        },
+        {
+          "format": "cover_artwork_box_episode",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/557661/images-original.png?1686643388"
+        },
+        {
+          "format": "tvos_cover_artwork",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/557671/images-original.png?1686643394"
+        },
+        {
+          "format": "centered_background",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/679498/images-original.png?1712862166"
+        },
+        {
+          "format": "centered_background_small",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/679499/images-original.png?1712862170"
+        }
+      ],
+      "highlighted_industry_event_entry": {
+        "id": 2652,
+        "year": 2002,
+        "status": "won",
+        "display_text": "Grand Prix",
+        "full_display_text": "2002 | Winner: Grand Prix",
+        "industry_event": {
+          "id": 1,
+          "name": "Cannes Film Festival",
+          "slug": "cannes",
+          "type": "festival",
+          "logo_url": "https://images.mubicdn.net/images/industry_event/1/cache-222790-1494527057/logo-small_black.png",
+          "white_logo_url": "https://images.mubicdn.net/images/industry_event/1/cache-222790-1494527057/logo-large_white.png",
+          "cover_url": "https://images.mubicdn.net/images/industry_event/1/cache-222788-1494406355/cover-original.jpg"
+        }
+      }
+    },
+    {
+      "id": 289899,
+      "slug": "ninjababy",
+      "title": "Ninjababy",
+      "title_locale": "en-US",
+      "original_title": "Ninjababy",
+      "year": 2021,
+      "duration": 104,
+      "stills": {
+        "small": "https://assets.mubicdn.net/images/film/289899/image-w256.jpg?1664377243",
+        "medium": "https://assets.mubicdn.net/images/film/289899/image-w448.jpg?1664377243",
+        "standard": "https://assets.mubicdn.net/images/film/289899/image-w856.jpg?1664377243",
+        "retina": "https://assets.mubicdn.net/images/film/289899/image-w1280.jpg?1664377243",
+        "small_overlaid": "https://assets.mubicdn.net/images/film/289899/image-w512_overlaid.jpg?1664377243",
+        "large_overlaid": "https://assets.mubicdn.net/images/film/289899/image-w1504_overlaid.jpg?1664377243"
+      },
+      "still_focal_point": {
+        "x": 0.336123,
+        "y": 0.586634
+      },
+      "hd": true,
+      "average_colour_hex": "3B3A27",
+      "trailer_url": "https://trailers.mubicdn.net/289899/t-ninjababy_en_us_1212.021_1280_720_1664378112.mp4",
+      "trailer_id": 76547,
+      "popularity": 5550,
+      "web_url": "https://mubi.com/films/ninjababy",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "average_rating": 4.3,
+      "average_rating_out_of_ten": 8.7,
+      "number_of_ratings": 15559,
+      "mubi_release": false,
+      "should_use_safe_still": false,
+      "still_url": "https://images.mubicdn.net/images/film/289899/cache-627592-1664377243/image-w1280.jpg",
+      "title_upcase": "NINJABABY",
+      "critic_review_rating": 3.5,
+      "content_rating": {
+        "label": "mature",
+        "rating_code": "MATURE",
+        "description": "Contains material and themes suitable only for mature audiences.",
+        "icon_url": null,
+        "label_hex_color": "dd2323"
+      },
+      "short_synopsis": "Rakel is a graphic designer dropout who loves a party. When she finds out she’s six months pregnant after a one-night stand, adoption looks like the only option. That’s when Ninjababy, an animated character who makes her life a living hell, turns up.",
+      "short_synopsis_html": "<p>Rakel is a graphic designer dropout who loves a party. When she finds out she&#8217;s six months pregnant after a one-night stand, adoption looks like the only option. That&#8217;s when Ninjababy, an animated character who makes her life a living hell, turns up.</p>",
+      "episode": null,
+      "historic_countries": [
+        "Norway"
+      ],
+      "portrait_image": null,
+      "title_treatment_url": null,
+      "default_editorial": "If The Worst Person in the World had a little sister with a lot of tattoos, then it would be Ninjababy. Just as relatable, droll, and brazen about the rebellious desires of millennial women, the film shows the mess of muddling along into adulthood with sensitivity—and a good deal of hilarity too.",
+      "default_editorial_html": "<p>If <em>The Worst Person in the World</em> had a little sister with a lot of tattoos, then it would be <em>Ninjababy</em>. Just as relatable, droll, and brazen about the rebellious desires of millennial women, the film shows the mess of muddling along into adulthood with sensitivity&#8212;and a good deal of hilarity too.</p>",
+      "cast_members_count": 12,
+      "industry_events_count": 28,
+      "comments_count": 212,
+      "mubi_go_highlighted": false,
+      "optimised_trailers": [
+        {
+          "url": "https://trailers.mubicdn.net/289899/optimised/240p-t-ninjababy_en_us_1212.021_1280_720_1664378112.mp4",
+          "profile": "240p"
+        },
+        {
+          "url": "https://trailers.mubicdn.net/289899/optimised/720p-t-ninjababy_en_us_1212.021_1280_720_1664378112.mp4",
+          "profile": "720p"
+        }
+      ],
+      "directors": [
+        {
+          "name": "Yngvild Sve Flikke",
+          "name_upcase": "YNGVILD SVE FLIKKE",
+          "slug": "yngvild-sve-flikke"
+        }
+      ],
+      "consumable": {
+        "film_id": 289899,
+        "available_at": "2023-12-01T00:00:00Z",
+        "availability": "live",
+        "availability_ends_at": "2026-05-31T23:00:00Z",
+        "expires_at": "2026-06-01T11:00:00Z",
+        "film_date_message": null,
+        "offered": [
+          {
+            "type": "catalogue",
+            "download_availability": null
+          }
+        ],
+        "exclusive": true,
+        "permit_download": true
+      },
+      "press_quote": null,
+      "star_rating": null,
+      "award": null,
+      "experiment_stills": null,
+      "content_warnings": [
+        {
+          "id": 6,
+          "name": "graphic sexual content",
+          "key": "graphic_sexual_content"
+        },
+        {
+          "id": 17,
+          "name": "injury detail",
+          "key": "injury_detail"
+        }
+      ],
+      "artworks": [
+        {
+          "format": "tile_artwork",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/529348/images-original.png?1679423181"
+        },
+        {
+          "format": "cover_artwork_box_episode",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/529349/images-original.png?1679423186"
+        },
+        {
+          "format": "cover_artwork_horizontal",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/529350/images-original.png?1679423193"
+        },
+        {
+          "format": "cover_artwork_vertical",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/529351/images-original.png?1679423200"
+        },
+        {
+          "format": "cover_artwork_box",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/529352/images-original.png?1679423207"
+        },
+        {
+          "format": "tvos_cover_artwork",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/607565/images-original.png?1686657366"
+        },
+        {
+          "format": "centered_background",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/679474/images-original.png?1712862054"
+        },
+        {
+          "format": "centered_background_small",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/679475/images-original.png?1712862058"
+        }
+      ],
+      "highlighted_industry_event_entry": null
+    },
+    {
+      "id": 419520,
+      "slug": "self-portrait-as-a-coffee-pot-episode-1",
+      "title": "A Natural History of the Studio",
+      "title_locale": "en-US",
+      "original_title": "Self-Portrait as a Coffee-Pot: Episode 1",
+      "year": 2024,
+      "duration": 24,
+      "stills": {
+        "small": "https://assets.mubicdn.net/images/film/419520/image-w256.jpg?1729213906",
+        "medium": "https://assets.mubicdn.net/images/film/419520/image-w448.jpg?1729213906",
+        "standard": "https://assets.mubicdn.net/images/film/419520/image-w856.jpg?1729213906",
+        "retina": "https://assets.mubicdn.net/images/film/419520/image-w1280.jpg?1729213906",
+        "small_overlaid": "https://assets.mubicdn.net/images/film/419520/image-w512_overlaid.jpg?1729213906",
+        "large_overlaid": "https://assets.mubicdn.net/images/film/419520/image-w1504_overlaid.jpg?1729213906"
+      },
+      "still_focal_point": {
+        "x": 0.735,
+        "y": 1
+      },
+      "hd": true,
+      "average_colour_hex": "80746E",
+      "trailer_url": "https://trailers.mubicdn.net/419520/t-self-portrait-as-a-coffee-pot-episode-1_en_us_1729185407.mp4",
+      "trailer_id": 115686,
+      "popularity": 1487,
+      "web_url": "https://mubi.com/films/self-portrait-as-a-coffee-pot-episode-1",
+      "genres": [
+        "Documentary",
+        "Short"
+      ],
+      "average_rating": 4.6,
+      "average_rating_out_of_ten": 9.2,
+      "number_of_ratings": 2943,
+      "mubi_release": true,
+      "should_use_safe_still": false,
+      "still_url": "https://images.mubicdn.net/images/film/419520/cache-993217-1729213906/image-w1280.jpg",
+      "title_upcase": "A NATURAL HISTORY OF THE STUDIO",
+      "critic_review_rating": 5,
+      "content_rating": {
+        "label": "caution",
+        "rating_code": "CAUTION",
+        "description": "Contains material that may not be suitable for children or young adults.",
+        "icon_url": null,
+        "label_hex_color": "e05d04"
+      },
+      "short_synopsis": "South African artist William Kentridge investigates life in the studio. He imagines his studio as an enlarged head, where multiple dialogues occur between the artist and himself. Kentridge begins interviewing his double. Soon, the whole studio is populated by Kentridge’s many selves.",
+      "short_synopsis_html": "<p>South African artist William Kentridge investigates life in the studio. He imagines his studio as an enlarged head, where multiple dialogues occur between the artist and himself. Kentridge begins interviewing his double. Soon, the whole studio is populated by Kentridge&#8217;s many selves.</p>",
+      "episode": {
+        "label": "Self-Portrait as a Coffee-Pot - Episode 1",
+        "number": 1,
+        "series_title": "Self-Portrait as a Coffee-Pot",
+        "season_number": 1,
+        "season_title": "Self-Portrait as a Coffee-Pot",
+        "fotd_show_episode": false,
+        "episode_label_color": null,
+        "film_group_id": 1803,
+        "film_group_slug": "self-portrait-as-coffee-pot",
+        "episode_title": "A Natural History of the Studio"
+      },
+      "historic_countries": [
+        "South Africa",
+        "United States"
+      ],
+      "portrait_image": null,
+      "title_treatment_url": "https://images.mubicdn.net/images/artworks/723159/cache-723159-1729210212/images-original.png",
+      "default_editorial": "Step inside the roving creative imagination of William Kentridge with this exclusive nine-part series. An ode to procrastination, pacing, and messy desks, this playful first episode sees the South African artist invoke a doppelgänger with whom to squabble over the intangible seeds of inspiration.",
+      "default_editorial_html": "<p>Step inside the roving creative imagination of William Kentridge with this exclusive nine-part series. An ode to procrastination, pacing, and messy desks, this playful first episode sees the South African artist invoke a doppelgänger with whom to squabble over the intangible seeds of inspiration.</p>",
+      "cast_members_count": 14,
+      "industry_events_count": 5,
+      "comments_count": 63,
+      "mubi_go_highlighted": false,
+      "optimised_trailers": [
+        {
+          "url": "https://trailers.mubicdn.net/419520/optimised/240p-t-self-portrait-as-a-coffee-pot-episode-1_en_us_1729185407.mp4",
+          "profile": "240p"
+        },
+        {
+          "url": "https://trailers.mubicdn.net/419520/optimised/720p-t-self-portrait-as-a-coffee-pot-episode-1_en_us_1729185407.mp4",
+          "profile": "720p"
+        },
+        {
+          "url": "https://trailers.mubicdn.net/419520/optimised/1080p-t-self-portrait-as-a-coffee-pot-episode-1_en_us_1729185407.mp4",
+          "profile": "1080p"
+        }
+      ],
+      "directors": [
+        {
+          "name": "William Kentridge",
+          "name_upcase": "WILLIAM KENTRIDGE",
+          "slug": "william-kentridge"
+        }
+      ],
+      "consumable": {
+        "film_id": 419520,
+        "available_at": "2024-10-17T23:00:00Z",
+        "availability": "live",
+        "availability_ends_at": null,
+        "expires_at": null,
+        "film_date_message": null,
+        "offered": [
+          {
+            "type": "catalogue",
+            "download_availability": null
+          }
+        ],
+        "exclusive": true,
+        "permit_download": true
+      },
+      "press_quote": null,
+      "star_rating": null,
+      "award": null,
+      "experiment_stills": null,
+      "content_warnings": [
+        {
+          "id": 6,
+          "name": "graphic sexual content",
+          "key": "graphic_sexual_content"
+        },
+        {
+          "id": 17,
+          "name": "injury detail",
+          "key": "injury_detail"
+        }
+      ],
+      "artworks": [
+        {
+          "format": "content_logo_monochromatic",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/723159/images-original.png?1729210212"
+        },
+        {
+          "format": "tile_artwork",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/723531/images-original.png?1729213918"
+        },
+        {
+          "format": "cover_artwork_box_episode",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/723532/images-original.png?1729213924"
+        },
+        {
+          "format": "centered_background",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/723533/images-original.png?1729213930"
+        },
+        {
+          "format": "centered_background_small",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/723534/images-original.png?1729213935"
+        },
+        {
+          "format": "cover_artwork_horizontal",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/723535/images-original.png?1729213942"
+        },
+        {
+          "format": "cover_artwork_vertical",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/723543/images-original.png?1729214006"
+        },
+        {
+          "format": "cover_artwork_box",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/723551/images-original.png?1729214058"
+        },
+        {
+          "format": "tvos_cover_artwork",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/723559/images-original.png?1729214110"
+        }
+      ],
+      "highlighted_industry_event_entry": null
+    },
+    {
+      "id": 464,
+      "slug": "tokyo-sonata",
+      "title": "Tokyo Sonata",
+      "title_locale": "en-US",
+      "original_title": "トウキョウソナタ | Tôkyô sonata",
+      "year": 2008,
+      "duration": 120,
+      "stills": {
+        "small": "https://assets.mubicdn.net/images/film/464/image-w256.jpg?1709727589",
+        "medium": "https://assets.mubicdn.net/images/film/464/image-w448.jpg?1709727589",
+        "standard": "https://assets.mubicdn.net/images/film/464/image-w856.jpg?1709727589",
+        "retina": "https://assets.mubicdn.net/images/film/464/image-w1280.jpg?1709727589",
+        "small_overlaid": "https://assets.mubicdn.net/images/film/464/image-w512_overlaid.jpg?1709727589",
+        "large_overlaid": "https://assets.mubicdn.net/images/film/464/image-w1504_overlaid.jpg?1709727589"
+      },
+      "still_focal_point": {
+        "x": 0.429568,
+        "y": 0.188119
+      },
+      "hd": true,
+      "average_colour_hex": "A4A2A4",
+      "trailer_url": "https://trailers.mubicdn.net/464/t-tokyo-sonata_en_us_809.939_1280_720_1709165840.mp4",
+      "trailer_id": 103120,
+      "popularity": 5779,
+      "web_url": "https://mubi.com/films/tokyo-sonata",
+      "genres": [
+        "Drama"
+      ],
+      "average_rating": 4.3,
+      "average_rating_out_of_ten": 8.6,
+      "number_of_ratings": 16197,
+      "mubi_release": false,
+      "should_use_safe_still": false,
+      "still_url": "https://images.mubicdn.net/images/film/464/cache-47791-1709727589/image-w1280.jpg",
+      "title_upcase": "TOKYO SONATA",
+      "critic_review_rating": 4.5,
+      "content_rating": {
+        "label": "caution",
+        "rating_code": "CAUTION",
+        "description": "Contains material that may not be suitable for children or young adults.",
+        "icon_url": null,
+        "label_hex_color": "e05d04"
+      },
+      "short_synopsis": "Salaryman Ryūhei is suddenly fired from his job. He hides the news from his family, but his lie soon unravels the bonds that hold his family together. His youngest son begins taking secret piano lessons, his oldest son wants to join the US military, and his wife becomes dissatisfied as a matriarch.",
+      "short_synopsis_html": "<p>Salaryman Ryūhei is suddenly fired from his job. He hides the news from his family, but his lie soon unravels the bonds that hold his family together. His youngest son begins taking secret piano lessons, his oldest son wants to join the US military, and his wife becomes dissatisfied as a matriarch.</p>",
+      "episode": null,
+      "historic_countries": [
+        "Japan",
+        "Hong Kong"
+      ],
+      "portrait_image": null,
+      "title_treatment_url": null,
+      "default_editorial": "If any movie changed the perception that Kiyoshi Kurosawa only excelled at horror films, this is it: a domestic drama—the hallowed realm of Ozu—but reinvented. A prizewinner at Cannes, he scored his biggest hit yet with an unusual blend of redemptive family story, dystopian dread, and deadpan humor.",
+      "default_editorial_html": "<p>If any movie changed the perception that Kiyoshi Kurosawa only excelled at horror films, this is it: a domestic drama&#8212;the hallowed realm of Ozu&#8212;but reinvented. A prizewinner at Cannes, he scored his biggest hit yet with an unusual blend of redemptive family story, dystopian dread, and deadpan humor.</p>",
+      "cast_members_count": 21,
+      "industry_events_count": 19,
+      "comments_count": 335,
+      "mubi_go_highlighted": false,
+      "optimised_trailers": [
+        {
+          "url": "https://trailers.mubicdn.net/464/optimised/240p-t-tokyo-sonata_en_us_809.939_1280_720_1709165840.mp4",
+          "profile": "240p"
+        },
+        {
+          "url": "https://trailers.mubicdn.net/464/optimised/720p-t-tokyo-sonata_en_us_809.939_1280_720_1709165840.mp4",
+          "profile": "720p"
+        }
+      ],
+      "directors": [
+        {
+          "name": "Kiyoshi Kurosawa",
+          "name_upcase": "KIYOSHI KUROSAWA",
+          "slug": "kiyoshi-kurosawa"
+        }
+      ],
+      "consumable": {
+        "film_id": 464,
+        "available_at": "2024-03-08T00:00:00Z",
+        "availability": "live",
+        "availability_ends_at": "2025-08-31T23:00:00Z",
+        "expires_at": "2025-09-01T11:00:00Z",
+        "film_date_message": null,
+        "offered": [
+          {
+            "type": "catalogue",
+            "download_availability": null
+          }
+        ],
+        "exclusive": false,
+        "permit_download": true
+      },
+      "press_quote": null,
+      "star_rating": null,
+      "award": null,
+      "experiment_stills": null,
+      "content_warnings": [
+        {
+          "id": 1,
+          "name": "sexual assault",
+          "key": "sexual_assault"
+        },
+        {
+          "id": 2,
+          "name": "domestic violence",
+          "key": "domestic_violence"
+        },
+        {
+          "id": 3,
+          "name": "self harm",
+          "key": "self_harm"
+        }
+      ],
+      "artworks": [
+        {
+          "format": "tile_artwork",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/671469/images-original.png?1709727679"
+        },
+        {
+          "format": "cover_artwork_box_episode",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/671470/images-original.png?1709727683"
+        },
+        {
+          "format": "centered_background",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/671471/images-original.png?1709727688"
+        },
+        {
+          "format": "centered_background_small",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/671472/images-original.png?1709727691"
+        },
+        {
+          "format": "cover_artwork_horizontal",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/671473/images-original.png?1709727697"
+        },
+        {
+          "format": "cover_artwork_vertical",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/671479/images-original.png?1709727732"
+        },
+        {
+          "format": "cover_artwork_box",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/671485/images-original.png?1709727760"
+        },
+        {
+          "format": "tvos_cover_artwork",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/671491/images-original.png?1709727793"
+        }
+      ],
+      "highlighted_industry_event_entry": {
+        "id": 3349,
+        "year": 2008,
+        "status": "won",
+        "display_text": "Un Certain Regard: Jury Prize",
+        "full_display_text": "2008 | Winner: Un Certain Regard: Jury Prize",
+        "industry_event": {
+          "id": 1,
+          "name": "Cannes Film Festival",
+          "slug": "cannes",
+          "type": "festival",
+          "logo_url": "https://images.mubicdn.net/images/industry_event/1/cache-222790-1494527057/logo-small_black.png",
+          "white_logo_url": "https://images.mubicdn.net/images/industry_event/1/cache-222790-1494527057/logo-large_white.png",
+          "cover_url": "https://images.mubicdn.net/images/industry_event/1/cache-222788-1494406355/cover-original.jpg"
+        }
+      }
+    },
+    {
+      "id": 419531,
+      "slug": "self-portrait-as-a-coffee-pot-episode-9",
+      "title": "In Defence of Optimism",
+      "title_locale": "en-US",
+      "original_title": "Self-Portrait as a Coffee-Pot: Episode 9",
+      "year": 2024,
+      "duration": 29,
+      "stills": {
+        "small": "https://assets.mubicdn.net/images/film/419531/image-w256.jpg?1729159433",
+        "medium": "https://assets.mubicdn.net/images/film/419531/image-w448.jpg?1729159433",
+        "standard": "https://assets.mubicdn.net/images/film/419531/image-w856.jpg?1729159433",
+        "retina": "https://assets.mubicdn.net/images/film/419531/image-w1280.jpg?1729159433",
+        "small_overlaid": "https://assets.mubicdn.net/images/film/419531/image-w512_overlaid.jpg?1729159433",
+        "large_overlaid": "https://assets.mubicdn.net/images/film/419531/image-w1504_overlaid.jpg?1729159433"
+      },
+      "still_focal_point": {
+        "x": 0.754533,
+        "y": 0.277228
+      },
+      "hd": true,
+      "average_colour_hex": "695F58",
+      "trailer_url": null,
+      "trailer_id": null,
+      "popularity": 508,
+      "web_url": "https://mubi.com/films/self-portrait-as-a-coffee-pot-episode-9",
+      "genres": [
+        "Documentary",
+        "Short"
+      ],
+      "average_rating": 4.8,
+      "average_rating_out_of_ten": 9.6,
+      "number_of_ratings": 825,
+      "mubi_release": true,
+      "should_use_safe_still": false,
+      "still_url": "https://images.mubicdn.net/images/film/419531/cache-993224-1729159433/image-w1280.jpg",
+      "title_upcase": "IN DEFENCE OF OPTIMISM",
+      "critic_review_rating": 0,
+      "content_rating": {
+        "label": "caution",
+        "rating_code": "CAUTION",
+        "description": "Contains material that may not be suitable for children or young adults.",
+        "icon_url": null,
+        "label_hex_color": "e05d04"
+      },
+      "short_synopsis": "William Kentridge explores the optimism of making things—how, even in dire circumstances, there will be people who play, create, and sing. He enlists a local brass band to lead a jolly procession out of the studio and into Johannesburg. But will Kentridge’s two split parts come to an agreement?",
+      "short_synopsis_html": "<p>William Kentridge explores the optimism of making things&#8212;how, even in dire circumstances, there will be people who play, create, and sing. He enlists a local brass band to lead a jolly procession out of the studio and into Johannesburg. But will Kentridge&#8217;s two split parts come to an agreement?</p>",
+      "episode": {
+        "label": "Self-Portrait as a Coffee-Pot - Episode 9",
+        "number": 9,
+        "series_title": "Self-Portrait as a Coffee-Pot",
+        "season_number": 1,
+        "season_title": "Self-Portrait as a Coffee-Pot",
+        "fotd_show_episode": false,
+        "episode_label_color": null,
+        "film_group_id": 1803,
+        "film_group_slug": "self-portrait-as-coffee-pot",
+        "episode_title": "In Defence of Optimism"
+      },
+      "historic_countries": [
+        "South Africa",
+        "United States"
+      ],
+      "portrait_image": null,
+      "title_treatment_url": "https://images.mubicdn.net/images/artworks/742908/cache-742908-1731691463/images-original.png",
+      "default_editorial": "As the doppelgängers ponder the optimism that exists between the tip of a pencil and the pad beneath, the impossible question of endings arises. “Why don’t we just stop?” they muse. Enter a deus ex machina and an expression of pure joy—an exultant procession through the studio and into the streets.",
+      "default_editorial_html": "<p>As the doppelgängers ponder the optimism that exists between the tip of a pencil and the pad beneath, the impossible question of endings arises. &#8220;Why don&#8217;t we just stop?&#8221; they muse. Enter a deus ex machina and an expression of pure joy&#8212;an exultant procession through the studio and into the streets.</p>",
+      "cast_members_count": 12,
+      "industry_events_count": 0,
+      "comments_count": 20,
+      "mubi_go_highlighted": false,
+      "optimised_trailers": null,
+      "directors": [
+        {
+          "name": "William Kentridge",
+          "name_upcase": "WILLIAM KENTRIDGE",
+          "slug": "william-kentridge"
+        }
+      ],
+      "consumable": {
+        "film_id": 419531,
+        "available_at": "2024-10-17T23:00:00Z",
+        "availability": "live",
+        "availability_ends_at": null,
+        "expires_at": null,
+        "film_date_message": null,
+        "offered": [
+          {
+            "type": "catalogue",
+            "download_availability": null
+          }
+        ],
+        "exclusive": true,
+        "permit_download": true
+      },
+      "press_quote": null,
+      "star_rating": null,
+      "award": null,
+      "experiment_stills": null,
+      "content_warnings": [],
+      "artworks": [
+        {
+          "format": "tile_artwork",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/721616/images-original.png?1729160280"
+        },
+        {
+          "format": "cover_artwork_box_episode",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/721617/images-original.png?1729160286"
+        },
+        {
+          "format": "centered_background",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/721618/images-original.png?1729160292"
+        },
+        {
+          "format": "centered_background_small",
+          "locale": null,
+          "image_url": "https://assets.mubicdn.net/images/artworks/721619/images-original.png?1729160297"
+        },
+        {
+          "format": "cover_artwork_horizontal",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/721620/images-original.png?1729160304"
+        },
+        {
+          "format": "cover_artwork_vertical",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/721628/images-original.png?1729160369"
+        },
+        {
+          "format": "cover_artwork_box",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/721644/images-original.png?1729160418"
+        },
+        {
+          "format": "tvos_cover_artwork",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/721660/images-original.png?1729160470"
+        },
+        {
+          "format": "content_logo_monochromatic",
+          "locale": "en-US",
+          "image_url": "https://assets.mubicdn.net/images/artworks/742908/images-original.png?1731691463"
+        }
+      ],
+      "highlighted_industry_event_entry": null
+    }
+  ],
+  "meta": {
+    "current_page": 1,
+    "next_page": 2,
+    "previous_page": null,
+    "total_pages": 21,
+    "total_count": 482,
+    "per_page": 24
+  }
+}
