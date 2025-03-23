@@ -4,6 +4,12 @@ import Image from "next/image"
 import Link from "next/link"
 import { Clock, Globe, Award, Play } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip"
 import type { Film } from "@/lib/types"
 import { useState } from "react"
 
@@ -29,6 +35,56 @@ export default function FilmCard({ film }: FilmCardProps) {
   // Get image source with fallback
   const imageSource =
     imageError || !film.stills || !film.stills.large_overlaid ? fallbackImage : film.stills.large_overlaid
+
+  // Sort countries to prioritize US and GB
+  const getSortedCountries = (countries: string[]) => {
+    if (!countries) return []
+    
+    const priorityCountries = ["US", "GB"]
+    const otherCountries = countries.filter(country => !priorityCountries.includes(country))
+    
+    return [
+      ...countries.filter(country => priorityCountries.includes(country)),
+      ...otherCountries
+    ]
+  }
+
+  // Get formatted countries string
+  const getFormattedCountries = (countries: string[]) => {
+    if (!countries || countries.length === 0) return ""
+    
+    const sortedCountries = getSortedCountries(countries)
+    if (sortedCountries.length <= 3) {
+      return sortedCountries.join(", ")
+    }
+    return `${sortedCountries[0]} and ${sortedCountries.length - 1} others`
+  }
+
+  // Get country emoji
+  const getCountryEmoji = (countryCode: string) => {
+    const codePoints = countryCode
+      .toUpperCase()
+      .split('')
+      .map(char => 127397 + char.charCodeAt(0));
+    return String.fromCodePoint(...codePoints);
+  }
+
+  // Get country name
+  const getCountryName = (countryCode: string) => {
+    try {
+      return new Intl.DisplayNames(['en'], { type: 'region' }).of(countryCode) || countryCode;
+    } catch {
+      return countryCode;
+    }
+  }
+
+  // Get all country emojis
+  const getCountryEmojis = (countries: string[]) => {
+    if (!countries) return ""
+    return getSortedCountries(countries)
+      .map(country => `${getCountryEmoji(country)} ${getCountryName(country)}`)
+      .join("\n")
+  }
 
   return (
     <Link href={film.web_url || "#"} target="_blank" className="block">
@@ -83,14 +139,19 @@ export default function FilmCard({ film }: FilmCardProps) {
 
           <div className="flex flex-wrap gap-4 mt-2">
             {film.available_countries && film.available_countries.length > 0 && (
-              <div className="flex items-center gap-1">
-                <Globe className="h-4 w-4" />
-                <span>
-                  {film.available_countries.length <= 3
-                    ? film.available_countries.join(", ")
-                    : `${film.available_countries[0]} and ${film.available_countries.length - 1} others`}
-                </span>
-              </div>
+              <TooltipProvider>
+                <Tooltip delayDuration={0}>
+                  <TooltipTrigger asChild>
+                    <div className="flex items-center gap-1 cursor-help">
+                      <Globe className="h-4 w-4" />
+                      <span>{getFormattedCountries(film.available_countries)}</span>
+                    </div>
+                  </TooltipTrigger>
+                  <TooltipContent className="whitespace-pre-line">
+                    {getCountryEmojis(film.available_countries)}
+                  </TooltipContent>
+                </Tooltip>
+              </TooltipProvider>
             )}
 
             {film.highlighted_industry_event_entry && (
