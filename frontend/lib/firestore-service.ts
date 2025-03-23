@@ -19,14 +19,27 @@ const PAGE_SIZE = 20
 
 export async function getFilms(
   lastDoc?: QueryDocumentSnapshot<DocumentData>,
+  genre?: string,
 ): Promise<{ films: Film[]; lastDoc: QueryDocumentSnapshot<DocumentData> | null }> {
   try {
+    console.log("lastDoc", lastDoc)
     let filmsQuery = query(collection(db, FILMS_COLLECTION), orderBy("popularity", "desc"), limit(PAGE_SIZE))
+
+    // Apply genre filter if provided
+    if (genre && genre !== "All genres") {
+      filmsQuery = query(
+        collection(db, FILMS_COLLECTION),
+        where("genres", "array-contains", genre),
+        orderBy("popularity", "desc"),
+        limit(PAGE_SIZE),
+      )
+    }
 
     // Apply pagination if lastDoc is provided
     if (lastDoc) {
       filmsQuery = query(
         collection(db, FILMS_COLLECTION),
+        ...(genre && genre !== "All genres" ? [where("genres", "array-contains", genre)] : []),
         orderBy("popularity", "desc"),
         startAfter(lastDoc),
         limit(PAGE_SIZE),
@@ -49,9 +62,19 @@ export async function getFilms(
   }
 }
 
-export async function getTotalFilmsCount(): Promise<number> {
+export async function getTotalFilmsCount(genre?: string): Promise<number> {
   try {
-    const querySnapshot = await getDocs(collection(db, FILMS_COLLECTION))
+    let filmsQuery = query(collection(db, FILMS_COLLECTION))
+
+    // Apply genre filter if provided
+    if (genre && genre !== "All genres") {
+      filmsQuery = query(
+        collection(db, FILMS_COLLECTION),
+        where("genres", "array-contains", genre)
+      )
+    }
+
+    const querySnapshot = await getDocs(filmsQuery)
     return querySnapshot.size
   } catch (error) {
     console.error("Error getting total films count:", error)

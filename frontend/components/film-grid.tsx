@@ -1,44 +1,19 @@
 "use client"
 
-import { useState } from "react"
 import FilmCard from "@/components/film-card"
 import type { Film } from "@/lib/types"
-import { getFilms } from "@/lib/firestore-service"
 import { Button } from "@/components/ui/button"
-import type { DocumentData, QueryDocumentSnapshot } from "firebase/firestore"
 import LoadingFilms from "./loading-films"
 
 interface FilmGridProps {
-  initialFilms: Film[]
+  films: Film[]
+  onLoadMore: () => Promise<void>
+  hasMore: boolean
+  loadingMore: boolean
 }
 
-export default function FilmGrid({ initialFilms }: FilmGridProps) {
-  const [films, setFilms] = useState<Film[]>(initialFilms)
-  const [lastDoc, setLastDoc] = useState<QueryDocumentSnapshot<DocumentData> | null>(null)
-  const [loading, setLoading] = useState(false)
-  const [hasMore, setHasMore] = useState(true)
-
-  const loadMoreFilms = async () => {
-    if (!hasMore || loading) return
-
-    setLoading(true)
-    try {
-      const { films: newFilms, lastDoc: newLastDoc } = await getFilms(lastDoc)
-
-      if (newFilms.length === 0) {
-        setHasMore(false)
-      } else {
-        setFilms((prevFilms) => [...prevFilms, ...newFilms])
-        setLastDoc(newLastDoc)
-      }
-    } catch (error) {
-      console.error("Error loading more films:", error)
-    } finally {
-      setLoading(false)
-    }
-  }
-
-  if (films.length === 0 && !loading) {
+export default function FilmGrid({ films, onLoadMore, hasMore, loadingMore }: FilmGridProps) {
+  if (films.length === 0 && !loadingMore) {
     return <div className="text-center py-10">No films found</div>
   }
 
@@ -50,15 +25,15 @@ export default function FilmGrid({ initialFilms }: FilmGridProps) {
         ))}
       </div>
 
-      {loading && (
+      {loadingMore && (
         <div className="mt-8">
           <LoadingFilms />
         </div>
       )}
 
-      {hasMore && !loading && (
+      {hasMore && !loadingMore && (
         <div className="mt-8 flex justify-center">
-          <Button onClick={loadMoreFilms} variant="outline" className="px-6">
+          <Button onClick={onLoadMore} variant="outline" className="px-6">
             Load More
           </Button>
         </div>
