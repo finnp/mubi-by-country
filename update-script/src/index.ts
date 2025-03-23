@@ -5,7 +5,7 @@ import path from "path";
 // Initialize Firebase Admin
 const serviceAccount = require("../firebase-service-account.json");
 admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount)
+  credential: admin.credential.cert(serviceAccount),
 });
 
 const db = admin.firestore();
@@ -26,7 +26,10 @@ interface MubiResponse {
   };
 }
 
-async function fetchMubiPage(page: number, country: string): Promise<MubiResponse> {
+async function fetchMubiPage(
+  page: number,
+  country: string
+): Promise<MubiResponse> {
   const response = await axios.get<MubiResponse>(
     "https://api.mubi.com/v4/browse/films",
     {
@@ -61,42 +64,45 @@ interface ExistingFilm extends MubiFilm {
   first_seen?: FirebaseFirestore.Timestamp;
 }
 
-async function getCurrentFilmsInFirestore(): Promise<Map<number, ExistingFilm>> {
-  const snapshot = await db.collection('mubi_films').get();
+async function getCurrentFilmsInFirestore(): Promise<
+  Map<number, ExistingFilm>
+> {
+  const snapshot = await db.collection("mubi_films").get();
   const existingFilms = new Map<number, ExistingFilm>();
-  
-  snapshot.forEach(doc => {
+
+  snapshot.forEach((doc) => {
     const film = doc.data() as ExistingFilm;
     existingFilms.set(film.id, film);
   });
-  
+
   return existingFilms;
 }
 
 async function syncWithFirestore(newFilms: MubiFilm[], metadata: any) {
-  const collectionRef = db.collection('mubi_films');
-  
+  const collectionRef = db.collection("mubi_films");
+
   // Ensure collections exist
-  await ensureCollectionExists('mubi_films');
-  await ensureCollectionExists('mubi_metadata');
+  await ensureCollectionExists("mubi_films");
+  await ensureCollectionExists("mubi_metadata");
 
   // Get existing films from Firestore
-  console.log('Fetching current films from Firestore...');
+  console.log("Fetching current films from Firestore...");
   const existingFilms = await getCurrentFilmsInFirestore();
-  
+
   // Create sets of film IDs for comparison
-  const newFilmIds = new Set(newFilms.map(f => f.id));
+  const newFilmIds = new Set(newFilms.map((f) => f.id));
   const existingFilmIds = new Set(existingFilms.keys());
 
   // Find films to delete (exist in Firestore but not in new data)
-  const filmsToDelete = Array.from(existingFilmIds)
-    .filter(id => !newFilmIds.has(id));
+  const filmsToDelete = Array.from(existingFilmIds).filter(
+    (id) => !newFilmIds.has(id)
+  );
 
   // Find films to update (exist in both sets)
-  const filmsToUpdate = newFilms.filter(film => existingFilmIds.has(film.id));
+  const filmsToUpdate = newFilms.filter((film) => existingFilmIds.has(film.id));
 
   // Find films to add (exist in new data but not in Firestore)
-  const filmsToAdd = newFilms.filter(film => !existingFilmIds.has(film.id));
+  const filmsToAdd = newFilms.filter((film) => !existingFilmIds.has(film.id));
 
   console.log(`\nSync analysis:`);
   console.log(`- Films to delete: ${filmsToDelete.length}`);
@@ -108,14 +114,18 @@ async function syncWithFirestore(newFilms: MubiFilm[], metadata: any) {
   for (let i = 0; i < filmsToDelete.length; i += batchSize) {
     const batch = db.batch();
     const currentBatch = filmsToDelete.slice(i, i + batchSize);
-    
+
     for (const id of currentBatch) {
       const docRef = collectionRef.doc(id.toString());
       batch.delete(docRef);
     }
-    
+
     await batch.commit();
-    console.log(`Deleted batch ${Math.floor(i / batchSize) + 1} of ${Math.ceil(filmsToDelete.length / batchSize)}`);
+    console.log(
+      `Deleted batch ${Math.floor(i / batchSize) + 1} of ${Math.ceil(
+        filmsToDelete.length / batchSize
+      )}`
+    );
   }
 
   // Process updates and additions in batches
@@ -123,27 +133,33 @@ async function syncWithFirestore(newFilms: MubiFilm[], metadata: any) {
   for (let i = 0; i < filmsToWrite.length; i += batchSize) {
     const batch = db.batch();
     const currentBatch = filmsToWrite.slice(i, i + batchSize);
-    
+
     for (const film of currentBatch) {
       const docRef = collectionRef.doc(film.id.toString());
       const existingFilm = existingFilms.get(film.id);
-      
+
       // If film exists, preserve any fields we don't want to override
       const dataToWrite = {
         ...film,
         last_updated: admin.firestore.FieldValue.serverTimestamp(),
-        first_seen: existingFilm?.first_seen || admin.firestore.FieldValue.serverTimestamp()
+        first_seen:
+          existingFilm?.first_seen ||
+          admin.firestore.FieldValue.serverTimestamp(),
       };
-      
+
       batch.set(docRef, dataToWrite);
     }
-    
+
     await batch.commit();
-    console.log(`Processed batch ${Math.floor(i / batchSize) + 1} of ${Math.ceil(filmsToWrite.length / batchSize)}`);
+    console.log(
+      `Processed batch ${Math.floor(i / batchSize) + 1} of ${Math.ceil(
+        filmsToWrite.length / batchSize
+      )}`
+    );
   }
 
   // Update metadata
-  const metadataRef = db.collection('mubi_metadata').doc('latest');
+  const metadataRef = db.collection("mubi_metadata").doc("latest");
   await metadataRef.set({
     ...metadata,
     last_sync: {
@@ -151,22 +167,22 @@ async function syncWithFirestore(newFilms: MubiFilm[], metadata: any) {
       added: filmsToAdd.length,
       updated: filmsToUpdate.length,
       deleted: filmsToDelete.length,
-      total_after_sync: newFilms.length
-    }
+      total_after_sync: newFilms.length,
+    },
   });
 
-  console.log('\nSync completed successfully');
+  console.log("\nSync completed successfully");
 }
 
 async function fetchAllMubiFilms() {
   try {
-    const countries = ["PT"];
+    const countries = ["PT", "DE", "GB", "US"];
     const filmsByCountry: Record<string, MubiFilm[]> = {};
-    
+
     // Fetch films for each country
     for (const country of countries) {
       console.log(`\nFetching films for ${country}:`);
-      
+
       // First, fetch page 1 to get total count
       const firstPage = await fetchMubiPage(1, country);
       const { total_pages, total_count } = firstPage.meta;
@@ -175,9 +191,9 @@ async function fetchAllMubiFilms() {
       console.log(`Total pages: ${total_pages}`);
 
       // Array to store all films for this country
-      let countryFilms: MubiFilm[] = firstPage.films.map(film => ({
+      let countryFilms: MubiFilm[] = firstPage.films.map((film) => ({
         ...film,
-        available_countries: [country]
+        available_countries: [country],
       }));
 
       // Fetch remaining pages
@@ -185,14 +201,14 @@ async function fetchAllMubiFilms() {
         console.log(`Fetching page ${page}/${total_pages} for ${country}...`);
         try {
           const pageData = await fetchMubiPage(page, country);
-          const filmsWithCountry = pageData.films.map(film => ({
+          const filmsWithCountry = pageData.films.map((film) => ({
             ...film,
-            available_countries: [country]
+            available_countries: [country],
           }));
           countryFilms = [...countryFilms, ...filmsWithCountry];
-          
+
           // Add a small delay to avoid rate limiting
-          await new Promise(resolve => setTimeout(resolve, 1000));
+          await new Promise((resolve) => setTimeout(resolve, 1000));
         } catch (error) {
           console.error(`Error fetching page ${page} for ${country}:`, error);
           break;
@@ -204,7 +220,7 @@ async function fetchAllMubiFilms() {
 
     // Combine films from all countries
     const filmMap = new Map<number, MubiFilm>();
-    
+
     // Process films from each country
     for (const [country, films] of Object.entries(filmsByCountry)) {
       for (const film of films) {
@@ -226,9 +242,12 @@ async function fetchAllMubiFilms() {
     const metadata = {
       countries,
       films_by_country: Object.fromEntries(
-        Object.entries(filmsByCountry).map(([country, films]) => [country, films.length])
+        Object.entries(filmsByCountry).map(([country, films]) => [
+          country,
+          films.length,
+        ])
       ),
-      total_count: combinedFilms.length
+      total_count: combinedFilms.length,
     };
 
     // Sync with Firestore
