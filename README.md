@@ -19,16 +19,11 @@ pnpm install
 pnpm dev
 ```
 
-## Requirements
-- Node.js
-- pnpm (for frontend)
-- Firebase credentials
-
 ## License
 
 MIT License
 
-Copyright (c) 2024
+Copyright (c) 2025
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -48,20 +43,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## Tech Stack
-
-- **Frontend**:
-  - Next.js 15
-  - React 19
-  - TypeScript
-  - Tailwind CSS
-  - shadcn/ui components
-  - Firebase SDK
-
-- **Backend**:
-  - Node.js
-  - TypeScript
-  - Firebase Admin SDK
 
 ## Contributing
 
