@@ -165,7 +165,7 @@ export default function Home() {
       <div className="mb-8 flex justify-between items-center">
         <h1 className="text-3xl font-bold">MUBI by Country</h1>
         <a
-          href="https://github.com/yourusername/mubi-by-country"
+          href="https://github.com/finnp/mubi-by-country"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 text-gray-600 hover:text-gray-900"
