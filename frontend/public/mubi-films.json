@@ -452,6 +452,7 @@
         "ZA"
       ],
       "filmCountries": [
+        "Netherlands",
         "United States"
       ],
       "duration": 105,
@@ -1422,17 +1423,17 @@
       "title": "A Regular Woman",
       "originalTitle": "Nur eine Frau",
       "availableCountries": [
-        "PT",
-        "GB",
-        "JP",
-        "IT",
-        "SE",
-        "IN",
-        "ZA",
         "AF",
         "EG",
+        "GB",
+        "IN",
+        "IT",
+        "JP",
         "KR",
-        "NO"
+        "NO",
+        "PT",
+        "SE",
+        "ZA"
       ],
       "filmCountries": [
         "Germany"
@@ -1667,41 +1668,6 @@
       ]
     },
     {
-      "id": 455,
-      "title": "Au hasard Balthazar",
-      "originalTitle": "Au hasard Balthazar",
-      "availableCountries": [
-        "AF",
-        "AR",
-        "BR",
-        "CL",
-        "DE",
-        "EG",
-        "IN",
-        "JP",
-        "KR",
-        "MX",
-        "NL",
-        "PT",
-        "TR",
-        "ZA"
-      ],
-      "filmCountries": [
-        "France",
-        "Sweden"
-      ],
-      "duration": 96,
-      "genres": [
-        "Drama"
-      ],
-      "webUrl": "https://mubi.com/films/au-hasard-balthazar",
-      "thumbnail": "https://assets.mubicdn.net/images/film/455/image-w1504_overlaid.jpg?1745492493",
-      "year": 1966,
-      "directors": [
-        "Robert Bresson"
-      ]
-    },
-    {
       "id": 588,
       "title": "Mishima: A Life in Four Chapters",
       "originalTitle": "Mishima: A Life in Four Chapters",
@@ -1742,6 +1708,41 @@
       "year": 1985,
       "directors": [
         "Paul Schrader"
+      ]
+    },
+    {
+      "id": 455,
+      "title": "Au hasard Balthazar",
+      "originalTitle": "Au hasard Balthazar",
+      "availableCountries": [
+        "AF",
+        "AR",
+        "BR",
+        "CL",
+        "DE",
+        "EG",
+        "IN",
+        "JP",
+        "KR",
+        "MX",
+        "NL",
+        "PT",
+        "TR",
+        "ZA"
+      ],
+      "filmCountries": [
+        "France",
+        "Sweden"
+      ],
+      "duration": 96,
+      "genres": [
+        "Drama"
+      ],
+      "webUrl": "https://mubi.com/films/au-hasard-balthazar",
+      "thumbnail": "https://assets.mubicdn.net/images/film/455/image-w1504_overlaid.jpg?1745492493",
+      "year": 1966,
+      "directors": [
+        "Robert Bresson"
       ]
     },
     {
@@ -1981,43 +1982,6 @@
       ]
     },
     {
-      "id": 98086,
-      "title": "The Friends",
-      "originalTitle": "Natsu no niwa",
-      "availableCountries": [
-        "AF",
-        "AR",
-        "AU",
-        "BR",
-        "CL",
-        "DE",
-        "EG",
-        "GB",
-        "IN",
-        "MX",
-        "NL",
-        "NO",
-        "NZ",
-        "PT",
-        "SE",
-        "TR",
-        "ZA"
-      ],
-      "filmCountries": [
-        "Japan"
-      ],
-      "duration": 114,
-      "genres": [
-        "Drama"
-      ],
-      "webUrl": "https://mubi.com/films/the-friends",
-      "thumbnail": "https://assets.mubicdn.net/images/film/98086/image-w1504_overlaid.jpg?1751548484",
-      "year": 1994,
-      "directors": [
-        "Shinji Sômai"
-      ]
-    },
-    {
       "id": 377693,
       "title": "27",
       "originalTitle": "27",
@@ -2061,6 +2025,43 @@
       "year": 2023,
       "directors": [
         "Flóra Anna Buda"
+      ]
+    },
+    {
+      "id": 98086,
+      "title": "The Friends",
+      "originalTitle": "Natsu no niwa",
+      "availableCountries": [
+        "AF",
+        "AR",
+        "AU",
+        "BR",
+        "CL",
+        "DE",
+        "EG",
+        "GB",
+        "IN",
+        "MX",
+        "NL",
+        "NO",
+        "NZ",
+        "PT",
+        "SE",
+        "TR",
+        "ZA"
+      ],
+      "filmCountries": [
+        "Japan"
+      ],
+      "duration": 114,
+      "genres": [
+        "Drama"
+      ],
+      "webUrl": "https://mubi.com/films/the-friends",
+      "thumbnail": "https://assets.mubicdn.net/images/film/98086/image-w1504_overlaid.jpg?1751548484",
+      "year": 1994,
+      "directors": [
+        "Shinji Sômai"
       ]
     },
     {
@@ -2430,6 +2431,38 @@
       ]
     },
     {
+      "id": 2078,
+      "title": "Black Girl",
+      "originalTitle": "La noire de...",
+      "availableCountries": [
+        "AR",
+        "BR",
+        "CL",
+        "ES",
+        "JP",
+        "KR",
+        "MX",
+        "NL",
+        "NO",
+        "PT",
+        "SE"
+      ],
+      "filmCountries": [
+        "France",
+        "Senegal"
+      ],
+      "duration": 59,
+      "genres": [
+        "Drama"
+      ],
+      "webUrl": "https://mubi.com/films/black-girl",
+      "thumbnail": "https://assets.mubicdn.net/images/film/2078/image-w1504_overlaid.jpg?1745489542",
+      "year": 1966,
+      "directors": [
+        "Ousmane Sembène"
+      ]
+    },
+    {
       "id": 94834,
       "title": "Barbara",
       "originalTitle": "Barbara",
@@ -2498,38 +2531,6 @@
       "year": 2009,
       "directors": [
         "Fatih Akın"
-      ]
-    },
-    {
-      "id": 2078,
-      "title": "Black Girl",
-      "originalTitle": "La noire de...",
-      "availableCountries": [
-        "AR",
-        "BR",
-        "CL",
-        "ES",
-        "JP",
-        "KR",
-        "MX",
-        "NL",
-        "NO",
-        "PT",
-        "SE"
-      ],
-      "filmCountries": [
-        "France",
-        "Senegal"
-      ],
-      "duration": 59,
-      "genres": [
-        "Drama"
-      ],
-      "webUrl": "https://mubi.com/films/black-girl",
-      "thumbnail": "https://assets.mubicdn.net/images/film/2078/image-w1504_overlaid.jpg?1745489542",
-      "year": 1966,
-      "directors": [
-        "Ousmane Sembène"
       ]
     },
     {
@@ -3300,6 +3301,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -3326,20 +3328,21 @@
       "title": "The Braves",
       "originalTitle": "Entre les vagues",
       "availableCountries": [
-        "PT",
-        "JP",
-        "ZA",
         "EG",
+        "JP",
         "KR",
-        "NO"
+        "NO",
+        "PT",
+        "SE",
+        "ZA"
       ],
       "filmCountries": [
         "France"
       ],
       "duration": 100,
       "genres": [
-        "Drama",
-        "Comedy"
+        "Comedy",
+        "Drama"
       ],
       "webUrl": "https://mubi.com/films/the-braves",
       "thumbnail": "https://assets.mubicdn.net/images/film/308247/image-w1504_overlaid.jpg?1745498595",
@@ -3364,6 +3367,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -3408,6 +3412,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -3484,6 +3489,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -3516,6 +3522,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US"
       ],
@@ -3553,6 +3560,7 @@
         "NL",
         "NO",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -3600,6 +3608,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -3629,6 +3638,7 @@
         "KR",
         "NO",
         "PT",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -3719,6 +3729,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -3759,6 +3770,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -3802,6 +3814,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -3841,6 +3854,7 @@
         "NL",
         "NO",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -3880,6 +3894,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -3922,6 +3937,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -3987,6 +4003,7 @@
         "MX",
         "NO",
         "PT",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -4030,6 +4047,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -4075,6 +4093,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -4108,6 +4127,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -4149,6 +4169,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -4193,6 +4214,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -4228,6 +4250,7 @@
         "NL",
         "NO",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -4301,6 +4324,7 @@
         "KR",
         "NO",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -4337,6 +4361,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -4369,6 +4394,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -4412,6 +4438,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -4450,6 +4477,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -4492,6 +4520,7 @@
         "NL",
         "NO",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -4534,6 +4563,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -4578,6 +4608,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -4621,6 +4652,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -4736,6 +4768,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -4774,6 +4807,7 @@
         "NL",
         "NO",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -4816,6 +4850,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -4859,6 +4894,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -4900,6 +4936,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -4940,6 +4977,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -4979,6 +5017,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -5050,6 +5089,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -5095,6 +5135,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -5132,6 +5173,7 @@
         "NL",
         "NO",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -5147,6 +5189,48 @@
       "year": 2012,
       "directors": [
         "Corinna Belz"
+      ]
+    },
+    {
+      "id": 119706,
+      "title": "Cemetery of Splendour",
+      "originalTitle": "รักที่ขอนแก่น | Rak ti Khon Kaen",
+      "availableCountries": [
+        "AR",
+        "AU",
+        "BR",
+        "CA",
+        "CL",
+        "DE",
+        "EG",
+        "ES",
+        "FR",
+        "IT",
+        "JP",
+        "MX",
+        "NL",
+        "NZ",
+        "PT",
+        "SE",
+        "TR",
+        "US",
+        "ZA"
+      ],
+      "filmCountries": [
+        "Thailand",
+        "United Kingdom"
+      ],
+      "duration": 122,
+      "genres": [
+        "Avant-Garde",
+        "Drama",
+        "Fantasy"
+      ],
+      "webUrl": "https://mubi.com/films/cemetery-of-splendour",
+      "thumbnail": "https://assets.mubicdn.net/images/film/119706/image-w1504_overlaid.jpg?1767803237",
+      "year": 2015,
+      "directors": [
+        "Apichatpong Weerasethakul"
       ]
     },
     {
@@ -5174,6 +5258,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -5195,47 +5280,6 @@
       ]
     },
     {
-      "id": 119706,
-      "title": "Cemetery of Splendour",
-      "originalTitle": "รักที่ขอนแก่น | Rak ti Khon Kaen",
-      "availableCountries": [
-        "AR",
-        "AU",
-        "BR",
-        "CA",
-        "CL",
-        "DE",
-        "EG",
-        "ES",
-        "FR",
-        "IT",
-        "JP",
-        "MX",
-        "NL",
-        "NZ",
-        "PT",
-        "TR",
-        "US",
-        "ZA"
-      ],
-      "filmCountries": [
-        "Thailand",
-        "United Kingdom"
-      ],
-      "duration": 122,
-      "genres": [
-        "Avant-Garde",
-        "Drama",
-        "Fantasy"
-      ],
-      "webUrl": "https://mubi.com/films/cemetery-of-splendour",
-      "thumbnail": "https://assets.mubicdn.net/images/film/119706/image-w1504_overlaid.jpg?1767803237",
-      "year": 2015,
-      "directors": [
-        "Apichatpong Weerasethakul"
-      ]
-    },
-    {
       "id": 227269,
       "title": "Sibyl",
       "originalTitle": "Sibyl",
@@ -5245,6 +5289,7 @@
         "NL",
         "NO",
         "PT",
+        "SE",
         "US",
         "ZA"
       ],
@@ -5275,6 +5320,7 @@
         "KR",
         "NO",
         "PT",
+        "SE",
         "US",
         "ZA"
       ],
@@ -5304,6 +5350,7 @@
         "JP",
         "NO",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -5348,6 +5395,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -5393,6 +5441,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -5436,6 +5485,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -5476,6 +5526,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -5498,6 +5549,39 @@
       ]
     },
     {
+      "id": 161886,
+      "title": "Columbus",
+      "originalTitle": "Columbus",
+      "availableCountries": [
+        "AF",
+        "AR",
+        "AU",
+        "BR",
+        "CL",
+        "DE",
+        "ES",
+        "KR",
+        "MX",
+        "NL",
+        "NZ",
+        "PT",
+        "ZA"
+      ],
+      "filmCountries": [
+        "United States"
+      ],
+      "duration": 100,
+      "genres": [
+        "Drama"
+      ],
+      "webUrl": "https://mubi.com/films/columbus",
+      "thumbnail": "https://assets.mubicdn.net/images/film/161886/image-w1504_overlaid.jpg?1765996658",
+      "year": 2017,
+      "directors": [
+        "Kogonada"
+      ]
+    },
+    {
       "id": 15458,
       "title": "The Big Feast",
       "originalTitle": "La grande bouffe",
@@ -5515,6 +5599,7 @@
         "NL",
         "NO",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -5559,6 +5644,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -5576,39 +5662,6 @@
       "year": 1977,
       "directors": [
         "Julie Dash"
-      ]
-    },
-    {
-      "id": 161886,
-      "title": "Columbus",
-      "originalTitle": "Columbus",
-      "availableCountries": [
-        "AF",
-        "AR",
-        "AU",
-        "BR",
-        "CL",
-        "DE",
-        "ES",
-        "KR",
-        "MX",
-        "NL",
-        "NZ",
-        "PT",
-        "ZA"
-      ],
-      "filmCountries": [
-        "United States"
-      ],
-      "duration": 100,
-      "genres": [
-        "Drama"
-      ],
-      "webUrl": "https://mubi.com/films/columbus",
-      "thumbnail": "https://assets.mubicdn.net/images/film/161886/image-w1504_overlaid.jpg?1765996658",
-      "year": 2017,
-      "directors": [
-        "Kogonada"
       ]
     },
     {
@@ -5701,6 +5754,45 @@
       ]
     },
     {
+      "id": 21643,
+      "title": "Take Care of Your Scarf, Tatiana",
+      "originalTitle": "Pidä huivista kiinni, Tatjana",
+      "availableCountries": [
+        "AF",
+        "AR",
+        "BR",
+        "CL",
+        "DE",
+        "EG",
+        "ES",
+        "IN",
+        "IT",
+        "KR",
+        "MX",
+        "NL",
+        "NO",
+        "PT",
+        "SE",
+        "TR",
+        "ZA"
+      ],
+      "filmCountries": [
+        "Finland",
+        "Germany"
+      ],
+      "duration": 62,
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "webUrl": "https://mubi.com/films/take-care-of-your-scarf-tatiana",
+      "thumbnail": "https://assets.mubicdn.net/images/film/21643/image-w1504_overlaid.jpg?1745489726",
+      "year": 1994,
+      "directors": [
+        "Aki Kaurismäki"
+      ]
+    },
+    {
       "id": 131529,
       "title": "Flowers of Taipei: Taiwan New Cinema",
       "originalTitle": "Flowers of Taipei: Taiwan New Cinema",
@@ -5724,6 +5816,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -5740,44 +5833,6 @@
       "year": 2014,
       "directors": [
         "Chinlin Hsieh"
-      ]
-    },
-    {
-      "id": 21643,
-      "title": "Take Care of Your Scarf, Tatiana",
-      "originalTitle": "Pidä huivista kiinni, Tatjana",
-      "availableCountries": [
-        "AF",
-        "AR",
-        "BR",
-        "CL",
-        "DE",
-        "EG",
-        "ES",
-        "IN",
-        "IT",
-        "KR",
-        "MX",
-        "NL",
-        "NO",
-        "PT",
-        "TR",
-        "ZA"
-      ],
-      "filmCountries": [
-        "Finland",
-        "Germany"
-      ],
-      "duration": 62,
-      "genres": [
-        "Comedy",
-        "Romance"
-      ],
-      "webUrl": "https://mubi.com/films/take-care-of-your-scarf-tatiana",
-      "thumbnail": "https://assets.mubicdn.net/images/film/21643/image-w1504_overlaid.jpg?1745489726",
-      "year": 1994,
-      "directors": [
-        "Aki Kaurismäki"
       ]
     },
     {
@@ -5805,6 +5860,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -5845,6 +5901,7 @@
         "NL",
         "NO",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -5877,6 +5934,7 @@
         "MX",
         "NO",
         "PT",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -5912,6 +5970,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -5950,6 +6009,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -5994,6 +6054,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -6038,6 +6099,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -6081,6 +6143,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -6124,6 +6187,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -6177,6 +6241,7 @@
         "MX",
         "NO",
         "PT",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -6220,6 +6285,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -6236,94 +6302,6 @@
       "year": 1969,
       "directors": [
         "Alain Tanner"
-      ]
-    },
-    {
-      "id": 418722,
-      "title": "Magic Farm",
-      "originalTitle": "Magic Farm",
-      "availableCountries": [
-        "AF",
-        "AR",
-        "AU",
-        "BR",
-        "CA",
-        "CL",
-        "DE",
-        "EG",
-        "ES",
-        "FR",
-        "GB",
-        "IN",
-        "IT",
-        "JP",
-        "KR",
-        "MX",
-        "NL",
-        "NO",
-        "NZ",
-        "PT",
-        "TR",
-        "US",
-        "ZA"
-      ],
-      "filmCountries": [
-        "Argentina",
-        "United States"
-      ],
-      "duration": 93,
-      "genres": [
-        "Comedy"
-      ],
-      "webUrl": "https://mubi.com/films/magic-farm",
-      "thumbnail": "https://assets.mubicdn.net/images/film/418722/image-w1504_overlaid.jpg?1745503382",
-      "year": 2025,
-      "directors": [
-        "Amalia Ulman"
-      ]
-    },
-    {
-      "id": 90879,
-      "title": "Socialist Realism",
-      "originalTitle": "El realismo socialista ",
-      "availableCountries": [
-        "AF",
-        "AR",
-        "AU",
-        "BR",
-        "CL",
-        "DE",
-        "EG",
-        "ES",
-        "FR",
-        "GB",
-        "IN",
-        "IT",
-        "JP",
-        "KR",
-        "MX",
-        "NL",
-        "NO",
-        "NZ",
-        "PT",
-        "TR",
-        "ZA"
-      ],
-      "filmCountries": [
-        "Chile"
-      ],
-      "duration": 78,
-      "genres": [
-        "Avant-Garde",
-        "Documentary",
-        "Drama"
-      ],
-      "webUrl": "https://mubi.com/films/socialist-realism",
-      "thumbnail": "https://assets.mubicdn.net/images/film/90879/image-w1504_overlaid.jpg?1745490840",
-      "year": 2023,
-      "directors": [
-        "Raúl Ruiz",
-        "Valeria Sarmiento"
       ]
     },
     {
@@ -6355,6 +6333,96 @@
       ]
     },
     {
+      "id": 90879,
+      "title": "Socialist Realism",
+      "originalTitle": "El realismo socialista ",
+      "availableCountries": [
+        "AF",
+        "AR",
+        "AU",
+        "BR",
+        "CL",
+        "DE",
+        "EG",
+        "ES",
+        "FR",
+        "GB",
+        "IN",
+        "IT",
+        "JP",
+        "KR",
+        "MX",
+        "NL",
+        "NO",
+        "NZ",
+        "PT",
+        "SE",
+        "TR",
+        "ZA"
+      ],
+      "filmCountries": [
+        "Chile"
+      ],
+      "duration": 78,
+      "genres": [
+        "Avant-Garde",
+        "Documentary",
+        "Drama"
+      ],
+      "webUrl": "https://mubi.com/films/socialist-realism",
+      "thumbnail": "https://assets.mubicdn.net/images/film/90879/image-w1504_overlaid.jpg?1745490840",
+      "year": 2023,
+      "directors": [
+        "Raúl Ruiz",
+        "Valeria Sarmiento"
+      ]
+    },
+    {
+      "id": 418722,
+      "title": "Magic Farm",
+      "originalTitle": "Magic Farm",
+      "availableCountries": [
+        "AF",
+        "AR",
+        "AU",
+        "BR",
+        "CA",
+        "CL",
+        "DE",
+        "EG",
+        "ES",
+        "FR",
+        "GB",
+        "IN",
+        "IT",
+        "JP",
+        "KR",
+        "MX",
+        "NL",
+        "NO",
+        "NZ",
+        "PT",
+        "SE",
+        "TR",
+        "US",
+        "ZA"
+      ],
+      "filmCountries": [
+        "Argentina",
+        "United States"
+      ],
+      "duration": 93,
+      "genres": [
+        "Comedy"
+      ],
+      "webUrl": "https://mubi.com/films/magic-farm",
+      "thumbnail": "https://assets.mubicdn.net/images/film/418722/image-w1504_overlaid.jpg?1745503382",
+      "year": 2025,
+      "directors": [
+        "Amalia Ulman"
+      ]
+    },
+    {
       "id": 2036,
       "title": "Touki Bouki",
       "originalTitle": "Touki Bouki",
@@ -6378,6 +6446,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US"
       ],
@@ -6418,6 +6487,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -6462,6 +6532,7 @@
         "NL",
         "NO",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -6502,6 +6573,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -6532,6 +6604,7 @@
         "KR",
         "NO",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -6574,6 +6647,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -6616,6 +6690,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -6659,6 +6734,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -6705,6 +6781,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -6750,6 +6827,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -6784,6 +6862,7 @@
         "NL",
         "NO",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -6828,6 +6907,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -6873,6 +6953,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -6915,6 +6996,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -6951,6 +7033,7 @@
         "NL",
         "NO",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -7032,6 +7115,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -7134,6 +7218,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -7177,6 +7262,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -7218,6 +7304,7 @@
         "NL",
         "NO",
         "PT",
+        "SE",
         "US",
         "ZA"
       ],
@@ -7299,6 +7386,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -7330,6 +7418,7 @@
         "KR",
         "NO",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -7396,6 +7485,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -7422,6 +7512,7 @@
       "availableCountries": [
         "EG",
         "PT",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -7465,6 +7556,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -7481,34 +7573,6 @@
       "year": 2023,
       "directors": [
         "Kit Zauhar"
-      ]
-    },
-    {
-      "id": 87839,
-      "title": "Chess of the Wind",
-      "originalTitle": "Shatranj-e baad",
-      "availableCountries": [
-        "EG",
-        "ES",
-        "JP",
-        "KR",
-        "NO",
-        "PT",
-        "ZA"
-      ],
-      "filmCountries": [
-        "Iran"
-      ],
-      "duration": 100,
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "webUrl": "https://mubi.com/films/chess-of-the-wind",
-      "thumbnail": "https://assets.mubicdn.net/images/film/87839/image-w1504_overlaid.jpg?1745490714",
-      "year": 1976,
-      "directors": [
-        "Mohammad Reza Aslani"
       ]
     },
     {
@@ -7533,6 +7597,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -7548,6 +7613,35 @@
       "year": 2010,
       "directors": [
         "Athina Rachel Tsangari"
+      ]
+    },
+    {
+      "id": 87839,
+      "title": "Chess of the Wind",
+      "originalTitle": "Shatranj-e baad",
+      "availableCountries": [
+        "EG",
+        "ES",
+        "JP",
+        "KR",
+        "NO",
+        "PT",
+        "SE",
+        "ZA"
+      ],
+      "filmCountries": [
+        "Iran"
+      ],
+      "duration": 100,
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "webUrl": "https://mubi.com/films/chess-of-the-wind",
+      "thumbnail": "https://assets.mubicdn.net/images/film/87839/image-w1504_overlaid.jpg?1745490714",
+      "year": 1976,
+      "directors": [
+        "Mohammad Reza Aslani"
       ]
     },
     {
@@ -7618,6 +7712,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -7663,6 +7758,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -7707,6 +7803,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -7725,6 +7822,37 @@
       "year": 2021,
       "directors": [
         "Peter Tscherkassky"
+      ]
+    },
+    {
+      "id": 228937,
+      "title": "Saint Frances",
+      "originalTitle": "Saint Frances",
+      "availableCountries": [
+        "AF",
+        "DE",
+        "EG",
+        "IN",
+        "KR",
+        "NO",
+        "PT",
+        "SE",
+        "US",
+        "ZA"
+      ],
+      "filmCountries": [
+        "United States"
+      ],
+      "duration": 101,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "webUrl": "https://mubi.com/films/saint-frances",
+      "thumbnail": "https://assets.mubicdn.net/images/film/228937/image-w1504_overlaid.jpg?1745495787",
+      "year": 2019,
+      "directors": [
+        "Alex Thompson"
       ]
     },
     {
@@ -7752,6 +7880,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -7767,6 +7896,50 @@
       "year": 2011,
       "directors": [
         "Eric Baudelaire"
+      ]
+    },
+    {
+      "id": 48335,
+      "title": "The Fortress",
+      "originalTitle": "La forteresse",
+      "availableCountries": [
+        "AF",
+        "AR",
+        "AU",
+        "BR",
+        "CA",
+        "CL",
+        "DE",
+        "EG",
+        "ES",
+        "GB",
+        "IN",
+        "IT",
+        "JP",
+        "KR",
+        "MX",
+        "NL",
+        "NO",
+        "NZ",
+        "PT",
+        "SE",
+        "TR",
+        "US",
+        "ZA"
+      ],
+      "filmCountries": [
+        "France",
+        "Switzerland"
+      ],
+      "duration": 101,
+      "genres": [
+        "Documentary"
+      ],
+      "webUrl": "https://mubi.com/films/the-fortress-2008",
+      "thumbnail": "https://assets.mubicdn.net/images/film/48335/image-w1504_overlaid.jpg?1745490620",
+      "year": 2008,
+      "directors": [
+        "Fernand Melgar"
       ]
     },
     {
@@ -7794,6 +7967,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -7813,79 +7987,6 @@
       ]
     },
     {
-      "id": 48335,
-      "title": "The Fortress",
-      "originalTitle": "La forteresse",
-      "availableCountries": [
-        "AF",
-        "AR",
-        "AU",
-        "BR",
-        "CA",
-        "CL",
-        "DE",
-        "EG",
-        "ES",
-        "GB",
-        "IN",
-        "IT",
-        "JP",
-        "KR",
-        "MX",
-        "NL",
-        "NO",
-        "NZ",
-        "PT",
-        "TR",
-        "US",
-        "ZA"
-      ],
-      "filmCountries": [
-        "France",
-        "Switzerland"
-      ],
-      "duration": 101,
-      "genres": [
-        "Documentary"
-      ],
-      "webUrl": "https://mubi.com/films/the-fortress-2008",
-      "thumbnail": "https://assets.mubicdn.net/images/film/48335/image-w1504_overlaid.jpg?1745490620",
-      "year": 2008,
-      "directors": [
-        "Fernand Melgar"
-      ]
-    },
-    {
-      "id": 228937,
-      "title": "Saint Frances",
-      "originalTitle": "Saint Frances",
-      "availableCountries": [
-        "AF",
-        "DE",
-        "EG",
-        "IN",
-        "KR",
-        "NO",
-        "PT",
-        "US",
-        "ZA"
-      ],
-      "filmCountries": [
-        "United States"
-      ],
-      "duration": 101,
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "webUrl": "https://mubi.com/films/saint-frances",
-      "thumbnail": "https://assets.mubicdn.net/images/film/228937/image-w1504_overlaid.jpg?1745495787",
-      "year": 2019,
-      "directors": [
-        "Alex Thompson"
-      ]
-    },
-    {
       "id": 23016,
       "title": "13 Tzameti",
       "originalTitle": "13 Tzameti",
@@ -7902,6 +8003,7 @@
         "MX",
         "NO",
         "PT",
+        "SE",
         "US",
         "ZA"
       ],
@@ -7946,6 +8048,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -7989,6 +8092,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -8019,6 +8123,7 @@
         "KR",
         "NO",
         "PT",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -8055,6 +8160,7 @@
         "MX",
         "NL",
         "PT",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -8096,6 +8202,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -8136,6 +8243,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -8213,6 +8321,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -8229,6 +8338,85 @@
       "year": 2014,
       "directors": [
         "Andrej Gontcharov"
+      ]
+    },
+    {
+      "id": 288495,
+      "title": "Pebbles",
+      "originalTitle": "Koozhangal",
+      "availableCountries": [
+        "AF",
+        "AR",
+        "AU",
+        "BR",
+        "CA",
+        "CL",
+        "DE",
+        "EG",
+        "ES",
+        "FR",
+        "GB",
+        "IT",
+        "JP",
+        "KR",
+        "MX",
+        "NL",
+        "NO",
+        "NZ",
+        "PT",
+        "SE",
+        "TR",
+        "US",
+        "ZA"
+      ],
+      "filmCountries": [
+        "India"
+      ],
+      "duration": 76,
+      "genres": [
+        "Avant-Garde",
+        "Drama",
+        "Family"
+      ],
+      "webUrl": "https://mubi.com/films/pebbles-2021",
+      "thumbnail": "https://assets.mubicdn.net/images/film/288495/image-w1504_overlaid.jpg?1767791089",
+      "year": 2021,
+      "directors": [
+        "P.S. Vinothraj"
+      ]
+    },
+    {
+      "id": 473,
+      "title": "Summer Hours",
+      "originalTitle": "L'heure d'été",
+      "availableCountries": [
+        "AF",
+        "AU",
+        "CA",
+        "EG",
+        "ES",
+        "IT",
+        "JP",
+        "KR",
+        "NO",
+        "NZ",
+        "PT",
+        "SE",
+        "US",
+        "ZA"
+      ],
+      "filmCountries": [
+        "France"
+      ],
+      "duration": 103,
+      "genres": [
+        "Drama"
+      ],
+      "webUrl": "https://mubi.com/films/summer-hours",
+      "thumbnail": "https://assets.mubicdn.net/images/film/473/image-w1504_overlaid.jpg?1745491056",
+      "year": 2008,
+      "directors": [
+        "Olivier Assayas"
       ]
     },
     {
@@ -8268,39 +8456,6 @@
       ]
     },
     {
-      "id": 473,
-      "title": "Summer Hours",
-      "originalTitle": "L'heure d'été",
-      "availableCountries": [
-        "AF",
-        "AU",
-        "CA",
-        "EG",
-        "ES",
-        "IT",
-        "JP",
-        "KR",
-        "NO",
-        "NZ",
-        "PT",
-        "US",
-        "ZA"
-      ],
-      "filmCountries": [
-        "France"
-      ],
-      "duration": 103,
-      "genres": [
-        "Drama"
-      ],
-      "webUrl": "https://mubi.com/films/summer-hours",
-      "thumbnail": "https://assets.mubicdn.net/images/film/473/image-w1504_overlaid.jpg?1745491056",
-      "year": 2008,
-      "directors": [
-        "Olivier Assayas"
-      ]
-    },
-    {
       "id": 5138,
       "title": "Pepi, Luci, Bom",
       "originalTitle": "Pepi, Luci, Bom y otras chicas del montón",
@@ -8322,6 +8477,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -8338,50 +8494,6 @@
       "year": 1980,
       "directors": [
         "Pedro Almodóvar"
-      ]
-    },
-    {
-      "id": 288495,
-      "title": "Pebbles",
-      "originalTitle": "Koozhangal",
-      "availableCountries": [
-        "AF",
-        "AR",
-        "AU",
-        "BR",
-        "CA",
-        "CL",
-        "DE",
-        "EG",
-        "ES",
-        "FR",
-        "GB",
-        "IT",
-        "JP",
-        "KR",
-        "MX",
-        "NL",
-        "NO",
-        "NZ",
-        "PT",
-        "TR",
-        "US",
-        "ZA"
-      ],
-      "filmCountries": [
-        "India"
-      ],
-      "duration": 76,
-      "genres": [
-        "Avant-Garde",
-        "Drama",
-        "Family"
-      ],
-      "webUrl": "https://mubi.com/films/pebbles-2021",
-      "thumbnail": "https://assets.mubicdn.net/images/film/288495/image-w1504_overlaid.jpg?1767791089",
-      "year": 2021,
-      "directors": [
-        "P.S. Vinothraj"
       ]
     },
     {
@@ -8409,6 +8521,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -8448,6 +8561,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -8484,6 +8598,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -8526,6 +8641,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -8640,6 +8756,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -8675,6 +8792,7 @@
         "MX",
         "NL",
         "PT",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -8706,6 +8824,7 @@
         "MX",
         "NO",
         "PT",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -8750,6 +8869,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "US",
         "ZA"
       ],
@@ -8790,6 +8910,7 @@
         "NL",
         "NO",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -8851,6 +8972,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -8889,6 +9011,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -8932,6 +9055,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -8969,6 +9093,7 @@
         "KR",
         "MX",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -9010,6 +9135,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -9045,6 +9171,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -9081,6 +9208,7 @@
         "NL",
         "NO",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -9194,6 +9322,7 @@
         "NL",
         "NO",
         "PT",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -9235,6 +9364,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -9278,6 +9408,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -9315,6 +9446,7 @@
         "NL",
         "NO",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -9351,6 +9483,7 @@
         "NL",
         "NO",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -9387,6 +9520,7 @@
         "NL",
         "NO",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -9427,6 +9561,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -9492,6 +9627,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -9533,6 +9669,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -9572,6 +9709,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -9610,6 +9748,7 @@
         "NL",
         "NO",
         "PT",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -9681,6 +9820,7 @@
         "NL",
         "NO",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -9698,6 +9838,50 @@
       "year": 2014,
       "directors": [
         "Alex Ross Perry"
+      ]
+    },
+    {
+      "id": 97355,
+      "title": "Ashes",
+      "originalTitle": "หนังสั้นจาก",
+      "availableCountries": [
+        "AF",
+        "AR",
+        "AU",
+        "BR",
+        "CA",
+        "CL",
+        "DE",
+        "EG",
+        "ES",
+        "GB",
+        "IN",
+        "IT",
+        "JP",
+        "KR",
+        "MX",
+        "NL",
+        "NO",
+        "NZ",
+        "PT",
+        "SE",
+        "TR",
+        "US",
+        "ZA"
+      ],
+      "filmCountries": [
+        "Thailand"
+      ],
+      "duration": 20,
+      "genres": [
+        "Drama",
+        "Short"
+      ],
+      "webUrl": "https://mubi.com/films/ashes",
+      "thumbnail": "https://assets.mubicdn.net/images/film/97355/image-w1504_overlaid.jpg?1745491234",
+      "year": 2012,
+      "directors": [
+        "Apichatpong Weerasethakul"
       ]
     },
     {
@@ -9725,6 +9909,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -9742,49 +9927,6 @@
       "year": 1993,
       "directors": [
         "Ira Sachs"
-      ]
-    },
-    {
-      "id": 97355,
-      "title": "Ashes",
-      "originalTitle": "หนังสั้นจาก",
-      "availableCountries": [
-        "AF",
-        "AR",
-        "AU",
-        "BR",
-        "CA",
-        "CL",
-        "DE",
-        "EG",
-        "ES",
-        "GB",
-        "IN",
-        "IT",
-        "JP",
-        "KR",
-        "MX",
-        "NL",
-        "NO",
-        "NZ",
-        "PT",
-        "TR",
-        "US",
-        "ZA"
-      ],
-      "filmCountries": [
-        "Thailand"
-      ],
-      "duration": 20,
-      "genres": [
-        "Drama",
-        "Short"
-      ],
-      "webUrl": "https://mubi.com/films/ashes",
-      "thumbnail": "https://assets.mubicdn.net/images/film/97355/image-w1504_overlaid.jpg?1745491234",
-      "year": 2012,
-      "directors": [
-        "Apichatpong Weerasethakul"
       ]
     },
     {
@@ -9832,6 +9974,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -9850,51 +9993,6 @@
       "year": 2011,
       "directors": [
         "Rachel Lang"
-      ]
-    },
-    {
-      "id": 377417,
-      "title": "Bolero",
-      "originalTitle": "Boléro",
-      "availableCountries": [
-        "AF",
-        "AR",
-        "AU",
-        "BR",
-        "CA",
-        "CL",
-        "DE",
-        "EG",
-        "ES",
-        "GB",
-        "IN",
-        "IT",
-        "JP",
-        "KR",
-        "MX",
-        "NL",
-        "NO",
-        "NZ",
-        "PT",
-        "TR",
-        "US",
-        "ZA"
-      ],
-      "filmCountries": [
-        "France",
-        "Italy"
-      ],
-      "duration": 17,
-      "genres": [
-        "Drama",
-        "LGBTQ+",
-        "Short"
-      ],
-      "webUrl": "https://mubi.com/films/bolero-2023",
-      "thumbnail": "https://assets.mubicdn.net/images/film/377417/image-w1504_overlaid.jpg?1745501245",
-      "year": 2023,
-      "directors": [
-        "Nans Laborde-Jourdàa"
       ]
     },
     {
@@ -9933,6 +10031,52 @@
       ]
     },
     {
+      "id": 377417,
+      "title": "Bolero",
+      "originalTitle": "Boléro",
+      "availableCountries": [
+        "AF",
+        "AR",
+        "AU",
+        "BR",
+        "CA",
+        "CL",
+        "DE",
+        "EG",
+        "ES",
+        "GB",
+        "IN",
+        "IT",
+        "JP",
+        "KR",
+        "MX",
+        "NL",
+        "NO",
+        "NZ",
+        "PT",
+        "SE",
+        "TR",
+        "US",
+        "ZA"
+      ],
+      "filmCountries": [
+        "France",
+        "Italy"
+      ],
+      "duration": 17,
+      "genres": [
+        "Drama",
+        "LGBTQ+",
+        "Short"
+      ],
+      "webUrl": "https://mubi.com/films/bolero-2023",
+      "thumbnail": "https://assets.mubicdn.net/images/film/377417/image-w1504_overlaid.jpg?1745501245",
+      "year": 2023,
+      "directors": [
+        "Nans Laborde-Jourdàa"
+      ]
+    },
+    {
       "id": 385499,
       "title": "Anu",
       "originalTitle": "Anu",
@@ -9951,6 +10095,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -9990,6 +10135,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -10019,6 +10165,7 @@
         "KR",
         "NO",
         "PT",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -10061,6 +10208,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -10102,6 +10250,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -10136,7 +10285,8 @@
         "KR",
         "NL",
         "NO",
-        "PT"
+        "PT",
+        "SE"
       ],
       "filmCountries": [
         "Serbia"
@@ -10196,6 +10346,7 @@
         "MX",
         "NO",
         "PT",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -10236,6 +10387,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -10305,6 +10457,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -10371,6 +10524,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -10441,6 +10595,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -10483,6 +10638,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -10526,6 +10682,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -10571,6 +10728,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -10639,6 +10797,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -10682,6 +10841,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -10726,6 +10886,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -10770,6 +10931,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -10786,6 +10948,51 @@
       "year": 2015,
       "directors": [
         "Huang Ya-li"
+      ]
+    },
+    {
+      "id": 409118,
+      "title": "Việt and Nam",
+      "originalTitle": "Trong Lòng Đất",
+      "availableCountries": [
+        "AF",
+        "AR",
+        "AU",
+        "BR",
+        "CA",
+        "CL",
+        "DE",
+        "EG",
+        "FR",
+        "GB",
+        "IN",
+        "IT",
+        "JP",
+        "KR",
+        "MX",
+        "NL",
+        "NO",
+        "NZ",
+        "PT",
+        "SE",
+        "TR",
+        "US",
+        "ZA"
+      ],
+      "filmCountries": [
+        "France",
+        "Vietnam"
+      ],
+      "duration": 129,
+      "genres": [
+        "Drama",
+        "LGBTQ+"
+      ],
+      "webUrl": "https://mubi.com/films/viet-and-nam",
+      "thumbnail": "https://assets.mubicdn.net/images/film/409118/image-w1504_overlaid.jpg?1749144938",
+      "year": 2024,
+      "directors": [
+        "Minh Quý Trương"
       ]
     },
     {
@@ -10808,49 +11015,6 @@
       "year": 2008,
       "directors": [
         "Abbas Kiarostami"
-      ]
-    },
-    {
-      "id": 409118,
-      "title": "Việt and Nam",
-      "originalTitle": "Trong Lòng Đất",
-      "availableCountries": [
-        "AF",
-        "AR",
-        "AU",
-        "BR",
-        "CA",
-        "CL",
-        "DE",
-        "EG",
-        "GB",
-        "IN",
-        "IT",
-        "JP",
-        "KR",
-        "MX",
-        "NL",
-        "NO",
-        "NZ",
-        "PT",
-        "TR",
-        "US",
-        "ZA"
-      ],
-      "filmCountries": [
-        "France",
-        "Vietnam"
-      ],
-      "duration": 129,
-      "genres": [
-        "Drama",
-        "LGBTQ+"
-      ],
-      "webUrl": "https://mubi.com/films/viet-and-nam",
-      "thumbnail": "https://assets.mubicdn.net/images/film/409118/image-w1504_overlaid.jpg?1749144938",
-      "year": 2024,
-      "directors": [
-        "Minh Quý Trương"
       ]
     },
     {
@@ -10877,6 +11041,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -10909,7 +11074,8 @@
         "IT",
         "NL",
         "NO",
-        "PT"
+        "PT",
+        "SE"
       ],
       "filmCountries": [
         "Germany"
@@ -10973,6 +11139,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -11003,6 +11170,7 @@
         "NL",
         "NO",
         "PT",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -11094,6 +11262,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -11138,6 +11307,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -11216,6 +11386,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -11253,6 +11424,7 @@
         "MX",
         "NO",
         "PT",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -11288,6 +11460,7 @@
         "NL",
         "NO",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -11327,6 +11500,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -11367,6 +11541,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -11410,6 +11585,7 @@
         "NL",
         "NO",
         "PT",
+        "SE",
         "US",
         "ZA"
       ],
@@ -11454,6 +11630,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -11499,6 +11676,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -11538,6 +11716,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -11602,6 +11781,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -11643,6 +11823,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -11711,6 +11892,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -11751,6 +11933,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -11789,6 +11972,7 @@
         "NL",
         "NO",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -11833,6 +12017,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -11876,6 +12061,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -11914,6 +12100,7 @@
         "MX",
         "NO",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -11959,6 +12146,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -11997,6 +12185,7 @@
         "NL",
         "NO",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -12027,6 +12216,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -12060,6 +12250,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -12137,6 +12328,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -12180,6 +12372,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -12225,6 +12418,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -12257,6 +12451,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -12326,6 +12521,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -12358,6 +12554,7 @@
         "NL",
         "NO",
         "PT",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -12398,6 +12595,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -12442,6 +12640,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -12484,6 +12683,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -12526,6 +12726,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -12570,6 +12771,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -12609,6 +12811,7 @@
         "MX",
         "NO",
         "PT",
+        "SE",
         "US",
         "ZA"
       ],
@@ -12645,6 +12848,7 @@
         "NL",
         "NO",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -12688,6 +12892,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -12733,6 +12938,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -12773,6 +12979,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -12811,6 +13018,7 @@
         "KR",
         "NO",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -12895,6 +13103,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -12938,6 +13147,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -12987,7 +13197,8 @@
       "originalTitle": "Mr. Kaplan",
       "availableCountries": [
         "NO",
-        "PT"
+        "PT",
+        "SE"
       ],
       "filmCountries": [
         "Germany",
@@ -13026,6 +13237,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -13062,6 +13274,7 @@
         "NL",
         "NO",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -13104,6 +13317,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -13147,6 +13361,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -13225,6 +13440,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -13312,6 +13528,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -13336,15 +13553,16 @@
       "title": "Madeinusa",
       "originalTitle": "Madeinusa",
       "availableCountries": [
-        "PT",
-        "JP",
-        "ES",
-        "IN",
-        "ZA",
         "AF",
         "EG",
+        "ES",
+        "IN",
+        "JP",
         "KR",
-        "NO"
+        "NO",
+        "PT",
+        "SE",
+        "ZA"
       ],
       "filmCountries": [
         "Peru",
@@ -13387,6 +13605,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -13431,6 +13650,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -13464,6 +13684,7 @@
         "NL",
         "NO",
         "PT",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -13506,6 +13727,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -13538,6 +13760,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -13580,6 +13803,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -13623,6 +13847,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -13660,6 +13885,7 @@
         "NL",
         "NO",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -13695,6 +13921,7 @@
         "NL",
         "NO",
         "PT",
+        "SE",
         "US",
         "ZA"
       ],
@@ -13735,6 +13962,7 @@
         "MX",
         "NL",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -13778,6 +14006,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -13842,6 +14071,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -13922,6 +14152,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -14002,6 +14233,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -14045,6 +14277,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -14106,6 +14339,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -14148,6 +14382,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -14191,6 +14426,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -14207,35 +14443,6 @@
       "year": 2014,
       "directors": [
         "Scott Cummings"
-      ]
-    },
-    {
-      "id": 212663,
-      "title": "Jessica Forever",
-      "originalTitle": "Jessica Forever",
-      "availableCountries": [
-        "EG",
-        "ES",
-        "KR",
-        "NO",
-        "PT",
-        "ZA"
-      ],
-      "filmCountries": [
-        "France"
-      ],
-      "duration": 93,
-      "genres": [
-        "Drama",
-        "Fantasy",
-        "Sci-Fi"
-      ],
-      "webUrl": "https://mubi.com/films/jessica-forever",
-      "thumbnail": "https://assets.mubicdn.net/images/film/212663/image-w1504_overlaid.jpg?1745495237",
-      "year": 2018,
-      "directors": [
-        "Caroline Poggi",
-        "Jonathan Vinel"
       ]
     },
     {
@@ -14261,6 +14468,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -14278,6 +14486,36 @@
       "year": 1999,
       "directors": [
         "Luca Guadagnino"
+      ]
+    },
+    {
+      "id": 212663,
+      "title": "Jessica Forever",
+      "originalTitle": "Jessica Forever",
+      "availableCountries": [
+        "EG",
+        "ES",
+        "KR",
+        "NO",
+        "PT",
+        "SE",
+        "ZA"
+      ],
+      "filmCountries": [
+        "France"
+      ],
+      "duration": 93,
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Sci-Fi"
+      ],
+      "webUrl": "https://mubi.com/films/jessica-forever",
+      "thumbnail": "https://assets.mubicdn.net/images/film/212663/image-w1504_overlaid.jpg?1745495237",
+      "year": 2018,
+      "directors": [
+        "Caroline Poggi",
+        "Jonathan Vinel"
       ]
     },
     {
@@ -14305,6 +14543,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -14346,6 +14585,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -14410,6 +14650,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -14453,6 +14694,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -14470,6 +14712,35 @@
       "year": 1967,
       "directors": [
         "Joseph G. Prieto"
+      ]
+    },
+    {
+      "id": 33089,
+      "title": "Soundtrack to War",
+      "originalTitle": "Soundtrack to War",
+      "availableCountries": [
+        "AF",
+        "ES",
+        "IN",
+        "IT",
+        "JP",
+        "KR",
+        "PT",
+        "SE",
+        "TR"
+      ],
+      "filmCountries": [
+        "Australia"
+      ],
+      "duration": 95,
+      "genres": [
+        "Documentary"
+      ],
+      "webUrl": "https://mubi.com/films/soundtrack-to-war",
+      "thumbnail": "https://assets.mubicdn.net/images/film/33089/image-w1504_overlaid.jpg?1745490048",
+      "year": 2005,
+      "directors": [
+        "George Gittoes"
       ]
     },
     {
@@ -14496,6 +14767,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -14512,34 +14784,6 @@
       "year": 1996,
       "directors": [
         "Ira Sachs"
-      ]
-    },
-    {
-      "id": 33089,
-      "title": "Soundtrack to War",
-      "originalTitle": "Soundtrack to War",
-      "availableCountries": [
-        "AF",
-        "ES",
-        "IN",
-        "IT",
-        "JP",
-        "KR",
-        "PT",
-        "TR"
-      ],
-      "filmCountries": [
-        "Australia"
-      ],
-      "duration": 95,
-      "genres": [
-        "Documentary"
-      ],
-      "webUrl": "https://mubi.com/films/soundtrack-to-war",
-      "thumbnail": "https://assets.mubicdn.net/images/film/33089/image-w1504_overlaid.jpg?1745490048",
-      "year": 2005,
-      "directors": [
-        "George Gittoes"
       ]
     },
     {
@@ -14566,6 +14810,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -14606,6 +14851,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -14624,48 +14870,6 @@
       "year": 2012,
       "directors": [
         "Yann Gonzalez"
-      ]
-    },
-    {
-      "id": 113765,
-      "title": "The Second Game",
-      "originalTitle": "Al doilea joc",
-      "availableCountries": [
-        "AF",
-        "AR",
-        "AU",
-        "BR",
-        "CA",
-        "CL",
-        "EG",
-        "ES",
-        "GB",
-        "IN",
-        "JP",
-        "KR",
-        "MX",
-        "NL",
-        "NO",
-        "NZ",
-        "PT",
-        "TR",
-        "US",
-        "ZA"
-      ],
-      "filmCountries": [
-        "Romania"
-      ],
-      "duration": 97,
-      "genres": [
-        "Documentary",
-        "History",
-        "Sport"
-      ],
-      "webUrl": "https://mubi.com/films/the-second-game",
-      "thumbnail": "https://assets.mubicdn.net/images/film/113765/image-w1504_overlaid.jpg?1745491871",
-      "year": 2014,
-      "directors": [
-        "Corneliu Porumboiu"
       ]
     },
     {
@@ -14693,6 +14897,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -14713,6 +14918,49 @@
       "year": 1962,
       "directors": [
         "Ray Dennis Steckler"
+      ]
+    },
+    {
+      "id": 113765,
+      "title": "The Second Game",
+      "originalTitle": "Al doilea joc",
+      "availableCountries": [
+        "AF",
+        "AR",
+        "AU",
+        "BR",
+        "CA",
+        "CL",
+        "EG",
+        "ES",
+        "GB",
+        "IN",
+        "JP",
+        "KR",
+        "MX",
+        "NL",
+        "NO",
+        "NZ",
+        "PT",
+        "SE",
+        "TR",
+        "US",
+        "ZA"
+      ],
+      "filmCountries": [
+        "Romania"
+      ],
+      "duration": 97,
+      "genres": [
+        "Documentary",
+        "History",
+        "Sport"
+      ],
+      "webUrl": "https://mubi.com/films/the-second-game",
+      "thumbnail": "https://assets.mubicdn.net/images/film/113765/image-w1504_overlaid.jpg?1745491871",
+      "year": 2014,
+      "directors": [
+        "Corneliu Porumboiu"
       ]
     },
     {
@@ -14762,6 +15010,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -14806,6 +15055,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -14848,6 +15098,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -14894,6 +15145,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -14937,6 +15189,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -14982,6 +15235,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -15064,6 +15318,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -15109,6 +15364,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -15149,6 +15405,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US"
       ],
@@ -15192,6 +15449,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -15228,6 +15486,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -15273,6 +15532,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -15317,6 +15577,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -15358,6 +15619,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -15400,6 +15662,7 @@
         "NL",
         "NO",
         "PT",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -15442,6 +15705,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -15518,6 +15782,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -15558,6 +15823,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -15601,6 +15867,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -15640,6 +15907,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -15752,6 +16020,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -15814,6 +16083,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -15855,6 +16125,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -15899,6 +16170,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -15943,6 +16215,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -15987,6 +16260,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -16029,6 +16303,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -16072,6 +16347,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -16112,6 +16388,7 @@
         "NL",
         "NO",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -16157,6 +16434,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -16200,6 +16478,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -16239,6 +16518,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -16283,6 +16563,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -16324,6 +16605,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -16369,6 +16651,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -16414,6 +16697,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -16459,6 +16743,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -16501,6 +16786,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -16543,6 +16829,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -16586,6 +16873,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -16631,6 +16919,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -16672,6 +16961,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -16712,6 +17002,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -16757,6 +17048,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -16803,6 +17095,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -16847,6 +17140,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -16891,6 +17185,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -16936,6 +17231,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -16979,6 +17275,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -17022,6 +17319,7 @@
         "NO",
         "NZ",
         "PT",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -17782,6 +18080,35 @@
       ]
     },
     {
+      "id": 1527,
+      "title": "Sherlock Jr.",
+      "originalTitle": "Sherlock Jr.",
+      "availableCountries": [
+        "AR",
+        "CL",
+        "DE",
+        "FR",
+        "GB",
+        "MX",
+        "NL"
+      ],
+      "filmCountries": [
+        "United States"
+      ],
+      "duration": 47,
+      "genres": [
+        "Action",
+        "Comedy",
+        "Silent"
+      ],
+      "webUrl": "https://mubi.com/films/sherlock-jr",
+      "thumbnail": "https://assets.mubicdn.net/images/film/1527/image-w1504_overlaid.jpg?1745490247",
+      "year": 1924,
+      "directors": [
+        "Buster Keaton"
+      ]
+    },
+    {
       "id": 380148,
       "title": "High & Low - John Galliano",
       "originalTitle": "High & Low - John Galliano",
@@ -17815,35 +18142,6 @@
       "year": 2023,
       "directors": [
         "Kevin Macdonald"
-      ]
-    },
-    {
-      "id": 1527,
-      "title": "Sherlock Jr.",
-      "originalTitle": "Sherlock Jr.",
-      "availableCountries": [
-        "AR",
-        "CL",
-        "DE",
-        "FR",
-        "GB",
-        "MX",
-        "NL"
-      ],
-      "filmCountries": [
-        "United States"
-      ],
-      "duration": 47,
-      "genres": [
-        "Action",
-        "Comedy",
-        "Silent"
-      ],
-      "webUrl": "https://mubi.com/films/sherlock-jr",
-      "thumbnail": "https://assets.mubicdn.net/images/film/1527/image-w1504_overlaid.jpg?1745490247",
-      "year": 1924,
-      "directors": [
-        "Buster Keaton"
       ]
     },
     {
@@ -18214,6 +18512,7 @@
         "DE"
       ],
       "filmCountries": [
+        "France",
         "United States"
       ],
       "duration": 94,
@@ -19142,6 +19441,7 @@
         "KR",
         "NL",
         "NO",
+        "SE",
         "ZA"
       ],
       "filmCountries": [
@@ -19229,6 +19529,7 @@
         "NL",
         "NO",
         "NZ",
+        "SE",
         "TR"
       ],
       "filmCountries": [
@@ -19400,28 +19701,30 @@
       ]
     },
     {
-      "id": 385055,
-      "title": "Evil Does Not Exist",
-      "originalTitle": "悪は存在しない  | Aku wa sonzai shinai",
+      "id": 301059,
+      "title": "Sirât",
+      "originalTitle": "Sirât",
       "availableCountries": [
-        "AR",
-        "BR",
-        "CL",
+        "AF",
         "DE",
-        "MX"
+        "IN",
+        "IT",
+        "TR"
       ],
       "filmCountries": [
-        "Japan"
+        "France",
+        "Morocco"
       ],
-      "duration": 107,
+      "duration": 115,
       "genres": [
-        "Drama"
+        "Drama",
+        "Thriller"
       ],
-      "webUrl": "https://mubi.com/films/evil-does-not-exist",
-      "thumbnail": "https://assets.mubicdn.net/images/film/385055/image-w1504_overlaid.jpg?1745502646",
-      "year": 2023,
+      "webUrl": "https://mubi.com/films/sirat",
+      "thumbnail": "https://assets.mubicdn.net/images/film/301059/image-w1504_overlaid.jpg?1769615497",
+      "year": 2025,
       "directors": [
-        "Ryusuke Hamaguchi"
+        "Oliver Laxe"
       ]
     },
     {
@@ -19497,6 +19800,7 @@
         "NL",
         "NO",
         "NZ",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -19536,33 +19840,6 @@
       "year": 1985,
       "directors": [
         "Claude Lanzmann"
-      ]
-    },
-    {
-      "id": 301059,
-      "title": "Sirât",
-      "originalTitle": "Sirât",
-      "availableCountries": [
-        "AF",
-        "DE",
-        "IN",
-        "IT",
-        "TR"
-      ],
-      "filmCountries": [
-        "France",
-        "Morocco"
-      ],
-      "duration": 115,
-      "genres": [
-        "Drama",
-        "Thriller"
-      ],
-      "webUrl": "https://mubi.com/films/sirat",
-      "thumbnail": "https://assets.mubicdn.net/images/film/301059/image-w1504_overlaid.jpg?1769615497",
-      "year": 2025,
-      "directors": [
-        "Oliver Laxe"
       ]
     },
     {
@@ -20094,7 +20371,8 @@
       "originalTitle": "Naked Lunch",
       "availableCountries": [
         "DE",
-        "NO"
+        "NO",
+        "SE"
       ],
       "filmCountries": [
         "Canada",
@@ -20235,8 +20513,8 @@
         "DE"
       ],
       "filmCountries": [
-        "Senegal",
-        "France"
+        "France",
+        "Senegal"
       ],
       "duration": 92,
       "genres": [
@@ -20402,7 +20680,9 @@
       ],
       "duration": 136,
       "genres": [
-        "Drama"
+        "Drama",
+        "Mystery",
+        "Sci-Fi"
       ],
       "webUrl": "https://mubi.com/films/memoria-2021",
       "thumbnail": "https://assets.mubicdn.net/images/film/200359/image-w1504_overlaid.jpg?1745496458",
@@ -20517,6 +20797,7 @@
         "NL",
         "NO",
         "NZ",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -20560,30 +20841,6 @@
       ]
     },
     {
-      "id": 118869,
-      "title": "The Witch",
-      "originalTitle": "The VVitch: A New-England Folktale",
-      "availableCountries": [
-        "DE"
-      ],
-      "filmCountries": [
-        "Canada",
-        "United States"
-      ],
-      "duration": 93,
-      "genres": [
-        "Drama",
-        "Horror",
-        "Mystery"
-      ],
-      "webUrl": "https://mubi.com/films/the-witch-2015",
-      "thumbnail": "https://assets.mubicdn.net/images/film/118869/image-w1504_overlaid.jpg?1745492136",
-      "year": 2015,
-      "directors": [
-        "Robert Eggers"
-      ]
-    },
-    {
       "id": 17372,
       "title": "Our Hospitality",
       "originalTitle": "Our Hospitality",
@@ -20605,6 +20862,30 @@
       "directors": [
         "Buster Keaton",
         "John G. Blystone"
+      ]
+    },
+    {
+      "id": 118869,
+      "title": "The Witch",
+      "originalTitle": "The VVitch: A New-England Folktale",
+      "availableCountries": [
+        "DE"
+      ],
+      "filmCountries": [
+        "Canada",
+        "United States"
+      ],
+      "duration": 93,
+      "genres": [
+        "Drama",
+        "Horror",
+        "Mystery"
+      ],
+      "webUrl": "https://mubi.com/films/the-witch-2015",
+      "thumbnail": "https://assets.mubicdn.net/images/film/118869/image-w1504_overlaid.jpg?1745492136",
+      "year": 2015,
+      "directors": [
+        "Robert Eggers"
       ]
     },
     {
@@ -20843,6 +21124,29 @@
       ]
     },
     {
+      "id": 25677,
+      "title": "Muriel's Wedding",
+      "originalTitle": "Muriel's Wedding",
+      "availableCountries": [
+        "DE"
+      ],
+      "filmCountries": [
+        "Australia"
+      ],
+      "duration": 101,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "webUrl": "https://mubi.com/films/muriels-wedding",
+      "thumbnail": "https://assets.mubicdn.net/images/film/25677/image-w1504_overlaid.jpg?1745491096",
+      "year": 1994,
+      "directors": [
+        "P.J. Hogan"
+      ]
+    },
+    {
       "id": 4016,
       "title": "The Apple",
       "originalTitle": "Sib ",
@@ -20893,29 +21197,6 @@
       "year": 1997,
       "directors": [
         "Jafar Panahi"
-      ]
-    },
-    {
-      "id": 25677,
-      "title": "Muriel's Wedding",
-      "originalTitle": "Muriel's Wedding",
-      "availableCountries": [
-        "DE"
-      ],
-      "filmCountries": [
-        "Australia"
-      ],
-      "duration": 101,
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Romance"
-      ],
-      "webUrl": "https://mubi.com/films/muriels-wedding",
-      "thumbnail": "https://assets.mubicdn.net/images/film/25677/image-w1504_overlaid.jpg?1745491096",
-      "year": 1994,
-      "directors": [
-        "P.J. Hogan"
       ]
     },
     {
@@ -21132,30 +21413,6 @@
       ]
     },
     {
-      "id": 2209,
-      "title": "I Walked with a Zombie",
-      "originalTitle": "I Walked with a Zombie",
-      "availableCountries": [
-        "DE"
-      ],
-      "filmCountries": [
-        "United States"
-      ],
-      "duration": 69,
-      "genres": [
-        "Drama",
-        "Horror",
-        "Romance",
-        "Thriller"
-      ],
-      "webUrl": "https://mubi.com/films/i-walked-with-a-zombie",
-      "thumbnail": "https://assets.mubicdn.net/images/film/2209/image-w1504_overlaid.jpg?1745489545",
-      "year": 1943,
-      "directors": [
-        "Jacques Tourneur"
-      ]
-    },
-    {
       "id": 2843,
       "title": "Millennium Mambo",
       "originalTitle": "千禧曼波  | Qian xi man po",
@@ -21180,6 +21437,30 @@
       "year": 2001,
       "directors": [
         "Hou Hsiao-hsien"
+      ]
+    },
+    {
+      "id": 2209,
+      "title": "I Walked with a Zombie",
+      "originalTitle": "I Walked with a Zombie",
+      "availableCountries": [
+        "DE"
+      ],
+      "filmCountries": [
+        "United States"
+      ],
+      "duration": 69,
+      "genres": [
+        "Drama",
+        "Horror",
+        "Romance",
+        "Thriller"
+      ],
+      "webUrl": "https://mubi.com/films/i-walked-with-a-zombie",
+      "thumbnail": "https://assets.mubicdn.net/images/film/2209/image-w1504_overlaid.jpg?1745489545",
+      "year": 1943,
+      "directors": [
+        "Jacques Tourneur"
       ]
     },
     {
@@ -21857,7 +22138,8 @@
       "originalTitle": "Sisters",
       "availableCountries": [
         "DE",
-        "NO"
+        "NO",
+        "SE"
       ],
       "filmCountries": [
         "United States"
@@ -22132,6 +22414,7 @@
         "MX",
         "NO",
         "NZ",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -22289,6 +22572,47 @@
       ]
     },
     {
+      "id": 296731,
+      "title": "Trailer of the Film That Will Never Exist: 'Phony Wars'",
+      "originalTitle": "Film annonce du film qui n'existera jamais: 'Drôles de Guerres'",
+      "availableCountries": [
+        "AF",
+        "AR",
+        "AU",
+        "BR",
+        "CL",
+        "DE",
+        "EG",
+        "GB",
+        "IN",
+        "IT",
+        "KR",
+        "MX",
+        "NL",
+        "NO",
+        "NZ",
+        "SE",
+        "TR",
+        "ZA"
+      ],
+      "filmCountries": [
+        "France",
+        "Switzerland"
+      ],
+      "duration": 20,
+      "genres": [
+        "Avant-Garde",
+        "Documentary",
+        "Short"
+      ],
+      "webUrl": "https://mubi.com/films/trailer-of-the-film-that-will-never-exist-phony-wars",
+      "thumbnail": "https://assets.mubicdn.net/images/film/296731/image-w1504_overlaid.jpg?1745501295",
+      "year": 2023,
+      "directors": [
+        "Jean-Luc Godard"
+      ]
+    },
+    {
       "id": 346738,
       "title": "The Ordinaries",
       "originalTitle": "The Ordinaries",
@@ -22311,46 +22635,6 @@
       ]
     },
     {
-      "id": 296731,
-      "title": "Trailer of the Film That Will Never Exist: 'Phony Wars'",
-      "originalTitle": "Film annonce du film qui n'existera jamais: 'Drôles de Guerres'",
-      "availableCountries": [
-        "AF",
-        "AR",
-        "AU",
-        "BR",
-        "CL",
-        "DE",
-        "EG",
-        "GB",
-        "IN",
-        "IT",
-        "KR",
-        "MX",
-        "NL",
-        "NO",
-        "NZ",
-        "TR",
-        "ZA"
-      ],
-      "filmCountries": [
-        "France",
-        "Switzerland"
-      ],
-      "duration": 20,
-      "genres": [
-        "Avant-Garde",
-        "Documentary",
-        "Short"
-      ],
-      "webUrl": "https://mubi.com/films/trailer-of-the-film-that-will-never-exist-phony-wars",
-      "thumbnail": "https://assets.mubicdn.net/images/film/296731/image-w1504_overlaid.jpg?1745501295",
-      "year": 2023,
-      "directors": [
-        "Jean-Luc Godard"
-      ]
-    },
-    {
       "id": 400379,
       "title": "April",
       "originalTitle": "April",
@@ -22368,6 +22652,7 @@
         "MX",
         "NO",
         "NZ",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -22737,6 +23022,27 @@
       ]
     },
     {
+      "id": 401740,
+      "title": "Favoriten",
+      "originalTitle": "Favoriten",
+      "availableCountries": [
+        "DE"
+      ],
+      "filmCountries": [
+        "Austria"
+      ],
+      "duration": 118,
+      "genres": [
+        "Documentary"
+      ],
+      "webUrl": "https://mubi.com/films/favoriten",
+      "thumbnail": "https://assets.mubicdn.net/images/film/401740/image-w1504_overlaid.jpg?1745502279",
+      "year": 2024,
+      "directors": [
+        "Ruth Beckermann"
+      ]
+    },
+    {
       "id": 385947,
       "title": "Dream Scenario",
       "originalTitle": "Dream Scenario",
@@ -22756,27 +23062,6 @@
       "year": 2023,
       "directors": [
         "Kristoffer Borgli"
-      ]
-    },
-    {
-      "id": 401740,
-      "title": "Favoriten",
-      "originalTitle": "Favoriten",
-      "availableCountries": [
-        "DE"
-      ],
-      "filmCountries": [
-        "Austria"
-      ],
-      "duration": 118,
-      "genres": [
-        "Documentary"
-      ],
-      "webUrl": "https://mubi.com/films/favoriten",
-      "thumbnail": "https://assets.mubicdn.net/images/film/401740/image-w1504_overlaid.jpg?1745502279",
-      "year": 2024,
-      "directors": [
-        "Ruth Beckermann"
       ]
     },
     {
@@ -22941,6 +23226,7 @@
         "KR",
         "NL",
         "NO",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -22964,14 +23250,14 @@
       "title": "Ingrid Goes West",
       "originalTitle": "Ingrid Goes West",
       "availableCountries": [
-        "DE",
-        "GB",
-        "FR",
         "AR",
         "BR",
-        "NL",
-        "MX",
         "CL",
+        "DE",
+        "FR",
+        "GB",
+        "MX",
+        "NL",
         "TR"
       ],
       "filmCountries": [
@@ -23161,6 +23447,7 @@
         "NL",
         "NO",
         "NZ",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -23307,6 +23594,7 @@
         "KR",
         "MX",
         "NO",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -23760,6 +24048,7 @@
         "CL",
         "GB",
         "MX",
+        "TR",
         "US"
       ],
       "filmCountries": [
@@ -24516,8 +24805,8 @@
       ],
       "duration": 106,
       "genres": [
-        "Comedy",
-        "Drama"
+        "Drama",
+        "Romance"
       ],
       "webUrl": "https://mubi.com/films/certified-copy",
       "thumbnail": "https://assets.mubicdn.net/images/film/26220/image-w1504_overlaid.jpg?1745490961",
@@ -24946,32 +25235,6 @@
       ]
     },
     {
-      "id": 410692,
-      "title": "Flow",
-      "originalTitle": "Straume",
-      "availableCountries": [
-        "AU",
-        "GB",
-        "NZ"
-      ],
-      "filmCountries": [
-        "France",
-        "Latvia"
-      ],
-      "duration": 85,
-      "genres": [
-        "Adventure",
-        "Animation",
-        "Fantasy"
-      ],
-      "webUrl": "https://mubi.com/films/flow-2024",
-      "thumbnail": "https://assets.mubicdn.net/images/film/410692/image-w1504_overlaid.jpg?1745503626",
-      "year": 2024,
-      "directors": [
-        "Gints Zilbalodis"
-      ]
-    },
-    {
       "id": 288066,
       "title": "Women Talking",
       "originalTitle": "Women Talking",
@@ -24996,6 +25259,32 @@
       "year": 2022,
       "directors": [
         "Sarah Polley"
+      ]
+    },
+    {
+      "id": 410692,
+      "title": "Flow",
+      "originalTitle": "Straume",
+      "availableCountries": [
+        "AU",
+        "GB",
+        "NZ"
+      ],
+      "filmCountries": [
+        "France",
+        "Latvia"
+      ],
+      "duration": 85,
+      "genres": [
+        "Adventure",
+        "Animation",
+        "Fantasy"
+      ],
+      "webUrl": "https://mubi.com/films/flow-2024",
+      "thumbnail": "https://assets.mubicdn.net/images/film/410692/image-w1504_overlaid.jpg?1745503626",
+      "year": 2024,
+      "directors": [
+        "Gints Zilbalodis"
       ]
     },
     {
@@ -25262,6 +25551,35 @@
       ]
     },
     {
+      "id": 400360,
+      "title": "Sentimental Value",
+      "originalTitle": "Affeksjonsverdi",
+      "availableCountries": [
+        "AF",
+        "AR",
+        "BR",
+        "CL",
+        "GB",
+        "IN",
+        "MX",
+        "TR"
+      ],
+      "filmCountries": [
+        "Germany",
+        "Norway"
+      ],
+      "duration": 135,
+      "genres": [
+        "Drama"
+      ],
+      "webUrl": "https://mubi.com/films/sentimental-value",
+      "thumbnail": "https://assets.mubicdn.net/images/film/400360/image-w1504_overlaid.jpg?1757575671",
+      "year": 2025,
+      "directors": [
+        "Joachim Trier"
+      ]
+    },
+    {
       "id": 369358,
       "title": "Bring Them Down",
       "originalTitle": "Bring Them Down",
@@ -25291,35 +25609,6 @@
       "year": 2024,
       "directors": [
         "Christopher Andrews"
-      ]
-    },
-    {
-      "id": 400360,
-      "title": "Sentimental Value",
-      "originalTitle": "Affeksjonsverdi",
-      "availableCountries": [
-        "AF",
-        "AR",
-        "BR",
-        "CL",
-        "GB",
-        "IN",
-        "MX",
-        "TR"
-      ],
-      "filmCountries": [
-        "Germany",
-        "Norway"
-      ],
-      "duration": 135,
-      "genres": [
-        "Drama"
-      ],
-      "webUrl": "https://mubi.com/films/sentimental-value",
-      "thumbnail": "https://assets.mubicdn.net/images/film/400360/image-w1504_overlaid.jpg?1757575671",
-      "year": 2025,
-      "directors": [
-        "Joachim Trier"
       ]
     },
     {
@@ -25616,7 +25905,8 @@
         "CL",
         "GB",
         "MX",
-        "NO"
+        "NO",
+        "SE"
       ],
       "filmCountries": [
         "United States"
@@ -25676,6 +25966,7 @@
         "NL",
         "NO",
         "NZ",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -25725,7 +26016,6 @@
         "CA",
         "GB",
         "IN",
-        "NL",
         "US"
       ],
       "filmCountries": [
@@ -25825,6 +26115,7 @@
         "IN",
         "IT",
         "NO",
+        "SE",
         "TR",
         "US"
       ],
@@ -26105,11 +26396,11 @@
       "title": "Altman",
       "originalTitle": "Altman",
       "availableCountries": [
-        "GB",
+        "AF",
         "ES",
-        "NL",
+        "GB",
         "IN",
-        "AF"
+        "NL"
       ],
       "filmCountries": [
         "Canada"
@@ -26186,6 +26477,28 @@
       ]
     },
     {
+      "id": 87308,
+      "title": "Wuthering Heights",
+      "originalTitle": "Wuthering Heights",
+      "availableCountries": [
+        "GB"
+      ],
+      "filmCountries": [
+        "United Kingdom"
+      ],
+      "duration": 129,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "webUrl": "https://mubi.com/films/wuthering-heights-2011",
+      "thumbnail": "https://assets.mubicdn.net/images/film/87308/image-w1504_overlaid.jpg?1745491892",
+      "year": 2011,
+      "directors": [
+        "Andrea Arnold"
+      ]
+    },
+    {
       "id": 372158,
       "title": "The Nature of Love",
       "originalTitle": "Simple comme Sylvain",
@@ -26208,28 +26521,6 @@
       "year": 2023,
       "directors": [
         "Monia Chokri"
-      ]
-    },
-    {
-      "id": 87308,
-      "title": "Wuthering Heights",
-      "originalTitle": "Wuthering Heights",
-      "availableCountries": [
-        "GB"
-      ],
-      "filmCountries": [
-        "United Kingdom"
-      ],
-      "duration": 129,
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "webUrl": "https://mubi.com/films/wuthering-heights-2011",
-      "thumbnail": "https://assets.mubicdn.net/images/film/87308/image-w1504_overlaid.jpg?1745491892",
-      "year": 2011,
-      "directors": [
-        "Andrea Arnold"
       ]
     },
     {
@@ -26548,6 +26839,7 @@
         "NL",
         "NO",
         "NZ",
+        "SE",
         "TR",
         "ZA"
       ],
@@ -26761,7 +27053,8 @@
       "originalTitle": "Love and Friendship",
       "availableCountries": [
         "GB",
-        "NO"
+        "NO",
+        "SE"
       ],
       "filmCountries": [
         "France",
@@ -26914,6 +27207,7 @@
         "KR",
         "MX",
         "NO",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -27140,6 +27434,36 @@
       ]
     },
     {
+      "id": 21817,
+      "title": "Bad Seed",
+      "originalTitle": "Mauvaise graine",
+      "availableCountries": [
+        "AR",
+        "BR",
+        "CL",
+        "FR",
+        "GB",
+        "MX",
+        "NL"
+      ],
+      "filmCountries": [
+        "France"
+      ],
+      "duration": 73,
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Romance"
+      ],
+      "webUrl": "https://mubi.com/films/bad-seed-1934",
+      "thumbnail": "https://assets.mubicdn.net/images/film/21817/image-w1504_overlaid.jpg?1745489731",
+      "year": 1934,
+      "directors": [
+        "Alexander Esway",
+        "Billy Wilder"
+      ]
+    },
+    {
       "id": 118864,
       "title": "Results",
       "originalTitle": "Results",
@@ -27184,36 +27508,6 @@
       ]
     },
     {
-      "id": 21817,
-      "title": "Bad Seed",
-      "originalTitle": "Mauvaise graine",
-      "availableCountries": [
-        "AR",
-        "BR",
-        "CL",
-        "FR",
-        "GB",
-        "MX",
-        "NL"
-      ],
-      "filmCountries": [
-        "France"
-      ],
-      "duration": 73,
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Romance"
-      ],
-      "webUrl": "https://mubi.com/films/bad-seed-1934",
-      "thumbnail": "https://assets.mubicdn.net/images/film/21817/image-w1504_overlaid.jpg?1745489731",
-      "year": 1934,
-      "directors": [
-        "Alexander Esway",
-        "Billy Wilder"
-      ]
-    },
-    {
       "id": 294106,
       "title": "Taste",
       "originalTitle": "Vị",
@@ -27228,6 +27522,7 @@
         "IT",
         "MX",
         "NO",
+        "SE",
         "TR",
         "US"
       ],
@@ -28182,12 +28477,12 @@
       "title": "Ida",
       "originalTitle": "Ida",
       "availableCountries": [
-        "US",
-        "CA"
+        "CA",
+        "US"
       ],
       "filmCountries": [
-        "Poland",
-        "Denmark"
+        "Denmark",
+        "Poland"
       ],
       "duration": 82,
       "genres": [
@@ -28258,12 +28553,12 @@
       "title": "Mayor",
       "originalTitle": "Mayor",
       "availableCountries": [
-        "US",
-        "CA"
+        "CA",
+        "US"
       ],
       "filmCountries": [
-        "United States",
-        "United Kingdom"
+        "United Kingdom",
+        "United States"
       ],
       "duration": 90,
       "genres": [
@@ -28709,6 +29004,7 @@
       "originalTitle": "L'Avenir",
       "availableCountries": [
         "NO",
+        "SE",
         "US"
       ],
       "filmCountries": [
@@ -29036,6 +29332,7 @@
         "MX",
         "NO",
         "NZ",
+        "SE",
         "US"
       ],
       "filmCountries": [
@@ -30349,6 +30646,30 @@
       ]
     },
     {
+      "id": 26510,
+      "title": "Shall We Dance?",
+      "originalTitle": "Shall We ダンス？ | Shall we dansu?",
+      "availableCountries": [
+        "CA",
+        "US"
+      ],
+      "filmCountries": [
+        "Japan"
+      ],
+      "duration": 137,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "webUrl": "https://mubi.com/films/shall-we-dance-1996",
+      "thumbnail": "https://assets.mubicdn.net/images/film/26510/image-w1504_overlaid.jpg?1770314305",
+      "year": 1996,
+      "directors": [
+        "Masayuki Suo"
+      ]
+    },
+    {
       "id": 47563,
       "title": "Bernie",
       "originalTitle": "Bernie",
@@ -30419,30 +30740,6 @@
       ]
     },
     {
-      "id": 26510,
-      "title": "Shall We Dance?",
-      "originalTitle": "Shall We ダンス？ | Shall we dansu?",
-      "availableCountries": [
-        "CA",
-        "US"
-      ],
-      "filmCountries": [
-        "Japan"
-      ],
-      "duration": 137,
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Romance"
-      ],
-      "webUrl": "https://mubi.com/films/shall-we-dance-1996",
-      "thumbnail": "https://assets.mubicdn.net/images/film/26510/image-w1504_overlaid.jpg?1770314305",
-      "year": 1996,
-      "directors": [
-        "Masayuki Suo"
-      ]
-    },
-    {
       "id": 149446,
       "title": "Marjorie Prime",
       "originalTitle": "Marjorie Prime",
@@ -30503,6 +30800,7 @@
         "JP",
         "KR",
         "NO",
+        "SE",
         "US",
         "ZA"
       ],
@@ -30746,6 +31044,7 @@
         "IN",
         "NL",
         "NO",
+        "SE",
         "US",
         "ZA"
       ],
@@ -31069,28 +31368,6 @@
       ]
     },
     {
-      "id": 251500,
-      "title": "Bloody Nose, Empty Pockets",
-      "originalTitle": "Bloody Nose, Empty Pockets",
-      "availableCountries": [
-        "US"
-      ],
-      "filmCountries": [
-        "United States"
-      ],
-      "duration": 99,
-      "genres": [
-        "Documentary"
-      ],
-      "webUrl": "https://mubi.com/films/bloody-nose-empty-pockets",
-      "thumbnail": "https://assets.mubicdn.net/images/film/251500/image-w1504_overlaid.jpg?1745496607",
-      "year": 2020,
-      "directors": [
-        "Bill Ross IV",
-        "Turner Ross"
-      ]
-    },
-    {
       "id": 4658,
       "title": "First Name: Carmen",
       "originalTitle": "Prénom Carmen",
@@ -31112,6 +31389,28 @@
       "year": 1983,
       "directors": [
         "Jean-Luc Godard"
+      ]
+    },
+    {
+      "id": 251500,
+      "title": "Bloody Nose, Empty Pockets",
+      "originalTitle": "Bloody Nose, Empty Pockets",
+      "availableCountries": [
+        "US"
+      ],
+      "filmCountries": [
+        "United States"
+      ],
+      "duration": 99,
+      "genres": [
+        "Documentary"
+      ],
+      "webUrl": "https://mubi.com/films/bloody-nose-empty-pockets",
+      "thumbnail": "https://assets.mubicdn.net/images/film/251500/image-w1504_overlaid.jpg?1745496607",
+      "year": 2020,
+      "directors": [
+        "Bill Ross IV",
+        "Turner Ross"
       ]
     },
     {
@@ -31500,12 +31799,12 @@
       ],
       "duration": 84,
       "genres": [
-        "Mystery",
         "Drama",
+        "Mystery",
         "Thriller"
       ],
       "webUrl": "https://mubi.com/films/the-woman-in-the-fifth",
-      "thumbnail": "https://assets.mubicdn.net/images/film/43760/image-w1504_overlaid.jpg?1745492376",
+      "thumbnail": "https://assets.mubicdn.net/images/film/43760/image-w1504_overlaid.jpg?1771423790",
       "year": 2011,
       "directors": [
         "Paweł Pawlikowski"
@@ -32118,6 +32417,29 @@
       ]
     },
     {
+      "id": 109164,
+      "title": "Sumo Do, Sumo Don't",
+      "originalTitle": "Shiko funjatta",
+      "availableCountries": [
+        "CA",
+        "US"
+      ],
+      "filmCountries": [
+        "Japan"
+      ],
+      "duration": 104,
+      "genres": [
+        "Comedy",
+        "Sport"
+      ],
+      "webUrl": "https://mubi.com/films/sumo-do-sumo-don-t-1992",
+      "thumbnail": "https://assets.mubicdn.net/images/film/109164/image-w1504_overlaid.jpg?1745491715",
+      "year": 1992,
+      "directors": [
+        "Masayuki Suo"
+      ]
+    },
+    {
       "id": 27583,
       "title": "Demons",
       "originalTitle": "Dèmoni",
@@ -32185,29 +32507,6 @@
       "year": 2009,
       "directors": [
         "Rachid Bouchareb"
-      ]
-    },
-    {
-      "id": 109164,
-      "title": "Sumo Do, Sumo Don't",
-      "originalTitle": "Shiko funjatta",
-      "availableCountries": [
-        "CA",
-        "US"
-      ],
-      "filmCountries": [
-        "Japan"
-      ],
-      "duration": 104,
-      "genres": [
-        "Comedy",
-        "Sport"
-      ],
-      "webUrl": "https://mubi.com/films/sumo-do-sumo-don-t-1992",
-      "thumbnail": "https://assets.mubicdn.net/images/film/109164/image-w1504_overlaid.jpg?1745491715",
-      "year": 1992,
-      "directors": [
-        "Masayuki Suo"
       ]
     },
     {
@@ -32397,6 +32696,7 @@
       "originalTitle": "Kaboom",
       "availableCountries": [
         "NO",
+        "SE",
         "US"
       ],
       "filmCountries": [
@@ -32545,6 +32845,7 @@
         "NL",
         "NO",
         "NZ",
+        "SE",
         "TR",
         "US",
         "ZA"
@@ -32762,26 +33063,31 @@
       ]
     },
     {
-      "id": 50918,
-      "title": "Zatôichi",
-      "originalTitle": "座頭市",
+      "id": 55334,
+      "title": "Making Mr. Right",
+      "originalTitle": "Making Mr. Right",
       "availableCountries": [
+        "AR",
+        "BR",
+        "CA",
+        "CL",
+        "MX",
         "US"
       ],
       "filmCountries": [
-        "Japan"
+        "United States"
       ],
-      "duration": 119,
+      "duration": 99,
       "genres": [
-        "Action",
-        "Adventure",
-        "History"
+        "Comedy",
+        "Romance",
+        "Sci-Fi"
       ],
-      "webUrl": "https://mubi.com/films/zatoichi-26-darkness-is-his-ally",
-      "thumbnail": "https://assets.mubicdn.net/images/film/50918/image-w1504_overlaid.jpg?1745490944",
-      "year": 1989,
+      "webUrl": "https://mubi.com/films/making-mr-right",
+      "thumbnail": "https://assets.mubicdn.net/images/film/55334/image-w1504_overlaid.jpg?1768837913",
+      "year": 1987,
       "directors": [
-        "Shintarô Katsu"
+        "Susan Seidelman"
       ]
     },
     {
@@ -32808,31 +33114,26 @@
       ]
     },
     {
-      "id": 55334,
-      "title": "Making Mr. Right",
-      "originalTitle": "Making Mr. Right",
+      "id": 50918,
+      "title": "Zatôichi",
+      "originalTitle": "座頭市",
       "availableCountries": [
-        "AR",
-        "BR",
-        "CA",
-        "CL",
-        "MX",
         "US"
       ],
       "filmCountries": [
-        "United States"
+        "Japan"
       ],
-      "duration": 99,
+      "duration": 119,
       "genres": [
-        "Comedy",
-        "Romance",
-        "Sci-Fi"
+        "Action",
+        "Adventure",
+        "History"
       ],
-      "webUrl": "https://mubi.com/films/making-mr-right",
-      "thumbnail": "https://assets.mubicdn.net/images/film/55334/image-w1504_overlaid.jpg?1768837913",
-      "year": 1987,
+      "webUrl": "https://mubi.com/films/zatoichi-26-darkness-is-his-ally",
+      "thumbnail": "https://assets.mubicdn.net/images/film/50918/image-w1504_overlaid.jpg?1745490944",
+      "year": 1989,
       "directors": [
-        "Susan Seidelman"
+        "Shintarô Katsu"
       ]
     },
     {
@@ -32952,6 +33253,29 @@
       ]
     },
     {
+      "id": 359242,
+      "title": "Colette and Justin",
+      "originalTitle": "Colette et Justin",
+      "availableCountries": [
+        "US",
+        "CA"
+      ],
+      "filmCountries": [
+        "France",
+        "Belgium"
+      ],
+      "duration": 89,
+      "genres": [
+        "Documentary"
+      ],
+      "webUrl": "https://mubi.com/films/colette-and-justin",
+      "thumbnail": "https://assets.mubicdn.net/images/film/359242/image-w1504_overlaid.jpg?1771427034",
+      "year": 2022,
+      "directors": [
+        "Alain Kassanda"
+      ]
+    },
+    {
       "id": 94888,
       "title": "Calm at Sea",
       "originalTitle": "La mer à l'aube",
@@ -33043,28 +33367,6 @@
       ]
     },
     {
-      "id": 130637,
-      "title": "Downriver",
-      "originalTitle": "Downriver",
-      "availableCountries": [
-        "US"
-      ],
-      "filmCountries": [
-        "Australia"
-      ],
-      "duration": 99,
-      "genres": [
-        "Drama",
-        "LGBTQ+"
-      ],
-      "webUrl": "https://mubi.com/films/downriver",
-      "thumbnail": "https://assets.mubicdn.net/images/film/130637/image-w1504_overlaid.jpg?1745492411",
-      "year": 2015,
-      "directors": [
-        "Grant Scicluna"
-      ]
-    },
-    {
       "id": 252794,
       "title": "Tahara",
       "originalTitle": "Tahara",
@@ -33085,6 +33387,28 @@
       "year": 2020,
       "directors": [
         "Olivia Peace"
+      ]
+    },
+    {
+      "id": 130637,
+      "title": "Downriver",
+      "originalTitle": "Downriver",
+      "availableCountries": [
+        "US"
+      ],
+      "filmCountries": [
+        "Australia"
+      ],
+      "duration": 99,
+      "genres": [
+        "Drama",
+        "LGBTQ+"
+      ],
+      "webUrl": "https://mubi.com/films/downriver",
+      "thumbnail": "https://assets.mubicdn.net/images/film/130637/image-w1504_overlaid.jpg?1745492411",
+      "year": 2015,
+      "directors": [
+        "Grant Scicluna"
       ]
     },
     {
@@ -33202,6 +33526,7 @@
         "NL",
         "NO",
         "NZ",
+        "SE",
         "US",
         "ZA"
       ],
@@ -33226,8 +33551,8 @@
       "title": "Coconut Head Generation",
       "originalTitle": "Coconut Head Generation",
       "availableCountries": [
-        "US",
-        "CA"
+        "CA",
+        "US"
       ],
       "filmCountries": [
         "France",
@@ -33238,7 +33563,7 @@
         "Documentary"
       ],
       "webUrl": "https://mubi.com/films/coconut-head-generation",
-      "thumbnail": "https://assets.mubicdn.net/images/film/372806/image-w1504_overlaid.jpg?1745501043",
+      "thumbnail": "https://assets.mubicdn.net/images/film/372806/image-w1504_overlaid.jpg?1771425925",
       "year": 2023,
       "directors": [
         "Alain Kassanda"
@@ -33394,6 +33719,7 @@
         "NL",
         "NO",
         "NZ",
+        "SE",
         "US",
         "ZA"
       ],
@@ -33698,7 +34024,7 @@
       ],
       "filmCountries": [
         "South Africa",
-        "United Kingdom"
+        "United States"
       ],
       "duration": 92,
       "genres": [
@@ -34235,10 +34561,10 @@
       "duration": 170,
       "genres": [
         "Comedy",
-        "Drama"
+        "Horror"
       ],
       "webUrl": "https://mubi.com/films/dracula-2025",
-      "thumbnail": "https://assets.mubicdn.net/images/film/433332/image-w1504_overlaid.jpg?1745503474",
+      "thumbnail": "https://assets.mubicdn.net/images/film/433332/image-w1504_overlaid.jpg?1771419170",
       "year": 2025,
       "directors": [
         "Radu Jude"
@@ -34952,7 +35278,8 @@
       "originalTitle": "La maman et la putain",
       "availableCountries": [
         "FR",
-        "NO"
+        "NO",
+        "SE"
       ],
       "filmCountries": [
         "France"
@@ -35074,8 +35401,8 @@
       "duration": 77,
       "genres": [
         "Avant-Garde",
-        "Cult",
-        "Comedy"
+        "Comedy",
+        "Cult"
       ],
       "webUrl": "https://mubi.com/films/daisies",
       "thumbnail": "https://assets.mubicdn.net/images/film/3178/image-w1504_overlaid.jpg?1770821519",
@@ -35348,7 +35675,8 @@
       "originalTitle": "The Piano",
       "availableCountries": [
         "FR",
-        "NO"
+        "NO",
+        "SE"
       ],
       "filmCountries": [
         "Australia",
@@ -35560,7 +35888,8 @@
       "originalTitle": "Sexy Beast",
       "availableCountries": [
         "FR",
-        "NO"
+        "NO",
+        "SE"
       ],
       "filmCountries": [
         "Spain",
@@ -35730,7 +36059,8 @@
       "availableCountries": [
         "FR",
         "IT",
-        "NO"
+        "NO",
+        "SE"
       ],
       "filmCountries": [
         "Canada"
@@ -36319,6 +36649,29 @@
       ]
     },
     {
+      "id": 211385,
+      "title": "Castle to Castle",
+      "originalTitle": "D'un château l'autre",
+      "availableCountries": [
+        "FR"
+      ],
+      "filmCountries": [
+        "Belgium",
+        "France"
+      ],
+      "duration": 41,
+      "genres": [
+        "Drama",
+        "Short"
+      ],
+      "webUrl": "https://mubi.com/films/castle-to-castle",
+      "thumbnail": "https://assets.mubicdn.net/images/film/211385/image-w1504_overlaid.jpg?1747044400",
+      "year": 2018,
+      "directors": [
+        "Emmanuel Marre"
+      ]
+    },
+    {
       "id": 39734,
       "title": "The Ballad of Genesis and Lady Jaye",
       "originalTitle": "The Ballad of Genesis and Lady Jaye",
@@ -36340,29 +36693,6 @@
       "year": 2011,
       "directors": [
         "Marie Losier"
-      ]
-    },
-    {
-      "id": 211385,
-      "title": "Castle to Castle",
-      "originalTitle": "D'un château l'autre",
-      "availableCountries": [
-        "FR"
-      ],
-      "filmCountries": [
-        "Belgium",
-        "France"
-      ],
-      "duration": 41,
-      "genres": [
-        "Drama",
-        "Short"
-      ],
-      "webUrl": "https://mubi.com/films/castle-to-castle",
-      "thumbnail": "https://assets.mubicdn.net/images/film/211385/image-w1504_overlaid.jpg?1747044400",
-      "year": 2018,
-      "directors": [
-        "Emmanuel Marre"
       ]
     },
     {
@@ -36568,6 +36898,28 @@
       ]
     },
     {
+      "id": 385623,
+      "title": "Menus-Plaisirs Les Troisgros",
+      "originalTitle": "Menus-Plaisirs Les Troisgros",
+      "availableCountries": [
+        "FR"
+      ],
+      "filmCountries": [
+        "France",
+        "United States"
+      ],
+      "duration": 240,
+      "genres": [
+        "Documentary"
+      ],
+      "webUrl": "https://mubi.com/films/menus-plaisirs-les-troisgros",
+      "thumbnail": "https://assets.mubicdn.net/images/film/385623/image-w1504_overlaid.jpg?1757602855",
+      "year": 2023,
+      "directors": [
+        "Frederick Wiseman"
+      ]
+    },
+    {
       "id": 228603,
       "title": "Night of the Kings",
       "originalTitle": "La nuit des rois",
@@ -36589,28 +36941,6 @@
       "year": 2020,
       "directors": [
         "Philippe Lacôte"
-      ]
-    },
-    {
-      "id": 385623,
-      "title": "Menus-Plaisirs Les Troisgros",
-      "originalTitle": "Menus-Plaisirs Les Troisgros",
-      "availableCountries": [
-        "FR"
-      ],
-      "filmCountries": [
-        "France",
-        "United States"
-      ],
-      "duration": 240,
-      "genres": [
-        "Documentary"
-      ],
-      "webUrl": "https://mubi.com/films/menus-plaisirs-les-troisgros",
-      "thumbnail": "https://assets.mubicdn.net/images/film/385623/image-w1504_overlaid.jpg?1757602855",
-      "year": 2023,
-      "directors": [
-        "Frederick Wiseman"
       ]
     },
     {
@@ -37025,6 +37355,28 @@
       ]
     },
     {
+      "id": 87371,
+      "title": "Le jour des rois",
+      "originalTitle": "Le jour des rois",
+      "availableCountries": [
+        "FR"
+      ],
+      "filmCountries": [
+        "France"
+      ],
+      "duration": 97,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "webUrl": "https://mubi.com/films/le-jour-des-rois",
+      "thumbnail": "https://assets.mubicdn.net/images/film/87371/image-w1504_overlaid.jpg?1761742299",
+      "year": 1991,
+      "directors": [
+        "Marie-Claude Treilhou"
+      ]
+    },
+    {
       "id": 291773,
       "title": "The Eternal Daughter",
       "originalTitle": "The Eternal Daughter",
@@ -37067,28 +37419,6 @@
       "year": 1971,
       "directors": [
         "Jean Eustache"
-      ]
-    },
-    {
-      "id": 87371,
-      "title": "Le jour des rois",
-      "originalTitle": "Le jour des rois",
-      "availableCountries": [
-        "FR"
-      ],
-      "filmCountries": [
-        "France"
-      ],
-      "duration": 97,
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "webUrl": "https://mubi.com/films/le-jour-des-rois",
-      "thumbnail": "https://assets.mubicdn.net/images/film/87371/image-w1504_overlaid.jpg?1761742299",
-      "year": 1991,
-      "directors": [
-        "Marie-Claude Treilhou"
       ]
     },
     {
@@ -37278,6 +37608,29 @@
       ]
     },
     {
+      "id": 23122,
+      "title": "Go Fish",
+      "originalTitle": "Go Fish",
+      "availableCountries": [
+        "FR"
+      ],
+      "filmCountries": [
+        "United States"
+      ],
+      "duration": 84,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "LGBTQ+"
+      ],
+      "webUrl": "https://mubi.com/films/go-fish",
+      "thumbnail": "https://assets.mubicdn.net/images/film/23122/image-w1504_overlaid.jpg?1769770565",
+      "year": 1994,
+      "directors": [
+        "Rose Troche"
+      ]
+    },
+    {
       "id": 152066,
       "title": "Trinkets and Dark Thoughts",
       "originalTitle": "Fanfreluches et idées noires",
@@ -37389,29 +37742,6 @@
       ]
     },
     {
-      "id": 23122,
-      "title": "Go Fish",
-      "originalTitle": "Go Fish",
-      "availableCountries": [
-        "FR"
-      ],
-      "filmCountries": [
-        "United States"
-      ],
-      "duration": 84,
-      "genres": [
-        "Comedy",
-        "Drama",
-        "LGBTQ+"
-      ],
-      "webUrl": "https://mubi.com/films/go-fish",
-      "thumbnail": "https://assets.mubicdn.net/images/film/23122/image-w1504_overlaid.jpg?1769770565",
-      "year": 1994,
-      "directors": [
-        "Rose Troche"
-      ]
-    },
-    {
       "id": 162731,
       "title": "Out",
       "originalTitle": "Out",
@@ -37458,29 +37788,6 @@
       ]
     },
     {
-      "id": 349047,
-      "title": "Watch the Fire or Burn Inside It",
-      "originalTitle": "Il faut regarder le feu ou brûler dedans",
-      "availableCountries": [
-        "FR"
-      ],
-      "filmCountries": [
-        "France"
-      ],
-      "duration": 18,
-      "genres": [
-        "Drama",
-        "Short"
-      ],
-      "webUrl": "https://mubi.com/films/watch-the-fire-or-burn-inside-it",
-      "thumbnail": "https://assets.mubicdn.net/images/film/349047/image-w1504_overlaid.jpg?1745500153",
-      "year": 2022,
-      "directors": [
-        "Caroline Poggi",
-        "Jonathan Vinel"
-      ]
-    },
-    {
       "id": 43348,
       "title": "Neige",
       "originalTitle": "Neige",
@@ -37501,6 +37808,29 @@
       "directors": [
         "Jean-Henri Roger",
         "Juliet Berto"
+      ]
+    },
+    {
+      "id": 349047,
+      "title": "Watch the Fire or Burn Inside It",
+      "originalTitle": "Il faut regarder le feu ou brûler dedans",
+      "availableCountries": [
+        "FR"
+      ],
+      "filmCountries": [
+        "France"
+      ],
+      "duration": 18,
+      "genres": [
+        "Drama",
+        "Short"
+      ],
+      "webUrl": "https://mubi.com/films/watch-the-fire-or-burn-inside-it",
+      "thumbnail": "https://assets.mubicdn.net/images/film/349047/image-w1504_overlaid.jpg?1745500153",
+      "year": 2022,
+      "directors": [
+        "Caroline Poggi",
+        "Jonathan Vinel"
       ]
     },
     {
@@ -38493,6 +38823,31 @@
       ]
     },
     {
+      "id": 235534,
+      "title": "Love, Women and Flowers",
+      "originalTitle": "Amor, mujeres y flores",
+      "availableCountries": [
+        "AR",
+        "CL",
+        "MX"
+      ],
+      "filmCountries": [
+        "Colombia",
+        "United Kingdom"
+      ],
+      "duration": 57,
+      "genres": [
+        "Documentary"
+      ],
+      "webUrl": "https://mubi.com/films/love-women-and-flowers",
+      "thumbnail": "https://assets.mubicdn.net/images/film/235534/image-w1504_overlaid.jpg?1753903019",
+      "year": 1988,
+      "directors": [
+        "Jorge Silva",
+        "Marta Rodríguez"
+      ]
+    },
+    {
       "id": 15861,
       "title": "With Blood on My Hands: Pusher II",
       "originalTitle": "Pusher II",
@@ -38519,31 +38874,6 @@
       "year": 2004,
       "directors": [
         "Nicolas Winding Refn"
-      ]
-    },
-    {
-      "id": 235534,
-      "title": "Love, Women and Flowers",
-      "originalTitle": "Amor, mujeres y flores",
-      "availableCountries": [
-        "AR",
-        "CL",
-        "MX"
-      ],
-      "filmCountries": [
-        "Colombia",
-        "United Kingdom"
-      ],
-      "duration": 57,
-      "genres": [
-        "Documentary"
-      ],
-      "webUrl": "https://mubi.com/films/love-women-and-flowers",
-      "thumbnail": "https://assets.mubicdn.net/images/film/235534/image-w1504_overlaid.jpg?1753903019",
-      "year": 1988,
-      "directors": [
-        "Jorge Silva",
-        "Marta Rodríguez"
       ]
     },
     {
@@ -38773,6 +39103,7 @@
         "NL",
         "NO",
         "NZ",
+        "SE",
         "TR"
       ],
       "filmCountries": [
@@ -38891,6 +39222,30 @@
       "year": 1974,
       "directors": [
         "Tobe Hooper"
+      ]
+    },
+    {
+      "id": 385055,
+      "title": "Evil Does Not Exist",
+      "originalTitle": "悪は存在しない  | Aku wa sonzai shinai",
+      "availableCountries": [
+        "AR",
+        "BR",
+        "CL",
+        "MX"
+      ],
+      "filmCountries": [
+        "Japan"
+      ],
+      "duration": 107,
+      "genres": [
+        "Drama"
+      ],
+      "webUrl": "https://mubi.com/films/evil-does-not-exist",
+      "thumbnail": "https://assets.mubicdn.net/images/film/385055/image-w1504_overlaid.jpg?1745502646",
+      "year": 2023,
+      "directors": [
+        "Ryusuke Hamaguchi"
       ]
     },
     {
@@ -39267,7 +39622,8 @@
         "CL",
         "IT",
         "MX",
-        "NO"
+        "NO",
+        "SE"
       ],
       "filmCountries": [
         "Japan"
@@ -39592,33 +39948,6 @@
       ]
     },
     {
-      "id": 10175,
-      "title": "Hair",
-      "originalTitle": "Hair",
-      "availableCountries": [
-        "AR",
-        "BR",
-        "CL",
-        "MX"
-      ],
-      "filmCountries": [
-        "United States",
-        "West Germany"
-      ],
-      "duration": 121,
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Musical"
-      ],
-      "webUrl": "https://mubi.com/films/hair",
-      "thumbnail": "https://assets.mubicdn.net/images/film/10175/image-w1504_overlaid.jpg?1745492301",
-      "year": 1979,
-      "directors": [
-        "Miloš Forman"
-      ]
-    },
-    {
       "id": 19644,
       "title": "The Adventures of Priscilla, Queen of the Desert",
       "originalTitle": "The Adventures of Priscilla, Queen of the Desert",
@@ -39643,6 +39972,33 @@
       "year": 1994,
       "directors": [
         "Stephan Elliott"
+      ]
+    },
+    {
+      "id": 10175,
+      "title": "Hair",
+      "originalTitle": "Hair",
+      "availableCountries": [
+        "AR",
+        "BR",
+        "CL",
+        "MX"
+      ],
+      "filmCountries": [
+        "United States",
+        "West Germany"
+      ],
+      "duration": 121,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Musical"
+      ],
+      "webUrl": "https://mubi.com/films/hair",
+      "thumbnail": "https://assets.mubicdn.net/images/film/10175/image-w1504_overlaid.jpg?1745492301",
+      "year": 1979,
+      "directors": [
+        "Miloš Forman"
       ]
     },
     {
@@ -40857,7 +41213,7 @@
     },
     {
       "id": 1388,
-      "title": "El viento nos llevará",
+      "title": "The Wind Will Carry Us",
       "originalTitle": "Bad ma ra khahad bord",
       "availableCountries": [
         "AF",
@@ -40884,12 +41240,13 @@
     },
     {
       "id": 151873,
-      "title": "The Chief",
+      "title": "Il capo",
       "originalTitle": "Il capo",
       "availableCountries": [
         "ES",
         "IT",
-        "NO"
+        "NO",
+        "SE"
       ],
       "filmCountries": [
         "Italy"
@@ -40914,7 +41271,8 @@
       "availableCountries": [
         "ES",
         "IT",
-        "NO"
+        "NO",
+        "SE"
       ],
       "filmCountries": [
         "Italy"
@@ -40933,7 +41291,7 @@
     },
     {
       "id": 34905,
-      "title": "Primer caso, segundo caso",
+      "title": "First Case, Second Case",
       "originalTitle": "Ghazieh-e Shekl-e Aval, Ghazieh-e Shekl-e Dou Wom",
       "availableCountries": [
         "AF",
@@ -40964,7 +41322,8 @@
       "availableCountries": [
         "ES",
         "IT",
-        "NO"
+        "NO",
+        "SE"
       ],
       "filmCountries": [
         "Italy"
@@ -40988,7 +41347,8 @@
       "availableCountries": [
         "ES",
         "IT",
-        "NO"
+        "NO",
+        "SE"
       ],
       "filmCountries": [
         "Italy"
@@ -41636,7 +41996,8 @@
         "AU",
         "IT",
         "NO",
-        "NZ"
+        "NZ",
+        "SE"
       ],
       "filmCountries": [
         "United Kingdom"
@@ -41848,28 +42209,6 @@
       ]
     },
     {
-      "id": 385674,
-      "title": "The Oceans Are the Real Continents",
-      "originalTitle": "Los océanos son los verdaderos continentes",
-      "availableCountries": [
-        "IT"
-      ],
-      "filmCountries": [
-        "Italy",
-        "Cuba"
-      ],
-      "duration": 115,
-      "genres": [
-        "Drama"
-      ],
-      "webUrl": "https://mubi.com/films/the-oceans-are-the-real-continents-2023",
-      "thumbnail": "https://assets.mubicdn.net/images/film/385674/image-w1504_overlaid.jpg?1745501643",
-      "year": 2023,
-      "directors": [
-        "Tommaso Santambrogio"
-      ]
-    },
-    {
       "id": 40465,
       "title": "I Knew Her Well",
       "originalTitle": "Io la conoscevo bene",
@@ -41890,6 +42229,28 @@
       "year": 1965,
       "directors": [
         "Antonio Pietrangeli"
+      ]
+    },
+    {
+      "id": 385674,
+      "title": "The Oceans Are the Real Continents",
+      "originalTitle": "Los océanos son los verdaderos continentes",
+      "availableCountries": [
+        "IT"
+      ],
+      "filmCountries": [
+        "Cuba",
+        "Italy"
+      ],
+      "duration": 115,
+      "genres": [
+        "Drama"
+      ],
+      "webUrl": "https://mubi.com/films/the-oceans-are-the-real-continents-2023",
+      "thumbnail": "https://assets.mubicdn.net/images/film/385674/image-w1504_overlaid.jpg?1745501643",
+      "year": 2023,
+      "directors": [
+        "Tommaso Santambrogio"
       ]
     },
     {
@@ -42144,6 +42505,27 @@
       ]
     },
     {
+      "id": 739,
+      "title": "The Fiances",
+      "originalTitle": "I fidanzati",
+      "availableCountries": [
+        "IT"
+      ],
+      "filmCountries": [
+        "Italy"
+      ],
+      "duration": 77,
+      "genres": [
+        "Drama"
+      ],
+      "webUrl": "https://mubi.com/films/the-fiances",
+      "thumbnail": "https://assets.mubicdn.net/images/film/739/image-w1504_overlaid.jpg?1745491892",
+      "year": 1963,
+      "directors": [
+        "Ermanno Olmi"
+      ]
+    },
+    {
       "id": 26534,
       "title": "Heartbeats",
       "originalTitle": "Les Amours imaginaires",
@@ -42163,27 +42545,6 @@
       "year": 2010,
       "directors": [
         "Xavier Dolan"
-      ]
-    },
-    {
-      "id": 739,
-      "title": "The Fiances",
-      "originalTitle": "I fidanzati",
-      "availableCountries": [
-        "IT"
-      ],
-      "filmCountries": [
-        "Italy"
-      ],
-      "duration": 77,
-      "genres": [
-        "Drama"
-      ],
-      "webUrl": "https://mubi.com/films/the-fiances",
-      "thumbnail": "https://assets.mubicdn.net/images/film/739/image-w1504_overlaid.jpg?1745491892",
-      "year": 1963,
-      "directors": [
-        "Ermanno Olmi"
       ]
     },
     {
@@ -42258,6 +42619,27 @@
       ]
     },
     {
+      "id": 2710,
+      "title": "Pulse",
+      "originalTitle": "Kairo",
+      "availableCountries": [
+        "IT"
+      ],
+      "filmCountries": [
+        "Japan"
+      ],
+      "duration": 119,
+      "genres": [
+        "Horror"
+      ],
+      "webUrl": "https://mubi.com/films/pulse",
+      "thumbnail": "https://assets.mubicdn.net/images/film/2710/image-w1504_overlaid.jpg?1758215997",
+      "year": 2001,
+      "directors": [
+        "Kiyoshi Kurosawa"
+      ]
+    },
+    {
       "id": 336318,
       "title": "Cesária Évora",
       "originalTitle": "Cesária Évora",
@@ -42278,27 +42660,6 @@
       "year": 2022,
       "directors": [
         "Ana Sofia Fonseca"
-      ]
-    },
-    {
-      "id": 2710,
-      "title": "Pulse",
-      "originalTitle": "Kairo",
-      "availableCountries": [
-        "IT"
-      ],
-      "filmCountries": [
-        "Japan"
-      ],
-      "duration": 119,
-      "genres": [
-        "Horror"
-      ],
-      "webUrl": "https://mubi.com/films/pulse",
-      "thumbnail": "https://assets.mubicdn.net/images/film/2710/image-w1504_overlaid.jpg?1758215997",
-      "year": 2001,
-      "directors": [
-        "Kiyoshi Kurosawa"
       ]
     },
     {
@@ -42531,7 +42892,8 @@
       "originalTitle": "Swiss Army Man",
       "availableCountries": [
         "IT",
-        "NO"
+        "NO",
+        "SE"
       ],
       "filmCountries": [
         "United States"
@@ -43048,27 +43410,6 @@
       ]
     },
     {
-      "id": 418995,
-      "title": "Taxi Monamour",
-      "originalTitle": "Taxi Monamour",
-      "availableCountries": [
-        "IT"
-      ],
-      "filmCountries": [
-        "Italy"
-      ],
-      "duration": 113,
-      "genres": [
-        "Drama"
-      ],
-      "webUrl": "https://mubi.com/films/taxi-monamour",
-      "thumbnail": "https://assets.mubicdn.net/images/film/418995/image-w1504_overlaid.jpg?1745502901",
-      "year": 2024,
-      "directors": [
-        "Ciro De Caro"
-      ]
-    },
-    {
       "id": 156332,
       "title": "The Challenge",
       "originalTitle": "The Challenge",
@@ -43088,6 +43429,27 @@
       "year": 2016,
       "directors": [
         "Yuri Ancarani"
+      ]
+    },
+    {
+      "id": 418995,
+      "title": "Taxi Monamour",
+      "originalTitle": "Taxi Monamour",
+      "availableCountries": [
+        "IT"
+      ],
+      "filmCountries": [
+        "Italy"
+      ],
+      "duration": 113,
+      "genres": [
+        "Drama"
+      ],
+      "webUrl": "https://mubi.com/films/taxi-monamour",
+      "thumbnail": "https://assets.mubicdn.net/images/film/418995/image-w1504_overlaid.jpg?1745502901",
+      "year": 2024,
+      "directors": [
+        "Ciro De Caro"
       ]
     },
     {
@@ -43295,30 +43657,6 @@
       ]
     },
     {
-      "id": 125573,
-      "title": "Snowden",
-      "originalTitle": "Snowden",
-      "availableCountries": [
-        "IT"
-      ],
-      "filmCountries": [
-        "Germany",
-        "United States"
-      ],
-      "duration": 134,
-      "genres": [
-        "Biography",
-        "Drama",
-        "Thriller"
-      ],
-      "webUrl": "https://mubi.com/films/snowden",
-      "thumbnail": "https://assets.mubicdn.net/images/film/125573/image-w1504_overlaid.jpg?1745492227",
-      "year": 2016,
-      "directors": [
-        "Oliver Stone"
-      ]
-    },
-    {
       "id": 377676,
       "title": "Enrico's Birthday",
       "originalTitle": "Il compleanno di Enrico",
@@ -43340,6 +43678,30 @@
       "year": 2023,
       "directors": [
         "Francesco Sossai"
+      ]
+    },
+    {
+      "id": 125573,
+      "title": "Snowden",
+      "originalTitle": "Snowden",
+      "availableCountries": [
+        "IT"
+      ],
+      "filmCountries": [
+        "Germany",
+        "United States"
+      ],
+      "duration": 134,
+      "genres": [
+        "Biography",
+        "Drama",
+        "Thriller"
+      ],
+      "webUrl": "https://mubi.com/films/snowden",
+      "thumbnail": "https://assets.mubicdn.net/images/film/125573/image-w1504_overlaid.jpg?1745492227",
+      "year": 2016,
+      "directors": [
+        "Oliver Stone"
       ]
     },
     {
@@ -43615,7 +43977,8 @@
       "originalTitle": "Lady Macbeth",
       "availableCountries": [
         "CA",
-        "NO"
+        "NO",
+        "SE"
       ],
       "filmCountries": [
         "United Kingdom"
@@ -45132,7 +45495,8 @@
       "availableCountries": [
         "AU",
         "NO",
-        "NZ"
+        "NZ",
+        "SE"
       ],
       "filmCountries": [
         "United States"
@@ -45228,7 +45592,8 @@
       "availableCountries": [
         "AU",
         "NO",
-        "NZ"
+        "NZ",
+        "SE"
       ],
       "filmCountries": [
         "United States"
@@ -45254,8 +45619,8 @@
         "NZ"
       ],
       "filmCountries": [
-        "United States",
-        "United Kingdom"
+        "United Kingdom",
+        "United States"
       ],
       "duration": 128,
       "genres": [
@@ -45546,7 +45911,8 @@
       "originalTitle": "Brother Number One",
       "availableCountries": [
         "AU",
-        "NZ"
+        "NZ",
+        "SE"
       ],
       "filmCountries": [
         "New Zealand"
@@ -47592,6 +47958,896 @@
       ]
     },
     {
+      "id": 170754,
+      "title": "The Rider",
+      "originalTitle": "The Rider",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "United States"
+      ],
+      "duration": 103,
+      "genres": [
+        "Drama",
+        "Western"
+      ],
+      "webUrl": "https://mubi.com/films/the-rider",
+      "thumbnail": "https://assets.mubicdn.net/images/film/170754/image-w1504_overlaid.jpg?1745493707",
+      "year": 2017,
+      "directors": [
+        "Chloé Zhao"
+      ]
+    },
+    {
+      "id": 511,
+      "title": "Suspiria",
+      "originalTitle": "Suspiria",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "Italy"
+      ],
+      "duration": 101,
+      "genres": [
+        "Horror"
+      ],
+      "webUrl": "https://mubi.com/films/suspiria",
+      "thumbnail": "https://assets.mubicdn.net/images/film/511/image-w1504_overlaid.jpg?1745490195",
+      "year": 1977,
+      "directors": [
+        "Dario Argento"
+      ]
+    },
+    {
+      "id": 1409,
+      "title": "The Bitter Tears of Petra von Kant",
+      "originalTitle": "Die bitteren Tränen der Petra von Kant",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "West Germany"
+      ],
+      "duration": 120,
+      "genres": [
+        "Drama",
+        "LGBTQ+"
+      ],
+      "webUrl": "https://mubi.com/films/the-bitter-tears-of-petra-von-kant",
+      "thumbnail": "https://assets.mubicdn.net/images/film/1409/image-w1504_overlaid.jpg?1745491055",
+      "year": 1972,
+      "directors": [
+        "Rainer Werner Fassbinder"
+      ]
+    },
+    {
+      "id": 167990,
+      "title": "Mid90s",
+      "originalTitle": "Mid90s",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "United States"
+      ],
+      "duration": 82,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "webUrl": "https://mubi.com/films/mid-90s",
+      "thumbnail": "https://assets.mubicdn.net/images/film/167990/image-w1504_overlaid.jpg?1745495200",
+      "year": 2018,
+      "directors": [
+        "Jonah Hill"
+      ]
+    },
+    {
+      "id": 22680,
+      "title": "The Juniper Tree",
+      "originalTitle": "The Juniper Tree",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "Iceland"
+      ],
+      "duration": 79,
+      "genres": [
+        "Drama",
+        "Fantasy"
+      ],
+      "webUrl": "https://mubi.com/films/the-juniper-tree",
+      "thumbnail": "https://assets.mubicdn.net/images/film/22680/image-w1504_overlaid.jpg?1745490270",
+      "year": 1990,
+      "directors": [
+        "Nietzchka Keene"
+      ]
+    },
+    {
+      "id": 592,
+      "title": "The Marriage of Maria Braun",
+      "originalTitle": "Die Ehe der Maria Braun",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "West Germany"
+      ],
+      "duration": 121,
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "webUrl": "https://mubi.com/films/the-marriage-of-maria-braun",
+      "thumbnail": "https://assets.mubicdn.net/images/film/592/image-w1504_overlaid.jpg?1745490944",
+      "year": 1979,
+      "directors": [
+        "Rainer Werner Fassbinder"
+      ]
+    },
+    {
+      "id": 161912,
+      "title": "Manifesto",
+      "originalTitle": "Manifesto",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "Germany"
+      ],
+      "duration": 95,
+      "genres": [
+        "Avant-Garde",
+        "Drama"
+      ],
+      "webUrl": "https://mubi.com/films/manifesto-2015",
+      "thumbnail": "https://assets.mubicdn.net/images/film/161912/image-w1504_overlaid.jpg?1745500881",
+      "year": 2015,
+      "directors": [
+        "Julian Rosefeldt"
+      ]
+    },
+    {
+      "id": 1394,
+      "title": "Teorema",
+      "originalTitle": "Teorema",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "Italy"
+      ],
+      "duration": 98,
+      "genres": [
+        "Drama",
+        "LGBTQ+",
+        "Mystery"
+      ],
+      "webUrl": "https://mubi.com/films/theorem",
+      "thumbnail": "https://assets.mubicdn.net/images/film/1394/image-w1504_overlaid.jpg?1745501115",
+      "year": 1968,
+      "directors": [
+        "Pier Paolo Pasolini"
+      ]
+    },
+    {
+      "id": 3751,
+      "title": "Nosferatu the Vampyre",
+      "originalTitle": "Nosferatu: Phantom der Nacht",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "France",
+        "West Germany"
+      ],
+      "duration": 107,
+      "genres": [
+        "Horror"
+      ],
+      "webUrl": "https://mubi.com/films/nosferatu-phantom-of-the-night",
+      "thumbnail": "https://assets.mubicdn.net/images/film/3751/image-w1504_overlaid.jpg?1745489586",
+      "year": 1979,
+      "directors": [
+        "Werner Herzog"
+      ]
+    },
+    {
+      "id": 17028,
+      "title": "Merry Christmas, Mr. Lawrence",
+      "originalTitle": "Merry Christmas, Mr. Lawrence",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "Japan",
+        "United Kingdom"
+      ],
+      "duration": 123,
+      "genres": [
+        "Drama",
+        "LGBTQ+",
+        "War"
+      ],
+      "webUrl": "https://mubi.com/films/merry-christmas-mr-lawrence",
+      "thumbnail": "https://assets.mubicdn.net/images/film/17028/image-w1504_overlaid.jpg?1745500702",
+      "year": 1983,
+      "directors": [
+        "Nagisa Ôshima"
+      ]
+    },
+    {
+      "id": 2433,
+      "title": "Thirst",
+      "originalTitle": "박쥐 | Bakjwi",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "South Korea"
+      ],
+      "duration": 134,
+      "genres": [
+        "Cult",
+        "Horror"
+      ],
+      "webUrl": "https://mubi.com/films/thirst-2009",
+      "thumbnail": "https://assets.mubicdn.net/images/film/2433/image-w1504_overlaid.jpg?1745489551",
+      "year": 2009,
+      "directors": [
+        "Park Chan-wook"
+      ]
+    },
+    {
+      "id": 3869,
+      "title": "Wanda",
+      "originalTitle": "Wanda",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "United States"
+      ],
+      "duration": 99,
+      "genres": [
+        "Drama"
+      ],
+      "webUrl": "https://mubi.com/films/wanda",
+      "thumbnail": "https://assets.mubicdn.net/images/film/3869/image-w1504_overlaid.jpg?1745491895",
+      "year": 1970,
+      "directors": [
+        "Barbara Loden"
+      ]
+    },
+    {
+      "id": 128,
+      "title": "The Host",
+      "originalTitle": "Gwoemul | 괴물",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "South Korea"
+      ],
+      "duration": 120,
+      "genres": [
+        "Action",
+        "Horror",
+        "Sci-Fi"
+      ],
+      "webUrl": "https://mubi.com/films/the-host",
+      "thumbnail": "https://assets.mubicdn.net/images/film/128/image-w1504_overlaid.jpg?1745490252",
+      "year": 2006,
+      "directors": [
+        "Bong Joon Ho"
+      ]
+    },
+    {
+      "id": 87237,
+      "title": "Shame",
+      "originalTitle": "Shame",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "United Kingdom"
+      ],
+      "duration": 100,
+      "genres": [
+        "Drama",
+        "Erotica"
+      ],
+      "webUrl": "https://mubi.com/films/shame-2011",
+      "thumbnail": "https://assets.mubicdn.net/images/film/87237/image-w1504_overlaid.jpg?1745490940",
+      "year": 2011,
+      "directors": [
+        "Steve McQueen"
+      ]
+    },
+    {
+      "id": 112915,
+      "title": "Frank",
+      "originalTitle": "Frank",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "Ireland",
+        "United Kingdom"
+      ],
+      "duration": 96,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Music"
+      ],
+      "webUrl": "https://mubi.com/films/frank-2014",
+      "thumbnail": "https://assets.mubicdn.net/images/film/112915/image-w1504_overlaid.jpg?1745491813",
+      "year": 2014,
+      "directors": [
+        "Lenny Abrahamson"
+      ]
+    },
+    {
+      "id": 774,
+      "title": "Metropolitan",
+      "originalTitle": "Metropolitan",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "United States"
+      ],
+      "duration": 99,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "webUrl": "https://mubi.com/films/metropolitan",
+      "thumbnail": "https://assets.mubicdn.net/images/film/774/image-w1504_overlaid.jpg?1766583188",
+      "year": 1990,
+      "directors": [
+        "Whit Stillman"
+      ]
+    },
+    {
+      "id": 1747,
+      "title": "Brother",
+      "originalTitle": "Brother",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "United Kingdom",
+        "United States"
+      ],
+      "duration": 113,
+      "genres": [
+        "Crime",
+        "Cult",
+        "Drama"
+      ],
+      "webUrl": "https://mubi.com/films/brother",
+      "thumbnail": "https://assets.mubicdn.net/images/film/1747/image-w1504_overlaid.jpg?1745491445",
+      "year": 2000,
+      "directors": [
+        "Takeshi Kitano (Beat Takeshi)"
+      ]
+    },
+    {
+      "id": 3172,
+      "title": "Chameleon Street",
+      "originalTitle": "Chameleon Street",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "United States"
+      ],
+      "duration": 95,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "webUrl": "https://mubi.com/films/chameleon-street",
+      "thumbnail": "https://assets.mubicdn.net/images/film/3172/image-w1504_overlaid.jpg?1745489571",
+      "year": 1989,
+      "directors": [
+        "Wendell B. Harris Jr."
+      ]
+    },
+    {
+      "id": 93440,
+      "title": "Beasts of the Southern Wild",
+      "originalTitle": "Beasts of the Southern Wild",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "United States"
+      ],
+      "duration": 93,
+      "genres": [
+        "Adventure",
+        "Drama",
+        "Fantasy"
+      ],
+      "webUrl": "https://mubi.com/films/beasts-of-the-southern-wild",
+      "thumbnail": "https://assets.mubicdn.net/images/film/93440/image-w1504_overlaid.jpg?1745490979",
+      "year": 2012,
+      "directors": [
+        "Benh Zeitlin"
+      ]
+    },
+    {
+      "id": 20513,
+      "title": "24 Hour Party People",
+      "originalTitle": "24 Hour Party People",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "United Kingdom"
+      ],
+      "duration": 117,
+      "genres": [
+        "Biography",
+        "Comedy",
+        "Drama"
+      ],
+      "webUrl": "https://mubi.com/films/24-hour-party-people",
+      "thumbnail": "https://assets.mubicdn.net/images/film/20513/image-w1504_overlaid.jpg?1745489696",
+      "year": 2002,
+      "directors": [
+        "Michael Winterbottom"
+      ]
+    },
+    {
+      "id": 178424,
+      "title": "Boom for Real: The Late Teenage Years of Jean-Michel Basquiat",
+      "originalTitle": "Boom for Real: The Late Teenage Years of Jean-Michel Basquiat",
+      "availableCountries": [
+        "AF",
+        "EG",
+        "IN",
+        "KR",
+        "NO",
+        "SE",
+        "TR",
+        "ZA"
+      ],
+      "filmCountries": [
+        "United States"
+      ],
+      "duration": 79,
+      "genres": [
+        "Documentary"
+      ],
+      "webUrl": "https://mubi.com/films/boom-for-real-the-late-teenage-years-of-jean-michel-basquiat",
+      "thumbnail": "https://assets.mubicdn.net/images/film/178424/image-w1504_overlaid.jpg?1768587453",
+      "year": 2017,
+      "directors": [
+        "Sara Driver"
+      ]
+    },
+    {
+      "id": 20697,
+      "title": "Shortbus",
+      "originalTitle": "Shortbus",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "United States"
+      ],
+      "duration": 101,
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Erotica",
+        "LGBTQ+",
+        "Romance"
+      ],
+      "webUrl": "https://mubi.com/films/shortbus",
+      "thumbnail": "https://assets.mubicdn.net/images/film/20697/image-w1504_overlaid.jpg?1745498453",
+      "year": 2006,
+      "directors": [
+        "John Cameron Mitchell"
+      ]
+    },
+    {
+      "id": 102817,
+      "title": "Prince Avalanche",
+      "originalTitle": "Prince Avalanche",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "United States"
+      ],
+      "duration": 94,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "webUrl": "https://mubi.com/films/prince-avalanche",
+      "thumbnail": "https://assets.mubicdn.net/images/film/102817/image-w1504_overlaid.jpg?1745492111",
+      "year": 2013,
+      "directors": [
+        "David Gordon Green"
+      ]
+    },
+    {
+      "id": 151115,
+      "title": "High Life",
+      "originalTitle": "High Life",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "France",
+        "Germany"
+      ],
+      "duration": 113,
+      "genres": [
+        "Drama",
+        "Sci-Fi"
+      ],
+      "webUrl": "https://mubi.com/films/high-life-2018",
+      "thumbnail": "https://assets.mubicdn.net/images/film/151115/image-w1504_overlaid.jpg?1745494744",
+      "year": 2018,
+      "directors": [
+        "Claire Denis"
+      ]
+    },
+    {
+      "id": 135740,
+      "title": "Little Men",
+      "originalTitle": "Little Men",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "United States"
+      ],
+      "duration": 85,
+      "genres": [
+        "Drama"
+      ],
+      "webUrl": "https://mubi.com/films/little-men-2016",
+      "thumbnail": "https://assets.mubicdn.net/images/film/135740/image-w1504_overlaid.jpg?1745498895",
+      "year": 2016,
+      "directors": [
+        "Ira Sachs"
+      ]
+    },
+    {
+      "id": 161894,
+      "title": "Beach Rats",
+      "originalTitle": "Beach Rats",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "United States"
+      ],
+      "duration": 98,
+      "genres": [
+        "Drama",
+        "LGBTQ+"
+      ],
+      "webUrl": "https://mubi.com/films/beach-rats",
+      "thumbnail": "https://assets.mubicdn.net/images/film/161894/image-w1504_overlaid.jpg?1745500754",
+      "year": 2017,
+      "directors": [
+        "Eliza Hittman"
+      ]
+    },
+    {
+      "id": 31211,
+      "title": "The Trip",
+      "originalTitle": "The Trip",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "United Kingdom"
+      ],
+      "duration": 112,
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "webUrl": "https://mubi.com/films/the-trip-2010",
+      "thumbnail": "https://assets.mubicdn.net/images/film/31211/image-w1504_overlaid.jpg?1745490996",
+      "year": 2010,
+      "directors": [
+        "Michael Winterbottom"
+      ]
+    },
+    {
+      "id": 47288,
+      "title": "Cosmopolis",
+      "originalTitle": "Cosmopolis",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "Canada",
+        "France"
+      ],
+      "duration": 109,
+      "genres": [
+        "Drama"
+      ],
+      "webUrl": "https://mubi.com/films/cosmopolis",
+      "thumbnail": "https://assets.mubicdn.net/images/film/47288/image-w1504_overlaid.jpg?1745492266",
+      "year": 2012,
+      "directors": [
+        "David Cronenberg"
+      ]
+    },
+    {
+      "id": 134872,
+      "title": "Wiener-Dog",
+      "originalTitle": "Wiener-Dog",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "United States"
+      ],
+      "duration": 88,
+      "genres": [
+        "Comedy",
+        "Cult",
+        "Drama"
+      ],
+      "webUrl": "https://mubi.com/films/wiener-dog",
+      "thumbnail": "https://assets.mubicdn.net/images/film/134872/image-w1504_overlaid.jpg?1760954116",
+      "year": 2016,
+      "directors": [
+        "Todd Solondz"
+      ]
+    },
+    {
+      "id": 273,
+      "title": "The Last Movie",
+      "originalTitle": "The Last Movie",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "United States"
+      ],
+      "duration": 109,
+      "genres": [
+        "Avant-Garde",
+        "Drama"
+      ],
+      "webUrl": "https://mubi.com/films/the-last-movie",
+      "thumbnail": "https://assets.mubicdn.net/images/film/273/image-w1504_overlaid.jpg?1745501439",
+      "year": 1971,
+      "directors": [
+        "Dennis Hopper"
+      ]
+    },
+    {
+      "id": 21996,
+      "title": "Queen of Diamonds",
+      "originalTitle": "Queen of Diamonds",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "United States"
+      ],
+      "duration": 76,
+      "genres": [
+        "Drama"
+      ],
+      "webUrl": "https://mubi.com/films/queen-of-diamonds",
+      "thumbnail": "https://assets.mubicdn.net/images/film/21996/image-w1504_overlaid.jpg?1745489735",
+      "year": 1991,
+      "directors": [
+        "Nina Menkes"
+      ]
+    },
+    {
+      "id": 23815,
+      "title": "Romance X",
+      "originalTitle": "Romance X",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "France"
+      ],
+      "duration": 95,
+      "genres": [
+        "Drama",
+        "Erotica"
+      ],
+      "webUrl": "https://mubi.com/films/romance",
+      "thumbnail": "https://assets.mubicdn.net/images/film/23815/image-w1504_overlaid.jpg?1745489781",
+      "year": 1999,
+      "directors": [
+        "Catherine Breillat"
+      ]
+    },
+    {
+      "id": 23382,
+      "title": "A Real Young Girl",
+      "originalTitle": "Une vraie jeune fille",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "France"
+      ],
+      "duration": 93,
+      "genres": [
+        "Drama",
+        "Erotica"
+      ],
+      "webUrl": "https://mubi.com/films/a-real-young-girl",
+      "thumbnail": "https://assets.mubicdn.net/images/film/23382/image-w1504_overlaid.jpg?1745489769",
+      "year": 1976,
+      "directors": [
+        "Catherine Breillat"
+      ]
+    },
+    {
+      "id": 43744,
+      "title": "Sleeping Beauty",
+      "originalTitle": "Sleeping Beauty",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "Australia"
+      ],
+      "duration": 102,
+      "genres": [
+        "Fantasy",
+        "Mystery"
+      ],
+      "webUrl": "https://mubi.com/films/sleeping-beauty-2011",
+      "thumbnail": "https://assets.mubicdn.net/images/film/43744/image-w1504_overlaid.jpg?1745490962",
+      "year": 2011,
+      "directors": [
+        "Julia Leigh"
+      ]
+    },
+    {
+      "id": 21997,
+      "title": "Magdalena Viraga",
+      "originalTitle": "Magdalena Viraga",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "United States"
+      ],
+      "duration": 91,
+      "genres": [
+        "Drama"
+      ],
+      "webUrl": "https://mubi.com/films/magdalena-viraga",
+      "thumbnail": "https://assets.mubicdn.net/images/film/21997/image-w1504_overlaid.jpg?1745489735",
+      "year": 1986,
+      "directors": [
+        "Nina Menkes"
+      ]
+    },
+    {
+      "id": 22000,
+      "title": "The Bloody Child",
+      "originalTitle": "The Bloody Child",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "United States"
+      ],
+      "duration": 86,
+      "genres": [
+        "Drama"
+      ],
+      "webUrl": "https://mubi.com/films/the-bloody-child",
+      "thumbnail": "https://assets.mubicdn.net/images/film/22000/image-w1504_overlaid.jpg?1745490244",
+      "year": 1996,
+      "directors": [
+        "Nina Menkes"
+      ]
+    },
+    {
+      "id": 148831,
+      "title": "Hot Summer Nights",
+      "originalTitle": "Hot Summer Nights",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "United States"
+      ],
+      "duration": 103,
+      "genres": [
+        "Drama"
+      ],
+      "webUrl": "https://mubi.com/films/hot-summer-nights",
+      "thumbnail": "https://assets.mubicdn.net/images/film/148831/image-w1504_overlaid.jpg?1756400571",
+      "year": 2017,
+      "directors": [
+        "Elijah Bynum"
+      ]
+    },
+    {
+      "id": 294105,
+      "title": "The Scary of Sixty-First",
+      "originalTitle": "The Scary of Sixty-First",
+      "availableCountries": [
+        "NO",
+        "SE"
+      ],
+      "filmCountries": [
+        "United States"
+      ],
+      "duration": 78,
+      "genres": [
+        "Horror",
+        "LGBTQ+",
+        "Mystery",
+        "Thriller"
+      ],
+      "webUrl": "https://mubi.com/films/the-scary-of-sixty-first",
+      "thumbnail": "https://assets.mubicdn.net/images/film/294105/image-w1504_overlaid.jpg?1745498078",
+      "year": 2021,
+      "directors": [
+        "Dasha Nekrasova"
+      ]
+    },
+    {
       "id": 503,
       "title": "A Short Film About Love",
       "originalTitle": "Krótki film o miłości",
@@ -47989,7 +49245,7 @@
         "IN"
       ],
       "filmCountries": [
-        "Taiwan",
+        "France",
         "United States"
       ],
       "duration": 107,
@@ -48108,33 +49364,6 @@
       "year": 2015,
       "directors": [
         "Jia Zhangke"
-      ]
-    },
-    {
-      "id": 178424,
-      "title": "Boom for Real: The Late Teenage Years of Jean-Michel Basquiat",
-      "originalTitle": "Boom for Real: The Late Teenage Years of Jean-Michel Basquiat",
-      "availableCountries": [
-        "AF",
-        "EG",
-        "IN",
-        "KR",
-        "NO",
-        "TR",
-        "ZA"
-      ],
-      "filmCountries": [
-        "United States"
-      ],
-      "duration": 79,
-      "genres": [
-        "Documentary"
-      ],
-      "webUrl": "https://mubi.com/films/boom-for-real-the-late-teenage-years-of-jean-michel-basquiat",
-      "thumbnail": "https://assets.mubicdn.net/images/film/178424/image-w1504_overlaid.jpg?1768587453",
-      "year": 2017,
-      "directors": [
-        "Sara Driver"
       ]
     },
     {
@@ -48676,7 +49905,7 @@
         "Drama"
       ],
       "webUrl": "https://mubi.com/films/m-uchenik",
-      "thumbnail": "https://assets.mubicdn.net/images/film/152997/image-w1504_overlaid.jpg?1745492753",
+      "thumbnail": "https://assets.mubicdn.net/images/film/152997/image-w1504_overlaid.jpg?1771415537",
       "year": 2016,
       "directors": [
         "Kirill Serebrennikov"
@@ -49670,137 +50899,6 @@
       ]
     },
     {
-      "id": 170754,
-      "title": "The Rider",
-      "originalTitle": "The Rider",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "United States"
-      ],
-      "duration": 103,
-      "genres": [
-        "Drama",
-        "Western"
-      ],
-      "webUrl": "https://mubi.com/films/the-rider",
-      "thumbnail": "https://assets.mubicdn.net/images/film/170754/image-w1504_overlaid.jpg?1745493707",
-      "year": 2017,
-      "directors": [
-        "Chloé Zhao"
-      ]
-    },
-    {
-      "id": 511,
-      "title": "Suspiria",
-      "originalTitle": "Suspiria",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "Italy"
-      ],
-      "duration": 101,
-      "genres": [
-        "Horror"
-      ],
-      "webUrl": "https://mubi.com/films/suspiria",
-      "thumbnail": "https://assets.mubicdn.net/images/film/511/image-w1504_overlaid.jpg?1745490195",
-      "year": 1977,
-      "directors": [
-        "Dario Argento"
-      ]
-    },
-    {
-      "id": 1409,
-      "title": "The Bitter Tears of Petra von Kant",
-      "originalTitle": "Die bitteren Tränen der Petra von Kant",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "West Germany"
-      ],
-      "duration": 120,
-      "genres": [
-        "Drama",
-        "LGBTQ+"
-      ],
-      "webUrl": "https://mubi.com/films/the-bitter-tears-of-petra-von-kant",
-      "thumbnail": "https://assets.mubicdn.net/images/film/1409/image-w1504_overlaid.jpg?1745491055",
-      "year": 1972,
-      "directors": [
-        "Rainer Werner Fassbinder"
-      ]
-    },
-    {
-      "id": 167990,
-      "title": "Mid90s",
-      "originalTitle": "Mid90s",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "United States"
-      ],
-      "duration": 82,
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "webUrl": "https://mubi.com/films/mid-90s",
-      "thumbnail": "https://assets.mubicdn.net/images/film/167990/image-w1504_overlaid.jpg?1745495200",
-      "year": 2018,
-      "directors": [
-        "Jonah Hill"
-      ]
-    },
-    {
-      "id": 22680,
-      "title": "The Juniper Tree",
-      "originalTitle": "The Juniper Tree",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "Iceland"
-      ],
-      "duration": 79,
-      "genres": [
-        "Drama",
-        "Fantasy"
-      ],
-      "webUrl": "https://mubi.com/films/the-juniper-tree",
-      "thumbnail": "https://assets.mubicdn.net/images/film/22680/image-w1504_overlaid.jpg?1745490270",
-      "year": 1990,
-      "directors": [
-        "Nietzchka Keene"
-      ]
-    },
-    {
-      "id": 592,
-      "title": "The Marriage of Maria Braun",
-      "originalTitle": "Die Ehe der Maria Braun",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "West Germany"
-      ],
-      "duration": 121,
-      "genres": [
-        "Drama",
-        "History"
-      ],
-      "webUrl": "https://mubi.com/films/the-marriage-of-maria-braun",
-      "thumbnail": "https://assets.mubicdn.net/images/film/592/image-w1504_overlaid.jpg?1745490944",
-      "year": 1979,
-      "directors": [
-        "Rainer Werner Fassbinder"
-      ]
-    },
-    {
       "id": 1688,
       "title": "Man on Wire",
       "originalTitle": "Man on Wire",
@@ -49822,324 +50920,6 @@
       "year": 2008,
       "directors": [
         "James Marsh"
-      ]
-    },
-    {
-      "id": 161912,
-      "title": "Manifesto",
-      "originalTitle": "Manifesto",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "Germany"
-      ],
-      "duration": 95,
-      "genres": [
-        "Avant-Garde",
-        "Drama"
-      ],
-      "webUrl": "https://mubi.com/films/manifesto-2015",
-      "thumbnail": "https://assets.mubicdn.net/images/film/161912/image-w1504_overlaid.jpg?1745500881",
-      "year": 2015,
-      "directors": [
-        "Julian Rosefeldt"
-      ]
-    },
-    {
-      "id": 1394,
-      "title": "Teorema",
-      "originalTitle": "Teorema",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "Italy"
-      ],
-      "duration": 98,
-      "genres": [
-        "Drama",
-        "LGBTQ+",
-        "Mystery"
-      ],
-      "webUrl": "https://mubi.com/films/theorem",
-      "thumbnail": "https://assets.mubicdn.net/images/film/1394/image-w1504_overlaid.jpg?1745501115",
-      "year": 1968,
-      "directors": [
-        "Pier Paolo Pasolini"
-      ]
-    },
-    {
-      "id": 3751,
-      "title": "Nosferatu the Vampyre",
-      "originalTitle": "Nosferatu: Phantom der Nacht",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "France",
-        "West Germany"
-      ],
-      "duration": 107,
-      "genres": [
-        "Horror"
-      ],
-      "webUrl": "https://mubi.com/films/nosferatu-phantom-of-the-night",
-      "thumbnail": "https://assets.mubicdn.net/images/film/3751/image-w1504_overlaid.jpg?1745489586",
-      "year": 1979,
-      "directors": [
-        "Werner Herzog"
-      ]
-    },
-    {
-      "id": 17028,
-      "title": "Merry Christmas, Mr. Lawrence",
-      "originalTitle": "Merry Christmas, Mr. Lawrence",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "Japan",
-        "United Kingdom"
-      ],
-      "duration": 123,
-      "genres": [
-        "Drama",
-        "LGBTQ+",
-        "War"
-      ],
-      "webUrl": "https://mubi.com/films/merry-christmas-mr-lawrence",
-      "thumbnail": "https://assets.mubicdn.net/images/film/17028/image-w1504_overlaid.jpg?1745500702",
-      "year": 1983,
-      "directors": [
-        "Nagisa Ôshima"
-      ]
-    },
-    {
-      "id": 2433,
-      "title": "Thirst",
-      "originalTitle": "박쥐 | Bakjwi",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "South Korea"
-      ],
-      "duration": 134,
-      "genres": [
-        "Cult",
-        "Horror"
-      ],
-      "webUrl": "https://mubi.com/films/thirst-2009",
-      "thumbnail": "https://assets.mubicdn.net/images/film/2433/image-w1504_overlaid.jpg?1745489551",
-      "year": 2009,
-      "directors": [
-        "Park Chan-wook"
-      ]
-    },
-    {
-      "id": 3869,
-      "title": "Wanda",
-      "originalTitle": "Wanda",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "United States"
-      ],
-      "duration": 99,
-      "genres": [
-        "Drama"
-      ],
-      "webUrl": "https://mubi.com/films/wanda",
-      "thumbnail": "https://assets.mubicdn.net/images/film/3869/image-w1504_overlaid.jpg?1745491895",
-      "year": 1970,
-      "directors": [
-        "Barbara Loden"
-      ]
-    },
-    {
-      "id": 128,
-      "title": "The Host",
-      "originalTitle": "Gwoemul | 괴물",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "South Korea"
-      ],
-      "duration": 120,
-      "genres": [
-        "Action",
-        "Horror",
-        "Sci-Fi"
-      ],
-      "webUrl": "https://mubi.com/films/the-host",
-      "thumbnail": "https://assets.mubicdn.net/images/film/128/image-w1504_overlaid.jpg?1745490252",
-      "year": 2006,
-      "directors": [
-        "Bong Joon Ho"
-      ]
-    },
-    {
-      "id": 87237,
-      "title": "Shame",
-      "originalTitle": "Shame",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "United Kingdom"
-      ],
-      "duration": 100,
-      "genres": [
-        "Drama",
-        "Erotica"
-      ],
-      "webUrl": "https://mubi.com/films/shame-2011",
-      "thumbnail": "https://assets.mubicdn.net/images/film/87237/image-w1504_overlaid.jpg?1745490940",
-      "year": 2011,
-      "directors": [
-        "Steve McQueen"
-      ]
-    },
-    {
-      "id": 112915,
-      "title": "Frank",
-      "originalTitle": "Frank",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "Ireland",
-        "United Kingdom"
-      ],
-      "duration": 96,
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Music"
-      ],
-      "webUrl": "https://mubi.com/films/frank-2014",
-      "thumbnail": "https://assets.mubicdn.net/images/film/112915/image-w1504_overlaid.jpg?1745491813",
-      "year": 2014,
-      "directors": [
-        "Lenny Abrahamson"
-      ]
-    },
-    {
-      "id": 774,
-      "title": "Metropolitan",
-      "originalTitle": "Metropolitan",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "United States"
-      ],
-      "duration": 99,
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Romance"
-      ],
-      "webUrl": "https://mubi.com/films/metropolitan",
-      "thumbnail": "https://assets.mubicdn.net/images/film/774/image-w1504_overlaid.jpg?1766583188",
-      "year": 1990,
-      "directors": [
-        "Whit Stillman"
-      ]
-    },
-    {
-      "id": 1747,
-      "title": "Brother",
-      "originalTitle": "Brother",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "United Kingdom",
-        "United States"
-      ],
-      "duration": 113,
-      "genres": [
-        "Crime",
-        "Cult",
-        "Drama"
-      ],
-      "webUrl": "https://mubi.com/films/brother",
-      "thumbnail": "https://assets.mubicdn.net/images/film/1747/image-w1504_overlaid.jpg?1745491445",
-      "year": 2000,
-      "directors": [
-        "Takeshi Kitano (Beat Takeshi)"
-      ]
-    },
-    {
-      "id": 3172,
-      "title": "Chameleon Street",
-      "originalTitle": "Chameleon Street",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "United States"
-      ],
-      "duration": 95,
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "webUrl": "https://mubi.com/films/chameleon-street",
-      "thumbnail": "https://assets.mubicdn.net/images/film/3172/image-w1504_overlaid.jpg?1745489571",
-      "year": 1989,
-      "directors": [
-        "Wendell B. Harris Jr."
-      ]
-    },
-    {
-      "id": 93440,
-      "title": "Beasts of the Southern Wild",
-      "originalTitle": "Beasts of the Southern Wild",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "United States"
-      ],
-      "duration": 93,
-      "genres": [
-        "Adventure",
-        "Drama",
-        "Fantasy"
-      ],
-      "webUrl": "https://mubi.com/films/beasts-of-the-southern-wild",
-      "thumbnail": "https://assets.mubicdn.net/images/film/93440/image-w1504_overlaid.jpg?1745490979",
-      "year": 2012,
-      "directors": [
-        "Benh Zeitlin"
-      ]
-    },
-    {
-      "id": 20513,
-      "title": "24 Hour Party People",
-      "originalTitle": "24 Hour Party People",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "United Kingdom"
-      ],
-      "duration": 117,
-      "genres": [
-        "Biography",
-        "Comedy",
-        "Drama"
-      ],
-      "webUrl": "https://mubi.com/films/24-hour-party-people",
-      "thumbnail": "https://assets.mubicdn.net/images/film/20513/image-w1504_overlaid.jpg?1745489696",
-      "year": 2002,
-      "directors": [
-        "Michael Winterbottom"
       ]
     },
     {
@@ -50187,31 +50967,6 @@
       ]
     },
     {
-      "id": 20697,
-      "title": "Shortbus",
-      "originalTitle": "Shortbus",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "United States"
-      ],
-      "duration": 101,
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Erotica",
-        "LGBTQ+",
-        "Romance"
-      ],
-      "webUrl": "https://mubi.com/films/shortbus",
-      "thumbnail": "https://assets.mubicdn.net/images/film/20697/image-w1504_overlaid.jpg?1745498453",
-      "year": 2006,
-      "directors": [
-        "John Cameron Mitchell"
-      ]
-    },
-    {
       "id": 98173,
       "title": "Lore",
       "originalTitle": "Lore",
@@ -50233,72 +50988,6 @@
       "year": 2012,
       "directors": [
         "Cate Shortland"
-      ]
-    },
-    {
-      "id": 102817,
-      "title": "Prince Avalanche",
-      "originalTitle": "Prince Avalanche",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "United States"
-      ],
-      "duration": 94,
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "webUrl": "https://mubi.com/films/prince-avalanche",
-      "thumbnail": "https://assets.mubicdn.net/images/film/102817/image-w1504_overlaid.jpg?1745492111",
-      "year": 2013,
-      "directors": [
-        "David Gordon Green"
-      ]
-    },
-    {
-      "id": 151115,
-      "title": "High Life",
-      "originalTitle": "High Life",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "France",
-        "Germany"
-      ],
-      "duration": 113,
-      "genres": [
-        "Drama",
-        "Sci-Fi"
-      ],
-      "webUrl": "https://mubi.com/films/high-life-2018",
-      "thumbnail": "https://assets.mubicdn.net/images/film/151115/image-w1504_overlaid.jpg?1745494744",
-      "year": 2018,
-      "directors": [
-        "Claire Denis"
-      ]
-    },
-    {
-      "id": 135740,
-      "title": "Little Men",
-      "originalTitle": "Little Men",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "United States"
-      ],
-      "duration": 85,
-      "genres": [
-        "Drama"
-      ],
-      "webUrl": "https://mubi.com/films/little-men-2016",
-      "thumbnail": "https://assets.mubicdn.net/images/film/135740/image-w1504_overlaid.jpg?1745498895",
-      "year": 2016,
-      "directors": [
-        "Ira Sachs"
       ]
     },
     {
@@ -50324,95 +51013,6 @@
       "year": 1966,
       "directors": [
         "Sergio Corbucci"
-      ]
-    },
-    {
-      "id": 161894,
-      "title": "Beach Rats",
-      "originalTitle": "Beach Rats",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "United States"
-      ],
-      "duration": 98,
-      "genres": [
-        "Drama",
-        "LGBTQ+"
-      ],
-      "webUrl": "https://mubi.com/films/beach-rats",
-      "thumbnail": "https://assets.mubicdn.net/images/film/161894/image-w1504_overlaid.jpg?1745500754",
-      "year": 2017,
-      "directors": [
-        "Eliza Hittman"
-      ]
-    },
-    {
-      "id": 31211,
-      "title": "The Trip",
-      "originalTitle": "The Trip",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "United Kingdom"
-      ],
-      "duration": 112,
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "webUrl": "https://mubi.com/films/the-trip-2010",
-      "thumbnail": "https://assets.mubicdn.net/images/film/31211/image-w1504_overlaid.jpg?1745490996",
-      "year": 2010,
-      "directors": [
-        "Michael Winterbottom"
-      ]
-    },
-    {
-      "id": 47288,
-      "title": "Cosmopolis",
-      "originalTitle": "Cosmopolis",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "Canada",
-        "France"
-      ],
-      "duration": 109,
-      "genres": [
-        "Drama"
-      ],
-      "webUrl": "https://mubi.com/films/cosmopolis",
-      "thumbnail": "https://assets.mubicdn.net/images/film/47288/image-w1504_overlaid.jpg?1745492266",
-      "year": 2012,
-      "directors": [
-        "David Cronenberg"
-      ]
-    },
-    {
-      "id": 134872,
-      "title": "Wiener-Dog",
-      "originalTitle": "Wiener-Dog",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "United States"
-      ],
-      "duration": 88,
-      "genres": [
-        "Comedy",
-        "Cult",
-        "Drama"
-      ],
-      "webUrl": "https://mubi.com/films/wiener-dog",
-      "thumbnail": "https://assets.mubicdn.net/images/film/134872/image-w1504_overlaid.jpg?1760954116",
-      "year": 2016,
-      "directors": [
-        "Todd Solondz"
       ]
     },
     {
@@ -50484,28 +51084,6 @@
       ]
     },
     {
-      "id": 273,
-      "title": "The Last Movie",
-      "originalTitle": "The Last Movie",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "United States"
-      ],
-      "duration": 109,
-      "genres": [
-        "Avant-Garde",
-        "Drama"
-      ],
-      "webUrl": "https://mubi.com/films/the-last-movie",
-      "thumbnail": "https://assets.mubicdn.net/images/film/273/image-w1504_overlaid.jpg?1745501439",
-      "year": 1971,
-      "directors": [
-        "Dennis Hopper"
-      ]
-    },
-    {
       "id": 97311,
       "title": "Antiviral",
       "originalTitle": "Antiviral",
@@ -50549,135 +51127,6 @@
       "year": 2015,
       "directors": [
         "Lucky Kuswandi"
-      ]
-    },
-    {
-      "id": 21996,
-      "title": "Queen of Diamonds",
-      "originalTitle": "Queen of Diamonds",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "United States"
-      ],
-      "duration": 76,
-      "genres": [
-        "Drama"
-      ],
-      "webUrl": "https://mubi.com/films/queen-of-diamonds",
-      "thumbnail": "https://assets.mubicdn.net/images/film/21996/image-w1504_overlaid.jpg?1745489735",
-      "year": 1991,
-      "directors": [
-        "Nina Menkes"
-      ]
-    },
-    {
-      "id": 23815,
-      "title": "Romance X",
-      "originalTitle": "Romance X",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "France"
-      ],
-      "duration": 95,
-      "genres": [
-        "Drama",
-        "Erotica"
-      ],
-      "webUrl": "https://mubi.com/films/romance",
-      "thumbnail": "https://assets.mubicdn.net/images/film/23815/image-w1504_overlaid.jpg?1745489781",
-      "year": 1999,
-      "directors": [
-        "Catherine Breillat"
-      ]
-    },
-    {
-      "id": 23382,
-      "title": "A Real Young Girl",
-      "originalTitle": "Une vraie jeune fille",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "France"
-      ],
-      "duration": 93,
-      "genres": [
-        "Drama",
-        "Erotica"
-      ],
-      "webUrl": "https://mubi.com/films/a-real-young-girl",
-      "thumbnail": "https://assets.mubicdn.net/images/film/23382/image-w1504_overlaid.jpg?1745489769",
-      "year": 1976,
-      "directors": [
-        "Catherine Breillat"
-      ]
-    },
-    {
-      "id": 43744,
-      "title": "Sleeping Beauty",
-      "originalTitle": "Sleeping Beauty",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "Australia"
-      ],
-      "duration": 102,
-      "genres": [
-        "Fantasy",
-        "Mystery"
-      ],
-      "webUrl": "https://mubi.com/films/sleeping-beauty-2011",
-      "thumbnail": "https://assets.mubicdn.net/images/film/43744/image-w1504_overlaid.jpg?1745490962",
-      "year": 2011,
-      "directors": [
-        "Julia Leigh"
-      ]
-    },
-    {
-      "id": 21997,
-      "title": "Magdalena Viraga",
-      "originalTitle": "Magdalena Viraga",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "United States"
-      ],
-      "duration": 91,
-      "genres": [
-        "Drama"
-      ],
-      "webUrl": "https://mubi.com/films/magdalena-viraga",
-      "thumbnail": "https://assets.mubicdn.net/images/film/21997/image-w1504_overlaid.jpg?1745489735",
-      "year": 1986,
-      "directors": [
-        "Nina Menkes"
-      ]
-    },
-    {
-      "id": 22000,
-      "title": "The Bloody Child",
-      "originalTitle": "The Bloody Child",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "United States"
-      ],
-      "duration": 86,
-      "genres": [
-        "Drama"
-      ],
-      "webUrl": "https://mubi.com/films/the-bloody-child",
-      "thumbnail": "https://assets.mubicdn.net/images/film/22000/image-w1504_overlaid.jpg?1745490244",
-      "year": 1996,
-      "directors": [
-        "Nina Menkes"
       ]
     },
     {
@@ -50743,51 +51192,6 @@
       "year": 2013,
       "directors": [
         "Lynn Shelton"
-      ]
-    },
-    {
-      "id": 148831,
-      "title": "Hot Summer Nights",
-      "originalTitle": "Hot Summer Nights",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "United States"
-      ],
-      "duration": 103,
-      "genres": [
-        "Drama"
-      ],
-      "webUrl": "https://mubi.com/films/hot-summer-nights",
-      "thumbnail": "https://assets.mubicdn.net/images/film/148831/image-w1504_overlaid.jpg?1756400571",
-      "year": 2017,
-      "directors": [
-        "Elijah Bynum"
-      ]
-    },
-    {
-      "id": 294105,
-      "title": "The Scary of Sixty-First",
-      "originalTitle": "The Scary of Sixty-First",
-      "availableCountries": [
-        "NO"
-      ],
-      "filmCountries": [
-        "United States"
-      ],
-      "duration": 78,
-      "genres": [
-        "Horror",
-        "LGBTQ+",
-        "Mystery",
-        "Thriller"
-      ],
-      "webUrl": "https://mubi.com/films/the-scary-of-sixty-first",
-      "thumbnail": "https://assets.mubicdn.net/images/film/294105/image-w1504_overlaid.jpg?1745498078",
-      "year": 2021,
-      "directors": [
-        "Dasha Nekrasova"
       ]
     },
     {
@@ -51612,6 +52016,28 @@
       ]
     },
     {
+      "id": 91515,
+      "title": "Her Name Is Vasfiye",
+      "originalTitle": "Adı Vasfiye",
+      "availableCountries": [
+        "TR"
+      ],
+      "filmCountries": [
+        "Turkey"
+      ],
+      "duration": 83,
+      "genres": [
+        "Drama",
+        "Fantasy"
+      ],
+      "webUrl": "https://mubi.com/films/her-name-is-vasfiye",
+      "thumbnail": "https://assets.mubicdn.net/images/film/91515/image-w1504_overlaid.jpg?1745503676",
+      "year": 1985,
+      "directors": [
+        "Atıf Yılmaz"
+      ]
+    },
+    {
       "id": 204895,
       "title": "The Tower",
       "originalTitle": "The Tower",
@@ -51633,28 +52059,6 @@
       "directors": [
         "Hefang Wei",
         "Mats Grorud"
-      ]
-    },
-    {
-      "id": 91515,
-      "title": "Her Name Is Vasfiye",
-      "originalTitle": "Adı Vasfiye",
-      "availableCountries": [
-        "TR"
-      ],
-      "filmCountries": [
-        "Turkey"
-      ],
-      "duration": 83,
-      "genres": [
-        "Drama",
-        "Fantasy"
-      ],
-      "webUrl": "https://mubi.com/films/her-name-is-vasfiye",
-      "thumbnail": "https://assets.mubicdn.net/images/film/91515/image-w1504_overlaid.jpg?1745503676",
-      "year": 1985,
-      "directors": [
-        "Atıf Yılmaz"
       ]
     },
     {
@@ -51949,6 +52353,28 @@
       ]
     },
     {
+      "id": 3853,
+      "title": "The Ignorant Fairies",
+      "originalTitle": "Le fate ignoranti",
+      "availableCountries": [
+        "TR"
+      ],
+      "filmCountries": [
+        "France",
+        "Italy"
+      ],
+      "duration": 105,
+      "genres": [
+        "Drama"
+      ],
+      "webUrl": "https://mubi.com/films/his-secret-life",
+      "thumbnail": "https://assets.mubicdn.net/images/film/3853/image-w1504_overlaid.jpg?1745491898",
+      "year": 2001,
+      "directors": [
+        "Ferzan Özpetek"
+      ]
+    },
+    {
       "id": 203217,
       "title": "Leto",
       "originalTitle": "Лето",
@@ -51970,28 +52396,6 @@
       "year": 2018,
       "directors": [
         "Kirill Serebrennikov"
-      ]
-    },
-    {
-      "id": 3853,
-      "title": "The Ignorant Fairies",
-      "originalTitle": "Le fate ignoranti",
-      "availableCountries": [
-        "TR"
-      ],
-      "filmCountries": [
-        "France",
-        "Italy"
-      ],
-      "duration": 105,
-      "genres": [
-        "Drama"
-      ],
-      "webUrl": "https://mubi.com/films/his-secret-life",
-      "thumbnail": "https://assets.mubicdn.net/images/film/3853/image-w1504_overlaid.jpg?1745491898",
-      "year": 2001,
-      "directors": [
-        "Ferzan Özpetek"
       ]
     },
     {
@@ -52234,28 +52638,6 @@
       ]
     },
     {
-      "id": 152495,
-      "title": "Forty Thousand Steps in the Covered Bazaar",
-      "originalTitle": "Kapalıçarşı'da Kırk Bin Adım",
-      "availableCountries": [
-        "TR"
-      ],
-      "filmCountries": [
-        "Turkey"
-      ],
-      "duration": 29,
-      "genres": [
-        "Documentary",
-        "Short"
-      ],
-      "webUrl": "https://mubi.com/films/forty-thousand-steps-in-the-covered-bazaar",
-      "thumbnail": "https://assets.mubicdn.net/images/film/152495/image-w1504_overlaid.jpg?1745492734",
-      "year": 1980,
-      "directors": [
-        "Suha Arın"
-      ]
-    },
-    {
       "id": 3442,
       "title": "Close Encounters of the Third Kind",
       "originalTitle": "Close Encounters of the Third Kind",
@@ -52277,6 +52659,28 @@
       "year": 1977,
       "directors": [
         "Steven Spielberg"
+      ]
+    },
+    {
+      "id": 152495,
+      "title": "Forty Thousand Steps in the Covered Bazaar",
+      "originalTitle": "Kapalıçarşı'da Kırk Bin Adım",
+      "availableCountries": [
+        "TR"
+      ],
+      "filmCountries": [
+        "Turkey"
+      ],
+      "duration": 29,
+      "genres": [
+        "Documentary",
+        "Short"
+      ],
+      "webUrl": "https://mubi.com/films/forty-thousand-steps-in-the-covered-bazaar",
+      "thumbnail": "https://assets.mubicdn.net/images/film/152495/image-w1504_overlaid.jpg?1745492734",
+      "year": 1980,
+      "directors": [
+        "Suha Arın"
       ]
     },
     {
@@ -52324,6 +52728,28 @@
       ]
     },
     {
+      "id": 310373,
+      "title": "Three Days in Kula",
+      "originalTitle": "Kula'da Üç Gün",
+      "availableCountries": [
+        "TR"
+      ],
+      "filmCountries": [
+        "Turkey"
+      ],
+      "duration": 38,
+      "genres": [
+        "Documentary",
+        "Short"
+      ],
+      "webUrl": "https://mubi.com/films/three-days-in-kula",
+      "thumbnail": "https://assets.mubicdn.net/images/film/310373/image-w1504_overlaid.jpg?1770202512",
+      "year": 1983,
+      "directors": [
+        "Suha Arın"
+      ]
+    },
+    {
       "id": 24006,
       "title": "Cosmos",
       "originalTitle": "Kosmos",
@@ -52366,28 +52792,6 @@
       "year": 2008,
       "directors": [
         "Reha Erdem"
-      ]
-    },
-    {
-      "id": 310373,
-      "title": "Three Days in Kula",
-      "originalTitle": "Kula'da Üç Gün",
-      "availableCountries": [
-        "TR"
-      ],
-      "filmCountries": [
-        "Turkey"
-      ],
-      "duration": 38,
-      "genres": [
-        "Documentary",
-        "Short"
-      ],
-      "webUrl": "https://mubi.com/films/three-days-in-kula",
-      "thumbnail": "https://assets.mubicdn.net/images/film/310373/image-w1504_overlaid.jpg?1770202512",
-      "year": 1983,
-      "directors": [
-        "Suha Arın"
       ]
     },
     {
@@ -52547,27 +52951,6 @@
       ]
     },
     {
-      "id": 434103,
-      "title": "Hysteria",
-      "originalTitle": "Hysteria",
-      "availableCountries": [
-        "TR"
-      ],
-      "filmCountries": [
-        "Germany"
-      ],
-      "duration": 104,
-      "genres": [
-        "Drama"
-      ],
-      "webUrl": "https://mubi.com/films/hysteria-2025",
-      "thumbnail": "https://assets.mubicdn.net/images/film/434103/image-w1504_overlaid.jpg?1745503501",
-      "year": 2025,
-      "directors": [
-        "Mehmet Akif Büyükatalay"
-      ]
-    },
-    {
       "id": 164485,
       "title": "Birds of Passage",
       "originalTitle": "Pájaros de verano",
@@ -52589,6 +52972,27 @@
       "directors": [
         "Ciro Guerra",
         "Cristina Gallego"
+      ]
+    },
+    {
+      "id": 434103,
+      "title": "Hysteria",
+      "originalTitle": "Hysteria",
+      "availableCountries": [
+        "TR"
+      ],
+      "filmCountries": [
+        "Germany"
+      ],
+      "duration": 104,
+      "genres": [
+        "Drama"
+      ],
+      "webUrl": "https://mubi.com/films/hysteria-2025",
+      "thumbnail": "https://assets.mubicdn.net/images/film/434103/image-w1504_overlaid.jpg?1745503501",
+      "year": 2025,
+      "directors": [
+        "Mehmet Akif Büyükatalay"
       ]
     },
     {
@@ -52749,6 +53153,28 @@
       ]
     },
     {
+      "id": 152574,
+      "title": "When The Fog is Swept Away",
+      "originalTitle": "Sisler Kovulunca",
+      "availableCountries": [
+        "TR"
+      ],
+      "filmCountries": [
+        "Turkey"
+      ],
+      "duration": 41,
+      "genres": [
+        "Documentary",
+        "Short"
+      ],
+      "webUrl": "https://mubi.com/films/when-the-fog-is-swept-away",
+      "thumbnail": "https://assets.mubicdn.net/images/film/152574/image-w1504_overlaid.jpg?1770205924",
+      "year": 1986,
+      "directors": [
+        "Suha Arın"
+      ]
+    },
+    {
       "id": 314597,
       "title": "Huda's Salon",
       "originalTitle": "Huda's Salon",
@@ -52812,28 +53238,6 @@
       "year": 2021,
       "directors": [
         "Merve Bozcu"
-      ]
-    },
-    {
-      "id": 152574,
-      "title": "When The Fog is Swept Away",
-      "originalTitle": "Sisler Kovulunca",
-      "availableCountries": [
-        "TR"
-      ],
-      "filmCountries": [
-        "Turkey"
-      ],
-      "duration": 41,
-      "genres": [
-        "Documentary",
-        "Short"
-      ],
-      "webUrl": "https://mubi.com/films/when-the-fog-is-swept-away",
-      "thumbnail": "https://assets.mubicdn.net/images/film/152574/image-w1504_overlaid.jpg?1770205924",
-      "year": 1986,
-      "directors": [
-        "Suha Arın"
       ]
     },
     {
@@ -53548,27 +53952,6 @@
       ]
     },
     {
-      "id": 1247,
-      "title": "Sacred Heart",
-      "originalTitle": "Cuore sacro",
-      "availableCountries": [
-        "TR"
-      ],
-      "filmCountries": [
-        "Italy"
-      ],
-      "duration": 114,
-      "genres": [
-        "Drama"
-      ],
-      "webUrl": "https://mubi.com/films/sacred-heart",
-      "thumbnail": "https://assets.mubicdn.net/images/film/1247/image-w1504_overlaid.jpg?1745503153",
-      "year": 2005,
-      "directors": [
-        "Ferzan Özpetek"
-      ]
-    },
-    {
       "id": 394454,
       "title": "Inpaintings",
       "originalTitle": "Başlangıçlar",
@@ -53587,6 +53970,27 @@
       "year": 2023,
       "directors": [
         "Ozan Yoleri"
+      ]
+    },
+    {
+      "id": 1247,
+      "title": "Sacred Heart",
+      "originalTitle": "Cuore sacro",
+      "availableCountries": [
+        "TR"
+      ],
+      "filmCountries": [
+        "Italy"
+      ],
+      "duration": 114,
+      "genres": [
+        "Drama"
+      ],
+      "webUrl": "https://mubi.com/films/sacred-heart",
+      "thumbnail": "https://assets.mubicdn.net/images/film/1247/image-w1504_overlaid.jpg?1745503153",
+      "year": 2005,
+      "directors": [
+        "Ferzan Özpetek"
       ]
     },
     {
@@ -53852,6 +54256,27 @@
       ]
     },
     {
+      "id": 423098,
+      "title": "Hakkı",
+      "originalTitle": "Hakkı",
+      "availableCountries": [
+        "TR"
+      ],
+      "filmCountries": [
+        "Turkey"
+      ],
+      "duration": 95,
+      "genres": [
+        "Drama"
+      ],
+      "webUrl": "https://mubi.com/films/hakki",
+      "thumbnail": "https://assets.mubicdn.net/images/film/423098/image-w1504_overlaid.jpg?1750319002",
+      "year": 2024,
+      "directors": [
+        "Hikmet Kerem Özcan"
+      ]
+    },
+    {
       "id": 396591,
       "title": "Behind Open Doors",
       "originalTitle": "Açık Kapılar Ardında",
@@ -53871,27 +54296,6 @@
       "year": 2023,
       "directors": [
         "Alpgiray M. Uğurlu"
-      ]
-    },
-    {
-      "id": 423098,
-      "title": "Hakkı",
-      "originalTitle": "Hakkı",
-      "availableCountries": [
-        "TR"
-      ],
-      "filmCountries": [
-        "Turkey"
-      ],
-      "duration": 95,
-      "genres": [
-        "Drama"
-      ],
-      "webUrl": "https://mubi.com/films/hakki",
-      "thumbnail": "https://assets.mubicdn.net/images/film/423098/image-w1504_overlaid.jpg?1750319002",
-      "year": 2024,
-      "directors": [
-        "Hikmet Kerem Özcan"
       ]
     },
     {
@@ -54441,28 +54845,6 @@
       ]
     },
     {
-      "id": 411483,
-      "title": "Three Kilometres to the End of the World",
-      "originalTitle": "Trei kilometri până la capătul lumii",
-      "availableCountries": [
-        "TR"
-      ],
-      "filmCountries": [
-        "Romania"
-      ],
-      "duration": 103,
-      "genres": [
-        "Drama",
-        "Thriller"
-      ],
-      "webUrl": "https://mubi.com/films/three-kilometres-to-the-end-of-the-world",
-      "thumbnail": "https://assets.mubicdn.net/images/film/411483/image-w1504_overlaid.jpg?1745502635",
-      "year": 2024,
-      "directors": [
-        "Emanuel Parvu"
-      ]
-    },
-    {
       "id": 378000,
       "title": "The Crowd",
       "originalTitle": "The Crowd",
@@ -54482,6 +54864,28 @@
       "year": 2022,
       "directors": [
         "Pelin Kırca"
+      ]
+    },
+    {
+      "id": 411483,
+      "title": "Three Kilometres to the End of the World",
+      "originalTitle": "Trei kilometri până la capătul lumii",
+      "availableCountries": [
+        "TR"
+      ],
+      "filmCountries": [
+        "Romania"
+      ],
+      "duration": 103,
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "webUrl": "https://mubi.com/films/three-kilometres-to-the-end-of-the-world",
+      "thumbnail": "https://assets.mubicdn.net/images/film/411483/image-w1504_overlaid.jpg?1745502635",
+      "year": 2024,
+      "directors": [
+        "Emanuel Parvu"
       ]
     },
     {
@@ -55231,7 +55635,7 @@
     }
   ],
   "metadata": {
-    "total_films": 2023,
+    "total_films": 2024,
     "countries": [
       "PT",
       "DE",
@@ -55259,12 +55663,12 @@
       "TR"
     ],
     "last_sync": {
-      "timestamp": "2026-02-18T00:55:39.764Z",
-      "total_films": 2023,
+      "timestamp": "2026-02-19T00:56:11.956Z",
+      "total_films": 2024,
       "changes": {
-        "added": 14,
+        "added": 1,
         "removed": 0,
-        "modified": 387
+        "modified": 392
       }
     }
   }
